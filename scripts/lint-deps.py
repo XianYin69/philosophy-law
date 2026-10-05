@@ -10,7 +10,8 @@ import json
 import os
 import re
 
-from _corpus import ROOT, defect, emit
+import _corpus
+from _corpus import add_root_arg, apply_root, defect, emit
 
 REQUIRED_FIELDS = ("name", "source_url", "license", "version", "install",
                    "checked_at")
@@ -21,12 +22,12 @@ DATE_OK = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 def check(path):
     out = []
     if not os.path.exists(path):
-        return [defect("deps", os.path.relpath(path, ROOT), "file",
+        return [defect("deps", os.path.relpath(path, _corpus.ROOT), "file",
                        "deps.json 缺失", "按 dependence/dependence.md 建清单")]
     try:
         data = json.load(open(path, encoding="utf-8"))
     except json.JSONDecodeError as exc:
-        return [defect("deps", os.path.relpath(path, ROOT), "json",
+        return [defect("deps", os.path.relpath(path, _corpus.ROOT), "json",
                        "deps.json 不是合法 JSON：%s" % str(exc)[:120],
                        "修 JSON")]
     deps = data.get("dependencies")
@@ -74,12 +75,17 @@ def check(path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--path", default=os.path.join(ROOT, "dependence",
-                                                   "deps.json"))
+    ap.add_argument("--path", default=None)
+    add_root_arg(ap)
     args = ap.parse_args()
+    apply_root(args)
+    if args.path is None:
+        args.path = os.path.join(_corpus.ROOT,
+                                                            "dependence",
+                                                            "deps.json")
     found = check(args.path)
     return emit({"check": "lint-deps",
-                 "deps": os.path.relpath(args.path, ROOT)}, found)
+                 "deps": os.path.relpath(args.path, _corpus.ROOT)}, found)
 
 
 if __name__ == "__main__":

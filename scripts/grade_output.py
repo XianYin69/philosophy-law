@@ -10,7 +10,7 @@ import argparse
 import re
 import sys
 
-from _corpus import defect, emit, load_entries
+from _corpus import add_root_arg, apply_root, defect, emit, load_entries
 
 STATE_MARKS = {
     "规范层（现行条文＋效力状态）": [r"现行", r"效力状态"],
@@ -67,7 +67,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("draft")
     ap.add_argument("--mode", choices=["both", "state", "think"], default="both")
+    add_root_arg(ap)
     args = ap.parse_args()
+    apply_root(args)
     try:
         text = open(args.draft, encoding="utf-8").read()
     except OSError as exc:

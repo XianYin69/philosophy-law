@@ -7,7 +7,8 @@ Exit: 0 ok, 1 发现 skill 目录内的缓存残留。
 import argparse
 import os
 
-from _corpus import ROOT, defect, emit
+import _corpus
+from _corpus import add_root_arg, apply_root, defect, emit
 
 CACHE_PATTERNS = (".tmp", ".bak", ".orig", ".log", ".pyc")
 CACHE_DIRS = ("__pycache__",)
@@ -25,14 +26,14 @@ def scan_tmp(tmp):
         dirnames[:] = [d for d in dirnames if d != "__pycache__"]
         for name in filenames:
             full = os.path.join(dirpath, name)
-            rows.append({"path": os.path.relpath(full, ROOT).replace(os.sep, "/"),
+            rows.append({"path": os.path.relpath(full, _corpus.ROOT).replace(os.sep, "/"),
                          "bytes": os.path.getsize(full)})
     return rows
 
 
 def scan_skill_caches():
     hits = []
-    for dirpath, dirnames, filenames in os.walk(ROOT):
+    for dirpath, dirnames, filenames in os.walk(_corpus.ROOT):
         if os.path.basename(dirpath) == ".git":
             dirnames[:] = []
             continue
@@ -47,18 +48,22 @@ def scan_skill_caches():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--tmp", default=os.path.join(ROOT, "tmp"))
+    ap.add_argument("--tmp", default=None)
     ap.add_argument("--yes", action="store_true")
+    add_root_arg(ap)
     args = ap.parse_args()
+    apply_root(args)
+    if args.tmp is None:
+        args.tmp = os.path.join(_corpus.ROOT, "tmp")
     rows = scan_tmp(args.tmp)
     caches = scan_skill_caches()
-    found = [defect("gc", os.path.relpath(p, ROOT).replace(os.sep, "/"),
+    found = [defect("gc", os.path.relpath(p, _corpus.ROOT).replace(os.sep, "/"),
                     "cache", "skill 目录内缓存残留", "删除或移入用户缓存目录")
              for p in caches]
     removed = 0
     if args.yes:
         for row in rows:
-            full = os.path.join(ROOT, row["path"].replace("/", os.sep))
+            full = os.path.join(_corpus.ROOT, row["path"].replace("/", os.sep))
             if os.path.isfile(full):
                 os.remove(full)
                 removed += 1
