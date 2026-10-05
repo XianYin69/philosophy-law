@@ -1,0 +1,267 @@
+# 近代民法典（一）：法典化浪潮
+- id: law.civil.codefr1804
+  title: 法国民法典（拿破仑法典）
+  domain: law
+  source: Code civil des Français，20 年风月 30 日（1804 年 3 月 21 日）公布
+  article: 序编＋三编（人、财产及对所有权的各种变更、取得财产的各种方式）；
+    初版条文数通说 369 条（待核），现行文本经数百次修订
+  era: 1804 年
+  jurisdiction: 法国（并输出至比利时、卢森堡、意大利部分、荷兰、魁北克、路易斯安那、拉美）
+  force_status: 被修订（现行法典与 1804 本文差异极大；2006 债法改革、2016 债法重整）
+  gist: 确立所有权绝对、契约自由、过错责任三大支柱与世俗化的身份法；
+    以"个人—财产—契约"的三分结构取代法学阶梯体系，成为近代民法法典化的原型。
+  refs:
+    - tier: T1
+      url: https://www.legifrance.gouv.fr/
+      url_status: blocked
+    - tier: T3
+      citation: Jean-Louis Bergel《Code civil》版本史；Alan Watson 比较法研究
+      url_status: unchecked
+  verified: partial
+  last_checked: "2026-10-05"
+- id: law.civil.abgb1811
+  title: 奥地利普通民法典（ABGB）
+  domain: law
+  source: Allgemeines bürgerliches Gesetzbuch，1811 年颁布（前身为 1786 年约瑟夫民法典、
+    1787 年加利西亚民法典）
+  article: 共 1502 条，分人法、物法、人法与物法之共同规定（第三编）
+  era: 1811 年
+  jurisdiction: 奥地利（曾行于匈牙利、捷克等前奥匈地区）
+  force_status: 现行（经多次修订，如 2016 年收养法改革、消费者法改革）
+  gist: 以自然法思想（马丁尼起草）为底色的"理性法典"，第 308 条等承认习惯与
+    法官补充法源；对瑞士民法与巴尔干地区影响深远。
+  refs:
+    - tier: T1
+      url: https://www.ris.bka.gv.at/
+      url_status: unchecked
+  verified: partial
+- id: law.civil.bgb1900
+  title: 德国民法典（BGB）
+  domain: law
+  source: Bürgerliches Gesetzbuch，1896 年公布、1900 年 1 月 1 日施行
+  article: 五编：总则、债务关系法、物权法、家庭法、继承法；本文 2385 条（通说，待核）
+  era: 1900 年施行
+  jurisdiction: 德国（对希腊、日本、巴西、中国民国时期民法、爱沙尼亚等影响显著）
+  force_status: 现行（2002 年债法现代化等重大修订）
+  gist: 潘德克顿体系（学说汇纂法学）的顶点：法律行为、意思表示、抽象处分行为、
+    总则提取公因式；概念精确但门槛高，引发与法国法的"法典化之争"（萨维尼—普赫塔脉络）。
+  refs:
+    - tier: T1
+      url: https://www.gesetze-im-internet.de/englisch_bgb/
+      url_status: checked
+    - tier: T3
+      citation: Tony Weir 英译《The German Civil Code》（Oxford, 2007）
+      url_status: unchecked
+  verified: "yes"
+  last_checked: "2026-10-05"
+- id: law.civil.zgb1912
+  title: 瑞士民法典（ZGB）与债务法（OR）
+  domain: law
+  source: Zivilgesetzbuch（1907 年立法、1912 年 1 月 1 日施行）；
+    Obligationenrecht（1881 年初版、1911 年并入 ZGB 适用体系）
+  article: ZGB 第 1–965 条（四部分：人法、亲属法、继承法、物权法）；OR 条文数待核
+  era: 1912 年
+  jurisdiction: 瑞士（第 1 条第 2 款授权法官自立法者地位补充法律；对土耳其 1926 年民法直接移植）
+  force_status: 现行
+  gist: 以通俗语言与法官造法条款著称，采民商合一（债务关系纳入统一私法）；
+    第 2 条诚信原则与禁止权利滥用成为一般条款体系的核心。
+  refs:
+    - tier: T1
+      url: https://www.fedlex.admin.ch/
+      url_status: unchecked
+    - tier: T3
+      citation: Peter Lund Tønnes 等英译；H. Winiger 注释本
+      url_status: unchecked
+  verified: partial
+- id: law.civil.japan1898
+  title: 日本民法
+  domain: law
+  source: 明治 29 年（1896 年）法律第 89 号公布，1898 年施行；
+    先行"旧民法"（1888 年起草、Boissonade 参与）因法典论争未施行
+  article: 五编：总则、物权、债权、亲属、继承（亲属·继承编 1947 年全面修订，
+    2018 年继承法修正、2022 年成年年龄下调至 18 岁）
+  era: 1898 年施行
+  jurisdiction: 日本（曾影响朝鲜半岛、台湾地区的民事法制）
+  force_status: 现行
+  gist: 法国—德国—普通法三重继受的混合体；债权编大量保留 19 世纪法国法表述，
+    物权与总则采德国构造，判例与学说在"法典论争"后长期主导解释。
+  refs:
+    - tier: T1
+      url: https://www.japaneselawtranslation.go.jp/
+      url_status: unchecked
+  verified: partial
+- id: law.civil.italy1942
+  title: 意大利民法典
+  domain: law
+  source: Codice civile（1942 年，Royal Decree No. 165/1942，1942 年 7 月 1 日生效）
+  article: 六编：家庭、继承、所有权、债、劳动、权利保护（条文总数待核）
+  era: 1942 年
+  jurisdiction: 意大利（1942 年后逐步取代 1865 年民法典）
+  force_status: 现行（1975 年家庭法改革等）
+  gist: 民商合一的早期范例，把"劳动"作为独立编纳入私法体系；
+    法西斯时期编纂背景与战后民主宪法的价值冲突，靠 1948 年宪法与解释学调和。
+  refs:
+    - tier: T1
+      url: https://www.gazzettaufficiale.it/
+      url_status: unchecked
+  verified: partial
+# 近代民法典（二）：输出与当代新编纂
+- id: law.civil.chile1855
+  title: 智利民法典
+  domain: law
+  source: Código Civil de Chile（1855 年颁布、1857 年生效），安德雷斯·贝略（Andrés Bello）主稿
+  article: 人法、物法、债与合同、继承四编＋序题（条文总数待核）
+  era: 1855 年
+  jurisdiction: 智利（影响哥伦比亚、厄瓜多尔、委内瑞拉、萨尔瓦多等）
+  force_status: 现行（多次修订）
+  gist: 拉美最成功的法典移植案例：以 1855 年文本为母本，形成"统一民法典＋评注传统"的法语区。
+  refs:
+    - tier: T1
+      url: https://www.bcn.cl/
+      url_status: unchecked
+  verified: partial
+- id: law.civil.argentina2015
+  title: 阿根廷民法典与 2015 年统一民商法典
+  domain: law
+  source: 1869 年 Vélez Sarsfield 民法典（1871 年生效）→ Ley 26.994《民法典与商法典》
+    （2015 年 8 月 1 日生效）
+  article: 2015 年统一法典三编：总则、个人与家庭、权利与合同（条文总数待核）
+  era: 1869 / 2015 年
+  jurisdiction: 阿根廷
+  force_status: 现行（1869 年法典已废）
+  gist: 民商合一的当代范例，把消费者、人格权、环境损害等纳入私法一般框架，
+    体现"宪法化"（constitucionalización del derecho privado）趋势。
+  refs:
+    - tier: T1
+      url: https://www.argentina.gob.ar/normativa
+      url_status: unchecked
+  verified: partial
+- id: law.civil.brazil2002
+  title: 巴西民法典
+  domain: law
+  source: Código Civil（Lei nº 10.406/2002，2003 年 1 月 11 日生效），取代 1916 年民法典
+  article: 总则、债法、物权、企业法、家庭、继承（共 2046 条，通说，待核）
+  era: 2002 年
+  jurisdiction: 巴西
+  force_status: 现行
+  gist: 20 世纪末"社会功能"（função social）条款密集写入：合同与所有权的社会功能、
+    企业作为组织体，反映意大利—葡萄牙学说影响。
+  refs:
+    - tier: T1
+      url: https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm
+      url_status: unchecked
+  verified: partial
+- id: law.civil.spain1889
+  title: 西班牙民法典
+  domain: law
+  source: Código Civil（1889 年）
+  article: 人法、物与所有权、各类合同与义务、继承、债与合同之最后规定（条文数待核）；
+    第 1 条第 1 款确认法律、习惯与法律一般原则为法源，第 4 条禁止"仅依习惯"适用
+  era: 1889 年
+  jurisdiction: 西班牙（保留纳瓦拉、加泰罗尼亚等 foral/特别法区）
+  force_status: 现行
+  gist: 在法典统一与地方私法自治之间妥协；第 1 条的法源条款是大陆法系"习惯—一般原则"
+    补充结构的典型表述。
+  refs:
+    - tier: T1
+      url: https://www.boe.es/cerias/bases_datos/doc.php
+      url_status: unchecked
+  verified: partial
+- id: law.civil.netherlands1992
+  title: 荷兰新民法典（NBW）
+  domain: law
+  source: Nieuw Burgerlijk Wetboek（1992 年 1 月 1 日财产法部分生效）
+  article: 九编结构（人法与家庭、法人、财产总则、物权、债总则、合同之特别类型、
+    运输与劳动？待核、继承、知识产权冲突条款）
+  era: 1992 年
+  jurisdiction: 荷兰（含加勒比部分）
+  force_status: 现行（部分编自 1970 年代起分阶段生效，至今未全部完成）
+  gist: 20 世纪最宏大的民法典重构：开放条文、大量未决条款（open normen）与判例—学说共同填充，
+    被视为"后法典化"时代的立法技术实验。
+  refs:
+    - tier: T1
+      url: https://wetten.overheid.nl/
+      url_status: unchecked
+  verified: partial
+- id: law.civil.quebec1994
+  title: 魁北克民法典（CCQ）
+  domain: law
+  source: Code civil du Québec（1991 年通过、1994 年 1 月 1 日生效）
+  article: 条文总数待核；结构：人法、财产法、债法、财产担保、优先权、时效、国际私法
+  era: 1994 年
+  jurisdiction: 加拿大魁北克省
+  force_status: 现行
+  gist: 混合法域的当代重述：以法国私法传统为骨、吸收普通法信托与判例方法，
+    第 1375 条诚信义务与人格权条款（第 3 条起）体现"人的优先性"（先于 1804 年法典的再人本化）。
+  refs:
+    - tier: T1
+      url: https://www.legisquebec.gouv.qc.ca/
+      url_status: unchecked
+  verified: partial
+- id: law.civil.turkey1926
+  title: 土耳其民法典
+  domain: law
+  source: Türk Medenî Kanunu（Law No. 743，1926 年 10 月 4 日生效），以瑞士 ZGB 为蓝本
+  article: "法典级条目（未逐条展开，条号与编章数待核）"
+  era: 1926 年（2001 年新法 Law No. 4721，2002 年生效）
+  jurisdiction: 土耳其
+  force_status: 被修订（2002 年新法取代）
+  gist: 凯末尔改革的法律移植样本：整体继受外国法典并同步废除宗教法庭，
+    是"法典作为社会工程工具"的经典案例（比较：埃塞俄比亚民法典）。
+  refs:
+    - tier: T1
+      url: https://www.mevzuat.gov.tr/
+      url_status: unchecked
+  verified: partial
+- id: law.civil.russia1994
+  title: 俄罗斯联邦民法典
+  domain: law
+  source: Гражданский кодекс РФ：第一部分（1994 年通过、1995 年生效）、第二部分（1996）、
+    第三部分（2001）、第四部分（2006，知识产权）
+  article: 四部分结构：总则与债之一般规定、各类合同、继承与国际私法、知识产权
+  era: 1994–2006 年
+  jurisdiction: 俄罗斯
+  force_status: 现行（持续修订）
+  gist: 转型期私法重建：以部分颁布（part-by-part codification）适应市场化节奏，
+    第 1 编第 10 条禁止权利滥用、第 152 条人格保护构成新教义学起点。
+  refs:
+    - tier: T1
+      url: http://www.consultant.ru/
+      url_status: unchecked
+  verified: partial
+- id: law.civil.china2020
+  title: 中华人民共和国民法典
+  domain: law
+  source: 2020 年 5 月 28 日第十三届全国人大第三次会议通过，2021 年 1 月 1 日施行
+  article: 七编 1260 条：总则、物权、合同、人格权、婚姻家庭、继承、侵权责任＋附则；
+    同时废止婚姻法、继承法、民法通则、收养法、担保法、合同法、物权法、侵权责任法、民法总则
+  era: 2020 年
+  jurisdiction: 中国
+  force_status: 现行
+  gist: 独立成编的"人格权编"为世界民法典体例中的创新；第 1 条列入"弘扬社会主义核心价值观"，
+    第 9 条绿色原则、第 132 条禁止权利滥用，构成公法价值进入私法的通道（学界对此存在争议）。
+  refs:
+    - tier: T1
+      url: https://flk.npc.gov.cn/
+      url_status: unchecked
+    - tier: T3
+      citation: 王利明、崔建远等注释系列；张新宝主编读本
+      url_status: unchecked
+  verified: "yes"
+  last_checked: "2026-10-05"
+- id: law.civil.ethiopia1960
+  title: 埃塞俄比亚民法典
+  domain: law
+  source: Civil Code of Ethiopia（1960 年，Negarit 公报），勒内·达维（René David）起草
+  article: 八编（人、家庭、继承、财产、债合同、无合同之债、雇佣、合伙与合作社、
+    商法？条文总数待核）
+  era: 1960 年
+  jurisdiction: 埃塞俄比亚
+  force_status: 现行（部分领域已被后续法典化取代，家庭法改革长期停滞）
+  gist: 发展援助式法律移植的代表：一部为农业社会制定的欧洲式法典，
+    与习惯法、宗教法（正教与伊斯兰）并存，成为比较法"实效缺口"研究的标准对象。
+  refs:
+    - tier: T2
+      citation: René David 等《Ethiopian Civil Code》官方英译本（1965/1968）
+      url_status: unchecked
+  verified: partial

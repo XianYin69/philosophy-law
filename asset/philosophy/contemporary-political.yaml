@@ -1,0 +1,130 @@
+# 当代政治哲学
+- id: phil.contemp.rawls
+  title: 罗尔斯
+  domain: philosophy
+  text: "《正义论》（1971，1999 年修订版；§1–4 论正义第一观念、§11–22 原初状态、
+    §24–30 论功利主义、§44 反思平衡、§58 论公民不服从）、
+    《政治自由主义》（1993，第 4 章重叠共识、第 6 章公共理性）、
+    《万民法》（1999）、\"Justice as Fairness: Political not Metaphysical\"（1985 Philosophy
+    & Public Affairs 14）"
+  thesis: 两个正义原则（平等基本自由优先；差别原则与机会公平平等）；
+    无知之幕把"人之分离性"制度化；反思平衡是证成方法而非证明；
+    政治自由主义以"合理多元事实"为前提，把正义限定为政治性而非形而上学
+  school: 契约主义／自由主义平等论
+  criticism:
+    - by: 诺齐克（1974）
+      claim: 模式化分配侵犯自我所有权与自愿交换
+    - by: 桑德尔（1982 第 1–2 章）
+      claim: 无负荷的自我无法支撑正义原则的动机
+    - by: 奥金（1989）、森（2009）、纳斯鲍姆（2006）、科恩（2008）
+      claim: 家庭、能力、残者与激励平等主义暴露其适用范围的限制
+    - by: 万民法批评（对"人民"而非个体的单位、对全球贫困的处理）
+      claim: 国际层面未应用差别原则（Beitz《Political Theory and International Relations》1979/1999）
+  refs:
+    - tier: T3
+      citation: A Theory of Justice（Harvard, rev. ed. 1999）
+      url_status: unchecked
+  verified: partial
+- id: phil.contemp.nozick
+  title: 诺齐克
+  domain: philosophy
+  text: 《无政府、国家与乌托邦》（1974，第 3 章"最低国家的论证"、
+    第 4 章威尔特·张伯伦论证、第 7 章论限制）
+  thesis: 持有正义三原则（获取、转让、矫正）；税收即部分劳动的强制；
+    "张伯伦论证"：任何模式化分配都会被自愿交换打破；
+    国家作为"看不见的手"的产物可被辩护，超越最低国家则侵犯权利
+  school: 自由意志主义／权利理论
+  criticism:
+    - by: 罗尔斯（《正义论》§11–13 与 1999 版附录）
+      claim: 自我所有权不能推出对外在资源的无限权利
+    - by: 科恩（《如果你是一个社会主义者》2008/2009）
+      claim: 诺齐克式权利无法解释初始获取的正当性，矫正原则近乎空转
+    - by: 德沃金（《至上的美德》2000 第 5 章论自由意志主义）
+      claim: "\"无人拥有自身\"的表述混淆了道德人格与资源支配"
+  refs:
+    - tier: T3
+      citation: Anarchy, State, and Utopia（Basic Books, 1974）
+      url_status: unchecked
+  verified: partial
+- id: phil.contemp.communitarian
+  title: 社群主义（麦金太尔、桑德尔、泰勒、沃尔泽）
+  domain: philosophy
+  text: 麦金太尔《追寻美德》（1981，第 1 章"情感主义"、第 14–15 章论正义与应得）、
+    桑德尔《自由主义的界限》（1982）、泰勒《承认的政治》（1992）、
+    沃尔泽《正义的领域》（1983，第 1 章"复合平等"、第 2 章"意义的领域"）
+  thesis: 正义原则须内生于共同体的实践与传统；"应得"与"共同善"不可被程序中立取代；
+    沃尔泽：不同物品有不同分配领域，支配（domination）发生在一种善跨越领域垄断他善；
+    泰勒：承认的缺失即是一种伤害（承认政治与多元文化主义）
+  school: 社群主义／多元正义
+  criticism:
+    - by: 罗尔斯与自由主义者（"自由主义对社群主义的反驳"，如 Kymlicka 1989）
+      claim: 传统内部批判无法处理压迫性习俗，须有普遍标准
+    - by: 女性主义（奥金、杨 1990）
+      claim: "\"共同体\"常是支配单位的同义词，差异政治须替代团结叙事"
+  refs:
+    - tier: T3
+      citation: After Virtue（2 版 1984/2013 跋）；Spheres of Justice（Basic Books, 1983）
+      url_status: unchecked
+  verified: partial
+- id: phil.contemp.sen
+  title: 阿马蒂亚·森与能力路径
+  domain: philosophy
+  text: "\"Well-Being, Agency and Value\"（1984/1985？待核）、
+    《不平等之再考察》（1992）、《自由、理性与社会选择》相关论文、
+    《正义的理念》（2009，第 1–3 章\" transcendent institutionalism\"之批评）、
+    《以自由看待发展》（1999）；纳斯鲍姆《正义的前沿》（2006，第 2–3 章能力清单）"
+  thesis: 以"可行能力"（capability/functioning）替代效用作为正义信息基础；
+    比较性正义（comparative justice）优先于先验制度设计；
+    公共理性作为证成方式，民主是"公共推理的政府"
+  school: 能力路径／公共理性
+  criticism:
+    - by: 罗尔斯主义者（对"能力清单"的完备性担忧）
+      claim: 清单若无政治性限定即成为至善论
+    - by: 残障与照护研究者（对"正常能力阈值"的批评）
+      claim: 能力路径仍需处理依赖与照护的分配（具体文献待核）
+  refs:
+    - tier: T3
+      citation: The Idea of Justice（Harvard, 2009）；Frontiers of Justice（Harvard, 2006）
+      url_status: unchecked
+  verified: partial
+- id: phil.contemp.hayek
+  title: 哈耶克
+  domain: philosophy
+  text: 《知识在社会中的运用》（1945 Economica）、《通往奴役之路》（1944）、
+    《自由秩序原理》（1960）、《法律、立法与自由》（1973–1979 三卷，
+    第 2 卷"社会秩序的拟议成分"论"正当行为规则"）
+  thesis: 分散知识与价格机制使中央计划不可行；法治是"关于规则的形式特征"
+    （普遍、已知、稳定），不涉目的；自发秩序与"建构理性主义"的批判；
+    法律是发现而非制定（与历史法学派部分同盟）
+  school: 奥地利学派／古典自由主义
+  criticism:
+    - by: 罗尔斯（《正义论》§38–40 论"自由主义的社会观"）
+      claim: 形式法治可与实质不正义并存，须加入分配约束
+    - by: 凯尔森与法律实证主义者
+      claim: "\"被发现的法律\"混淆了规范的效力来源与内容正当性"
+    - by: 制度经济学（对"自发秩序"与"设计"二分法的经验批评）
+      claim: 大量有效制度是刻意建构的产物（具体文献待核）
+  refs:
+    - tier: T3
+      citation: Law, Legislation and Liberty（Routledge, 1973–79）
+      url_status: unchecked
+  verified: partial
+- id: phil.contemp.republicanism
+  title: 新共和主义（佩迪特、斯金纳）
+  domain: philosophy
+  text: 佩迪特《共和主义》（1997，第 3 章"自由作为非支配"）、
+    《Just Freedom》（2012）；斯金纳《自由主义之前的自由》（1998，第 8 章论"支配"）
+  thesis: 自由不是干涉的缺失而是支配（dominium）的缺失——即使未行使的权力也构成支配；
+    故法律既可能威胁自由也可能构成自由的条件（"非支配的法律"）；
+    以历史语境主义方法重释马基雅维利与 Harrington
+  school: 剑桥学派／共和自由论
+  criticism:
+    - by: 伯林式自由主义者（对"非支配即自由"的混淆批评）
+      claim: 把自由与其条件合并，削弱了消极自由的批判功能（具体文献待核）
+    - by: 女性主义（对"支配"概念在私人领域的适用性）
+      claim: 需要以权力与承认理论补充法律中心主义
+  refs:
+    - tier: T3
+      citation: Republicanism（Oxford, 1997）；Liberty before Liberalism（Cambridge, 1998）
+      url_status: unchecked
+  verified: partial

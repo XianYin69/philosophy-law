@@ -1,0 +1,109 @@
+# 宪法（一）：现行主要宪法文本
+- id: law.const.us1789
+  title: 美利坚合众国宪法
+  domain: law
+  source: U.S. Constitution（1787 年起草通过，1789 年生效）
+  article: 正文 7 条（立法、行政、司法、州际关系、修正程序、批准与最高条款）＋27 条修正案
+    （第 1–10 条权利法案 1791 年批准；第 13/14/15 条重建修正案；第 19 条 1920；
+    第 26 条 1971；第 27 条 1992 年批准）
+  era: 1789 年生效
+  jurisdiction: 美国（联邦；另有 50 州宪法）
+  force_status: 现行
+  gist: 世界现存最古老的成文宪法之一；联邦制＋三权分立＋司法审查
+    （Marbury v. Madison, 5 U.S. (1 Cranch) 137 (1803)）；
+    第十四修正案的正当程序与平等保护条款通过"并入"（incorporation）把权利法案适用于各州。
+  refs:
+    - tier: T1
+      url: https://www.govinfo.gov/app/collection/usconstitution
+      url_status: unchecked
+    - tier: T2
+      url: https://avalon.law.yale.edu/
+      url_status: checked
+  verified: "yes"
+  last_checked: "2026-10-05"
+- id: law.const.de1949
+  title: 德国基本法
+  domain: law
+  source: Grundgesetz für die Bundesrepublik Deutschland（1949 年 5 月 23 日生效）
+  article: 第 1 条（人格尊严不可侵犯、直接拘束一切国家权力）、第 20 条（民主、法治、
+    社会、联邦国原则；第 4 款抵抗权）、第 79 条第 3 款（永恒条款）、
+    第 93 条第 1 款第 4a 项（宪法诉愿）、第 1 条第 2 款（基本权利作为可直接适用的法）
+  era: 1949 年
+  jurisdiction: 德国
+  force_status: 现行（1990 年统一后适用范围扩大；多次修订）
+  gist: "\"客观价值秩序\"理论（Lüth 判决 BVerfGE 7, 198 (1958)）使基本权利辐射私法；
+    防御权、保护义务与比例原则构成教义学核心；联邦宪法法院的强司法审查模式。"
+  refs:
+    - tier: T1
+      url: https://www.gesetze-im-internet.de/
+      url_status: checked
+  verified: "yes"
+- id: law.const.fr1958
+  title: 法兰西第五共和国宪法
+  domain: law
+  source: Constitution du 4 octobre 1958
+  article: 第 3 条（主权在民）、第 16 条（紧急权力）、第 49 条第 3 款（不经表决通过法案）、
+    第 61 条（法律事前审查）、第 61-1 条（2008 年修宪增设 QPC 事后合宪性优先问题，2010 年生效）
+  era: 1958 年
+  jurisdiction: 法国
+  force_status: 现行（2008 年重大修宪；2024 年将堕胎自由写入第 34 条）
+  gist: 半总统制与"理性化议会主权"；宪法委员会从事前审查垄断走向 QPC 的个案合宪性控制，
+    改变了法国"法律至上、无违宪审查传统"的格局。
+  refs:
+    - tier: T1
+      url: https://www.conseil-constitutionnel.fr/
+      url_status: unchecked
+  verified: partial
+  last_checked: "2026-10-05"
+- id: law.const.in1950
+  title: 印度宪法
+  domain: law
+  source: Constitution of India（1949 年 11 月 26 日通过，1950 年 1 月 26 日生效）
+  article: 原初 395 条、22 部分、8 附表（现行条文数因增删而变动，待核）；
+    第 21 条（生命与个人自由）、第 32 条（宪法救济）、第 368 条（修宪权）、
+    第 352–360 条（紧急状态）
+  era: 1950 年
+  jurisdiction: 印度
+  force_status: 现行（修正案逾百项）
+  gist: 最长的成文宪法之一；"基本结构学说"（Kesavananda Bharati v. State of Kerala,
+    AIR 1973 SC 1461）限制修宪权；司法能动主义通过 PIL（公益诉讼）与第 21 条扩张社会权利。
+  refs:
+    - tier: T1
+      url: https://www.indiacode.nic.in/
+      url_status: unchecked
+  verified: partial
+- id: law.const.jp1947
+  title: 日本国宪法
+  domain: law
+  source: 日本国憲法（1946 年公布、1947 年 5 月 3 日施行）
+  article: 第 1 条（天皇为日本国与国民统合之象征）、第 9 条（放弃战争、不保持战力）、
+    第 13 条（公共福祉与个人尊严）、第 25 条（生存权）、第 81 条（司法权与违宪审查）
+  era: 1947 年
+  jurisdiction: 日本
+  force_status: 现行（至今未修正，为施行最久而未修的成文宪法之一）
+  gist: 国民主权、基本人权、和平主义三原则；第 9 条与"自卫队合宪性"的长期争论
+    （砂川事件、长沼判决等）体现立法不作为与司法谦抑（"统治行为论"）的互动。
+  refs:
+    - tier: T1
+      url: https://www.japaneselawtranslation.go.jp/
+      url_status: unchecked
+  verified: partial
+- id: law.const.cn1982
+  title: 中华人民共和国宪法（1982 年宪法及历次修正）
+  domain: law
+  source: 1982 年 12 月 4 日第五届全国人大第五次会议通过
+  article: 序言＋四章（总纲、公民基本权利和义务、国家机构、国旗国歌国徽首都）；
+    1988、1993、1999、2004、2018 年五次修正案；第 5 条（法治原则）、
+    第 33 条第 3 款（2004 年增"国家尊重和保障人权"）、第 62/67 条（人大及其常委会监督宪法实施）
+  era: 1982 年
+  jurisdiction: 中国
+  force_status: 现行
+  gist: 宪法监督采最高权力机关模式而非司法审查；备案审查制度（立法法 2000 年设立、
+    2015 与 2023 年修改，全国人大常委会法工委年度备案审查工作报告）构成实际的合宪性控制渠道。
+  refs:
+    - tier: T1
+      citation: 全国人民代表大会公报所载宪法文本与修正案（flk.npc.gov.cn 国家法律法规数据库）
+      url: https://flk.npc.gov.cn/
+      url_status: unchecked
+  verified: partial
+  last_checked: "2026-10-05"

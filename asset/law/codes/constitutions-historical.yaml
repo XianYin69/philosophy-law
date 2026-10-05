@@ -1,0 +1,102 @@
+# 宪法（二）：历史宪法与权利宣言
+- id: law.const.ddhc1789
+  title: 人权与公民权宣言
+  domain: law
+  source: Déclaration des droits de l'homme et du citoyen（1789 年 8 月 26 日）
+  article: 第 1 条（生而自由、权利平等）、第 3 条（主权在民族）、第 6 条（法律为公意之表现）、
+    第 8 条（罪刑法定）、第 9 条（无罪推定）、第 11 条（意见自由交流）、
+    第 16 条（无权利保障与权力分立者无宪法）、第 17 条（财产不可侵犯）
+  era: 1789 年
+  jurisdiction: 法国（1958 年宪法序言确认其宪法价值，宪法委员会适用）
+  force_status: 现行（宪法性文本）
+  gist: 第 16 条把"宪法"定义为权利保障＋权力分立的制度安排，是现代宪治概念的分水岭；
+    与 1793 年宣言的社会权利条款构成自由权／社会权两条脉络。
+  refs:
+    - tier: T1
+      url: https://www.conseil-constitutionnel.fr/
+      url_status: unchecked
+    - tier: T2
+      url: https://avalon.law.yale.edu/
+      url_status: checked
+  verified: "yes"
+  last_checked: "2026-10-05"
+- id: law.const.no1814
+  title: 挪威宪法
+  domain: law
+  source: Norges Grunnlov（1814 年 5 月 17 日）
+  article: 第 1 条（自由独立不可分割之王国；2012 年增订人格尊严与民主价值条款）、
+    第 49 条（主权在民）、第 77 条（修正案不得违背宪法基本原则）、第 100 条（表达自由）
+  era: 1814 年
+  jurisdiction: 挪威
+  force_status: 现行
+  gist: 继美国宪法后仍在施行的最古老成文宪法；"不得违背基本原则"的修宪界限条款，
+    与德国基本法第 79 条第 3 款同属"宪法修改界限"问题域。
+  refs:
+    - tier: T1
+      url: https://www.regjeringen.no/
+      url_status: unchecked
+  verified: partial
+- id: law.const.pl1791
+  title: 五三宪法（波兰—立陶宛）
+  domain: law
+  source: Konstytucja 3 Maja（1791 年 5 月 3 日）
+  article: 11 条（政府、贵族、城市、农民、军队、领土、国王、摄政、保障等）
+  era: 1791 年（1792 年战争后被废）
+  jurisdiction: 波兰立陶宛联邦
+  force_status: 已废
+  gist: 欧洲第一部、世界第二部现代成文宪法；试图以世袭君主制与责任大臣制取代自由否决权，
+    其失败成为"宪法能力与国家生存"论题的经典案例。
+  refs:
+    - tier: T3
+      citation: 宪法史专题研究（具体版本待核）
+      url_status: unchecked
+  verified: partial
+- id: law.const.weimar1919
+  title: 魏玛宪法
+  domain: law
+  source: Verfassung des Deutschen Reichs（1919 年 8 月 11 日生效）
+  article: 第 1 条（主权在民）、第 48 条（总统紧急措施）、第 76 条（修宪）、
+    第 151–165 条（社会政策基本原则）
+  era: 1919 年（1933 年后名存实亡）
+  jurisdiction: 德国
+  force_status: 已废
+  gist: 凯尔森的集中式违宪审查模式（1919 年宪法法院法）与施米特"宪法／宪法法律"之分
+    （《宪法学说》1928；与凯尔森《谁才是法律的保护者？》论战 1930），
+    构成 20 世纪法哲学核心事件；紧急权力条款是其制度缺陷的常见诊断。
+  refs:
+    - tier: T3
+      citation: Carl Schmitt, Verfassungslehre（1928）；Hans Kelsen 1928/1929/1930 三文
+      url_status: unchecked
+  verified: partial
+- id: law.const.meiji1889
+  title: 大日本帝国宪法
+  domain: law
+  source: 大日本帝国憲法（1889 年公布、1890 年施行）
+  article: 8 章 77 条：第 1 条（万世一系）、第 3 条（天皇神圣不可侵犯）、第 8 条（紧急敕令）、
+    第 29 条（臣民权利义务）、第 76 条（司法权与行政裁判分立）
+  era: 1889 年（1947 年被日本国宪法取代）
+  jurisdiction: 日本
+  force_status: 已废
+  gist: 钦定宪法；"天皇机关说"（美浓部达吉）与"天皇主权说"（上杉慎吉）之争是宪法解释
+    政治化的教科书案例；权利条款采"依法律"限制模式。
+  refs:
+    - tier: T1
+      url: https://www.japaneselawtranslation.go.jp/
+      url_status: unchecked
+  verified: partial
+- id: law.const.cn1912
+  title: 中华民国临时约法
+  domain: law
+  source: 《中华民国临时约法》（1912 年 3 月 11 日公布）
+  article: 7 章 56 条（通说，待核）：主权属于国民全体、人民权利义务、参议院、临时大总统、
+    国务员、法院、附则
+  era: 1912 年
+  jurisdiction: 中华民国（南京临时政府）
+  force_status: 已废（1914 年《中华民国约法》取代；1916、1922 年两度恢复争议）
+  gist: 以"责任内阁制"约束总统权力的制度设计，暴露"因人设法"的宪制困境；
+    与 1912 年《天坛宪草》、1923 年曹锟宪法、1946 年宪法构成民国宪政史的连续试验。
+  refs:
+    - tier: T1
+      citation: 《临时约法》原文见《政府公报》1912 年 3 月；夏良才编《中华民国宪法史料》
+      url_status: unchecked
+  verified: partial

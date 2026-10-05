@@ -1,0 +1,28 @@
+# 现状分析推理卡（子技能 C）
+- id: reason.currentstate.card
+  title: 现状分析：应然与实然并置
+  domain: reasoning
+  steps:
+    - 规范层定位（现行条文＋效力状态＋最近修订）
+    - 事实层取证（执法/司法/统计数据，标来源与口径）
+    - 落差识别（应然与实然的偏离点）
+    - 机制解释（激励、资源、程序、观念）
+    - 争议焦点（学说对立与制度节点）
+    - 利益相关方（国家、市场、个人、群体）
+    - 可比法域参照（含语境差异）
+    - 趋势判断（标强度与依据）
+  must_answer:
+    - 现行法是什么（含效力状态）
+    - 实际运行是什么（含数据时效）
+    - 二者为何分离
+    - 谁反对、反对理由是什么
+    - 参照法域差异在哪
+    - 判断的不确定性有多高
+  grade_scale: [强, 中, 弱, 存疑]
+  refs:
+    - tier: T3
+      citation: 规范与事实之分的教义学基础见自然法／实证主义论战条目
+        （phil.legal.positivism.*、phil.legal.naturallaw.*）
+      url_status: unchecked
+  verified: "yes"
+  last_checked: "2026-10-05"

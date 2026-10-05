@@ -1,0 +1,81 @@
+# 中世纪哲学（教父哲学与经院哲学）
+- id: phil.medieval.augustine
+  title: 奥古斯丁
+  domain: philosophy
+  text: 《忏悔录》（约 397–400）、《上帝之城》XIX 章（约 413–426）、
+    《论自由意志》I.15 以下、《驳法乌斯图》XXII.27
+  thesis: 永恒法（lex aeterna）是神圣理性与意志， temporal 法依正义程度派生；
+    "不正义的法律根本不是法律"（lex iniusta non est lex，《论自由意志》I.15，
+    拉丁原文表述待核）；《上帝之城》XIX 论地上之和平与正义无德性则无国家
+  school: 教父哲学（柏拉图主义基督教化）
+  criticism:
+    - by: 阿奎那（《神学大全》I-II q.96 a.4）
+      claim: 不正义之人法只是"法律的腐败"，仍具形式拘束力，不可径行不服从
+    - by: 马基雅维利与近代政治实在论
+      claim: 两城之说把政治还原为道德戏剧，无法解释权力运作
+  refs:
+    - tier: T2
+      url: https://www.newadvent.org/fathers/
+      url_status: unchecked
+    - tier: T3
+      citation: R. A. Markus, Saeculum（1970/1988）
+      url_status: unchecked
+  verified: partial
+- id: phil.medieval.boethius
+  title: 波爱修
+  domain: philosophy
+  text: 《哲学的慰藉》（约 524）、《神学论集》（De trinitate 等）、亚里士多德逻辑译注
+  thesis: 以命运之轮与"至善即神"论证恶的无实体性；共相问题（《波菲利问题》译注）
+    引发中世纪唯名／唯实之争
+  school: 拉丁经院前史（新柏拉图主义—亚里士多德逻辑）
+  criticism:
+    - by: 罗素（《西方哲学史》中世纪部分）与近代逻辑史研究
+      claim: 慰藉论以认识论乐观掩盖政治失败（案：其受审与处死的历史语境待核）
+  refs:
+    - tier: T3
+      citation: Henry Chadwick 英译注本（1962）
+      url_status: unchecked
+  verified: partial
+- id: phil.medieval.aquinas
+  title: 托马斯·阿奎那
+  domain: philosophy
+  text: 《神学大全》I-II qq.90–97（论法）、q.95（人法之可变与不正义之法）、
+    q.105（政制）；《论君主政治》（De regno，约 1265–1267）
+  thesis: 法为"以共同善为目的、由负责共同体者颁布的理性命令"（ST I-II q.90 a.4）；
+    四类法：永恒法、自然法（参与永恒法，第一原则为"行善避恶"q.94 a.2）、
+    人法（由自然法经"决定"conclusio 派生，可因习俗与功利调整）、神法；
+    人法违背自然法即不正义，良心可不遵守（q.96 a.4），但为避 scandal 与秩序破坏仍可能须容忍
+  school: 多明我会经院哲学（亚里士多德主义基督教化）
+  criticism:
+    - by: 奥卡姆与唯名论
+      claim: 从"自然"推"应当"混淆了神的绝对能力与秩序；正义不完全依赖理性本性
+    - by: 凯尔森与哈特（法律实证主义）
+      claim: 自然法把道德效力条件塞进法律概念，混淆"是什么"与"应当是"
+  refs:
+    - tier: T2
+      url: https://www.newadvent.org/summa/
+      url_status: unchecked
+    - tier: T3
+      citation: John Finnis, Aquinas（1998/2013）；Anthony Kenny 相关研究
+      url_status: unchecked
+  verified: partial
+- id: phil.medieval.nominalism
+  title: 唯名论与意志论（司各脱、奥卡姆、苏亚雷斯）
+  domain: philosophy
+  text: 邓斯·司各脱《牛津评注》；奥卡姆《箴言书评注》与《对话篇》（Dialogus，
+    关于教宗异端与抵抗权）；苏亚雷斯《论法律》（De legibus, 1612）
+  thesis: 共相非实在，个体才是；神的绝对能力（potentia absoluta）使道德律具有意志成分；
+    奥卡姆以"自然权利"（ius fori/ius naturale）为个体抵抗教权提供根据；
+    苏亚雷斯把法理解为"共同体的意志与决定"，为近代主权与法律实证主义开门
+  school: 方济各会经院、萨拉曼卡学派
+  criticism:
+    - by: 阿奎那主义者（如马里塔因）
+      claim: 意志论切断道德与理性的联系，导致主权者任意立法
+    - by: 施米特与思想史研究（Ernst Kantorowicz《国王的两个身体》1957）
+      claim: 唯名论—意志论路线是现代国家法理学的秘密前提
+  refs:
+    - tier: T3
+      citation: Ernst Kantorowicz, The King's Two Body（1957）；
+        Brian Tierney, The Idea of Natural Rights（1997）
+      url_status: unchecked
+  verified: partial

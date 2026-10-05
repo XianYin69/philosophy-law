@@ -1,0 +1,120 @@
+# 分析哲学（弗雷格至日常语言哲学）
+- id: phil.analytic.frege
+  title: 弗雷格
+  domain: philosophy
+  text: 《概念文字》（Begriffsschrift, 1879）、《算术基础》（1884）、
+    《论意义与意谓》（"Über Sinn und Bedeutung", 1892）、《函数与概念》（1891）
+  thesis: 意义（Sinn）与意谓（Bedeutung）之分（晨星＝暮星）；
+    语境原则：词只在命题的语境中有意义；逻辑主义纲领与判断力；
+    专名的指称理论直接成为法律解释中"指称确定"问题的哲学模板
+  school: 数理逻辑与分析哲学起点
+  criticism:
+    - by: 罗素（1902 年信件揭示悖论；《论指称》1905）
+      claim: 基本法则 V 不一致；空专名（"当今法国国王"）无法在弗雷格框架中处理
+    - by: 克里普克（《命名与必然性》1972/1980）
+      claim: 严格指示词与后验必然真理挑战描述主义
+  refs:
+    - tier: T3
+      citation: Geach & Black 编《Translations from the Philosophical Writings》（1952/1980）
+      url_status: unchecked
+  verified: partial
+- id: phil.analytic.russell
+  title: 罗素与逻辑原子论
+  domain: philosophy
+  text: 《数学原理》（与怀特海合著，1910–1913）、《论指称》（1905）、
+    《哲学问题》（1912）、《意义与真理的探究》（1940）
+  thesis: 摹状词理论：限定摹状词是不完全符号，可作逻辑分析消去；
+    逻辑原子论：世界由事实构成，命题与事实同构；
+    与维特根斯坦的"事实 vs 事物"之争（《哲学研究》§48 回应）
+  school: 逻辑原子论／分析传统
+  criticism:
+    - by: 斯特劳森（"On Referring", 1950）
+      claim: 指称是说话者的行为，真值取决于使用而非摹状词满足
+    - by: 杜梅特（《弗雷格：语言哲学》1981）
+      claim: 分析哲学应回到弗雷格的整体论而非罗素的原子论
+  refs:
+    - tier: T3
+      citation: Logic and Knowledge（Marsh 编，1956）
+      url_status: unchecked
+  verified: partial
+- id: phil.analytic.wittgenstein1
+  title: 早期维特根斯坦
+  domain: philosophy
+  text: 《逻辑哲学论》（1921 年德英双语刊行，1918 年完成手稿）
+  thesis: "\"凡可说的皆可清楚地说\"；图像论：命题是实在的图像；
+    5.6\"我的语言的界限意味着我的世界的界限\"；6.52 伦理与价值不可说，
+    只能显示（das Sagen vs das Zeigen）——对法伦理学\"能否被命题化\"提出极限问题"
+  school: 逻辑图像论
+  criticism:
+    - by: 后期维特根斯坦（《哲学研究》§3–5、§23 起）
+      claim: 单一本质语言游戏是幻觉，意义即使用
+    - by: 维也纳学派的选择性接受
+      claim: 形而上学被"无意义"判决，但不可说之物被神秘化（卡尔纳普的分歧）
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+    - tier: T3
+      citation: Ogden 译（1922）；Pears & McGuinness 修订译（1961）
+      url_status: unchecked
+  verified: partial
+- id: phil.analytic.wittgenstein2
+  title: 后期维特根斯坦
+  domain: philosophy
+  text: 《哲学研究》（1953 遗著，第一部分 §1–88、§138–242 论规则与遵循规则）、
+    《论确定性》（1969 遗著）
+  thesis: 语言游戏与家族相似（§43、§66–71）；"遵循规则"的悖论与解答（§198–202）：
+    规则的应用依赖实践与共同体的一致，而非解释的无穷倒退——
+    哈特《法律的概念》"开放结构"与"内在观点"直接借用此论证
+  school: 日常语言哲学／使用意义论
+  criticism:
+    - by: 克里普克（《维特根斯坦论规则与私人语言》1982）
+      claim: 给出怀疑论的"悖论式"解读，与"治疗式"解读冲突
+    - by: 麦克道尔与派平（"therapeutic" vs doctrinal 之争，1980 年代起）
+      claim: 是否仍是一种哲学理论，学界未决
+  refs:
+    - tier: T3
+      citation: Anscombe 译本（1953/1958）；Hacker & Schulte 修订译（2021）
+      url_status: unchecked
+  verified: partial
+- id: phil.analytic.logicalpositivism
+  title: 逻辑实证主义与奎因的批评
+  domain: philosophy
+  text: 卡尔纳普《世界的逻辑结构》（1928）、《语言的逻辑句法》（1934）；
+    艾耶尔《语言、真理与逻辑》（1936，第 1 章拒斥形而上学）；
+    石里克、纽拉特；奎因"经验主义的两个教条"（1951）
+  thesis: 可证实性意义标准与分析／综合二分；统一科学；
+    伦理命题被判定为情感表达（Ayer 的情绪主义）——
+    与凯尔森的"规范不能从事实推出"（《纯粹法学》）形成平行论证
+  school: 维也纳学派
+  criticism:
+    - by: 奎因（1951）
+      claim: 分析／综合界线不清，还原论教条不成立，意义是整体论的网络
+    - by: 波普尔（《猜想与反驳》"意义问题不是真理的标准"）
+      claim: 可证实性会取消科学与形而上学的真正差别
+  refs:
+    - tier: T3
+      citation: Carnap, Logical Syntax（Smead 译，1937）；Quine, From a Logical Point of View
+      url_status: unchecked
+  verified: partial
+- id: phil.analytic.ordinarylanguage
+  title: 日常语言哲学与言语行为
+  domain: philosophy
+  text: 奥斯汀《如何以言行事》（1955 讲演，1962 遗著，第 II–XII 讲：施为句、
+    以言行事／以言取效）、塞尔《言语行为》（1969/1970）、
+    格赖斯"意义"（1957）与会话含义（1975）、斯特劳森《个体》（1959）
+  thesis: 施为句（"我宣布""我判决"）不描述世界而改变制度事实；
+    塞尔的构成性规则（"X 在语境 C 中算作 Y"）是法律行为、结婚、立法之本体论模型；
+    以言行事之力（illocutionary force）成为宪法与立法解释的分析工具
+  school: 牛津日常语言哲学／制度事实理论
+  criticism:
+    - by: 德里达（"签名 事件 语境"1971/1977）
+      claim: 奥斯汀排除"非严肃"使用，恰恰暴露引用性与 iterability 是言语行为的条件
+    - by: 哈特（"Ascriptions of Responsibility and Rights", 1959 讲演）
+      claim: 施为理论须与规范语句的"内在观点"结合，否则无法说明义务
+  refs:
+    - tier: T3
+      citation: Austin, How to Do Things with Words（2 版 1975）；
+        Searle, The Construction of Social Reality（1995）
+      url_status: unchecked
+  verified: partial

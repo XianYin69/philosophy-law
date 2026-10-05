@@ -1,0 +1,140 @@
+# 商经法与知识产权
+- id: law.commercial.fr1807
+  title: 法国商法典
+  domain: law
+  source: Code de commerce（1807 年公布、1808 年施行）→ 2000 年重述新商法典
+  article: 旧典：序编＋四编（海事、商事破产、商事法院、商业流通）；
+    新典采"立法部分＋规章部分"结构（Livre I–IX）
+  era: 1807 年／2000 年
+  jurisdiction: 法国
+  force_status: 被修订（1807 年典已被 1994 年改组令（ordonnance n° 2000-912）重述取代）
+  gist: 首创"客观商"体系（以行为定性而非身份定性），与德国"主观商"（商人身份）
+    形成民商分立的两种范式；20 世纪后期消费者法、企业法扩张使"商法"边界持续溶解。
+  refs:
+    - tier: T1
+      url: https://www.legifrance.gouv.fr/
+      url_status: blocked
+  verified: partial
+- id: law.commercial.de_hgb
+  title: 德国商法典
+  domain: law
+  source: Handelsgesetzbuch（1897 年公布、1900 年 1 月 1 日施行）
+  article: 四编：商人身份、商事公司、隐名合伙、商事账簿与商业报表？（条文总数待核）；
+    第 238 条以下账簿义务、第 343 条商事行为定义、第 362 条商事往来条款
+  era: 1897 年
+  jurisdiction: 德国（对日本、土耳其、希腊旧商法影响显著）
+  force_status: 现行（2023 年电子账簿改革等）
+  gist: "\"主观商法\"范式：先定商人身份，再由身份决定适用；与 BGB 构成\"特别私法＋一般私法\"
+    双层结构，是民商分立模式的代表。"
+  refs:
+    - tier: T1
+      url: https://www.gesetze-im-internet.de/
+      url_status: checked
+  verified: partial
+- id: law.commercial.us_ucc
+  title: 美国统一商法典
+  domain: law
+  source: Uniform Commercial Code（ALI 与 ULC 联合制定，1952 年正式文本）
+  article: 第 1 编总则、第 2 编买卖、第 2A 编租赁、第 3 编流通票据、第 4 编银行交易、
+    第 4A 编资金划拨、第 5 编信用证、第 6 编大宗转让、第 7 编仓单与权利凭证、
+    第 8 编投资证券、第 9 编担保交易
+  era: 1952 年（各州陆续采纳；2003 年修订版多数州未采纳）
+  jurisdiction: 美国（州法；路易斯安那未全面采纳第 2 编）
+  force_status: 现行（示范法经州立法取得效力）
+  gist: 第 2 编以"诚实信用与商业合理"取代合同对价教义，第 9 编以"功能主义担保"
+    统一动产担保登记，是普通法系最接近法典化的商事立法。
+  refs:
+    - tier: T3
+      citation: ALI/ULC 官方文本与评注
+      url_status: unchecked
+  verified: partial
+- id: law.commercial.uk_companies2006
+  title: 英国公司法
+  domain: law
+  source: Companies Act 2006
+  article: 第 170–177 条（董事成文义务：权限、促进成功、独立判断、合理注意、
+    避免利益冲突、不利用地位、披露利益），第 26 条（公司目的条款废除），
+    第 994 条（不公平损害救济）；条文总数待核
+  era: 2006 年（2007–2009 年分阶段生效）
+  jurisdiction: 英国
+  force_status: 现行（2023/2024 年 Economic Crime and Corporate Transparency Act 修正）
+  gist: 把判例形成的信义义务部分成文化，同时保留"促进公司业务成功"的弹性标准；
+    是普通法系"有限成文化"的典型技术。
+  refs:
+    - tier: T1
+      url: https://www.legislation.gov.uk/
+      url_status: unchecked
+  verified: partial
+- id: law.commercial.cn_company2023
+  title: 中华人民共和国公司法
+  domain: law
+  source: 1993 年制定，2023 年 12 月 29 日第十四届全国人大常委会第七次会议修订，
+    2024 年 7 月 1 日施行
+  article: 总则、有限责任公司设立与组织机构、股份有限公司、国家出资公司特别规定、
+    股权转让、增资减资、解散清算、外国公司分支机构、法律责任（条文总数待核）；
+    第 47 条确立认缴出资五年实缴
+  era: 2023 年修订
+  jurisdiction: 中国
+  force_status: 现行
+  gist: 由"资本信用"转向"资产信用"：实缴期限、董事催缴责任、法人人格否认扩张、
+    审计委员会选择制，反映债权人保护与治理效率的再平衡。
+  refs:
+    - tier: T1
+      url: https://flk.npc.gov.cn/
+      url_status: unchecked
+  verified: partial
+- id: law.commercial.us_bankruptcy
+  title: 美国破产法典
+  domain: law
+  source: Bankruptcy Code（1978 年，现编入 11 U.S.C.）
+  article: 第 7 编（清算）、第 11 编（重整）、第 12/13 编（有固定收入者债务调整）；
+    第 362 条自动冻结、第 547 条优惠撤销、第 541 条破产财产、第 1129 条批准计划
+  era: 1978 年（2005 年 BAPCPA 重大修正）
+  jurisdiction: 美国（联邦专属立法）
+  force_status: 现行
+  gist: "\"全新起点\"（fresh start）与债权人集体清偿的平衡机制；第 11 章的
+    债务人占有（DIP）与强制批准（cram-down）成为公司重整法的全球参照。"
+  refs:
+    - tier: T1
+      url: https://www.govinfo.gov/
+      url_status: unchecked
+  verified: partial
+- id: law.commercial.ip_conventions
+  title: 知识产权国际公约体系
+  domain: law
+  source: 巴黎公约（1883）、伯尔尼公约（1886）、PCT（1970）、TRIPS 协定（1994，
+    1995 年 1 月 1 日生效）、WIPO 版权条约（1996）
+  article: 巴黎公约第 4 条（优先权 12/6 个月）、伯尔尼公约第 5 条（国民待遇与
+    无方式条件）、TRIPS 第 3/4 条（国民与最惠国）、第 31 条（强制许可）、
+    第 41 条以下（执法）、第 66 条第 2 款（最不发达国家过渡期）
+  era: 1883–1996 年
+  jurisdiction: 国际（WTO 成员受 TRIPS 约束）
+  force_status: 现行
+  gist: TRIPS 把知识产权与争端解决机制（DSU）挂钩，使"公共健康 vs 专利垄断"
+    成为国际法与政治哲学的交叉战场（2001 年多哈宣言）。
+  refs:
+    - tier: T1
+      url: https://www.wipo.int/treaties/en/
+      url_status: unchecked
+    - tier: T1
+      url: https://www.trips.wto.org/
+      url_status: unchecked
+  verified: partial
+- id: law.commercial.cn_ip
+  title: 中国知识产权法（著作权／专利／商标）
+  domain: law
+  source: 著作权法（1990 年制定，2001/2010/2020 年修正，2020 年版 2021 年 6 月 1 日施行）、
+    专利法（1984 年制定，2020 年第四次修正，同日起施行）、商标法（1982 年制定，2019 年修正）
+  article: 著作权法第 3 条（作品类型）、第 24 条（合理使用）、第 54 条（法定赔偿与惩罚性赔偿）；
+    专利法第 2 条（发明／实用新型／外观设计）、第 20 条（诚实信用与禁止滥用）、
+    第 71 条（惩罚性赔偿一至五倍）；商标法第 57 条（侵权类型）
+  era: 2020/2019 年
+  jurisdiction: 中国
+  force_status: 现行
+  gist: 惩罚性赔偿与举证妨碍规则改变侵权救济的激励结构；
+    外观设计保护期延长至 15 年，与海牙体系衔接。
+  refs:
+    - tier: T1
+      url: https://flk.npc.gov.cn/
+      url_status: unchecked
+  verified: partial

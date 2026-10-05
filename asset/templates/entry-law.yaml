@@ -1,0 +1,19 @@
+# 法条卡模板（复制后填写；不能确证处写「待核」）
+- id: law.<域>.<子域>.<slug>
+  title: 《法典名》第 X 条
+  domain: law
+  source: 法典全称＋版本（如 1804 年初版 / 现行文本）
+  article: 编/章/条号（无编号体系时写结构位置）
+  era: 制定年代（BCE/CE）＋修订年代
+  jurisdiction: 法域（国家/地区/共同体）
+  force_status: 现行 | 被修订 | 已废 | 历史法源 | 待核
+  gist: 要旨（本技能概括，非原文）
+  original_quote: 原文或译本引文（须注译本与译者，否则留空）
+  refs:
+    - tier: T1
+      url: 官方文本链接
+    - tier: T3
+      citation: 学术文献（作者，书名/论文，年份）
+  verified: yes | partial | no
+  last_checked: "YYYY-MM-DD"
+  related: [phil.legal.xxx]

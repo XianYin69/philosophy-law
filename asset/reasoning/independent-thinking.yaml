@@ -1,0 +1,26 @@
+# 独立思考推理卡（子技能 D）
+- id: reason.independent.card
+  title: 独立思考：steelman 与结论分级
+  domain: reasoning
+  steps:
+    - 立场澄清（改写为可判定命题）
+    - Steelman（给出对手最强版本并注明其真实支持者）
+    - 己方论证（前提—推理—结论，前提标可接受度）
+    - 自我反驳（攻击自身最弱一环）
+    - 前提依赖与推翻条件
+    - 结论分级（强／中／弱／存疑）
+    - 反迎合自检（与提问者一致时须说明理由并补反对论据）
+  must_answer:
+    - 最强反对意见是什么
+    - 我的结论依赖哪些前提
+    - 什么证据会推翻它
+    - 我是否在迎合提问者
+    - 分级与论据强度是否匹配
+  grade_scale: [强, 中, 弱, 存疑]
+  refs:
+    - tier: T3
+      citation: 论证重构原则（principle of charity / steelman）见分析哲学与论辩理论条目
+        （phil.analytic.*、phil.critical.habermas）
+      url_status: unchecked
+  verified: "yes"
+  last_checked: "2026-10-05"

@@ -1,0 +1,104 @@
+# 中世纪欧洲法（属人法、宪章与习惯法汇编）
+- id: law.medieval.legesbarborum
+  title: 蛮族法典（属人法主义）
+  domain: law
+  source: Lex Salica、Lex Ripuaria、Lex Burgundionum（Gombette）、Lex Visigothorum
+  article: 萨利克法典通行分 65 个标题（tituli），第 59 标题论"萨利克土地"继承
+  era: 约 500–650 年（萨利克法典最早文本约 6 世纪初，具体年代待核）
+  jurisdiction: 法兰克王国及 successor 诸王国
+  force_status: 已废
+  gist: 各日耳曼族群依本族法living（属人法原则），与罗马法并存；
+    萨利克法第 59 标题后被中世纪法国法学家重构为"女性不得继承王位"的萨利克继承法，
+    是"文本被再发明"的经典政治法史案例。
+  refs:
+    - tier: T2
+      url: https://avalon.law.yale.edu/
+      url_status: checked
+    - tier: T3
+      citation: K. A. Eckhardt & A. Schulz 校勘本《Lex Salica》（MGH 系列）
+      url_status: unchecked
+  verified: partial
+  last_checked: "2026-10-05"
+- id: law.medieval.magna1215
+  title: 大宪章
+  domain: law
+  source: Magna Carta（1215 年 6 月 15 日Runnymede；1216/1217/1297 年三次重新颁布）
+  article: 1215 年本 63 章（章节编号为后世编者所加）；第 12/14 章（未经全国同意不得征
+    免役税）、第 39 章（非经同级合法裁判或国法不得逮捕、监禁、剥夺财产）、第 40 章
+    （不得出售、拒绝、延迟正义）；现行英国法典仅存 3 章（1297 年本，编号诸说待核）
+  era: 1215 年
+  jurisdiction: 英格兰（并影响美国州宪法与权利法案）
+  force_status: 被修订（多数条款已被成文法明文废止）
+  gist: 其历史效力主要来自后世解释：爱德华·柯克以《大宪章》论证议会主权与正当法律程序，
+    美国宪法第五／第十四修正案的 due process of law 即由此脉络而来。
+  refs:
+    - tier: T1
+      url: https://www.parliament.uk/
+      url_status: unchecked
+    - tier: T2
+      url: https://avalon.law.yale.edu/
+      url_status: checked
+  verified: partial
+- id: law.medieval.sachsenspiegel
+  title: 萨克森明镜
+  domain: law
+  source: Sachsenspiegel（Eike von Repgow 编，约 1220–1235 年）
+  article: 地政法三编（精神、世俗、封建？）＋采邑法；条文计数诸说不一（待核）
+  era: 约 1220–1235 年
+  jurisdiction: 萨克森及中欧广大地区（德意志、波兰、波希米亚、匈牙利习惯法汇编）
+  force_status: 历史法源（长期作为裁判依据被援用）
+  gist: 首部以方言写成并具权威效力的习惯法汇编，显示"法典化"在近代以前
+    可由私人编纂完成；其对司法决斗、等级裁判权的记载是研究中世纪诉讼构造的关键材料。
+  refs:
+    - tier: T3
+      citation: Karl von Amira, Die Nordgermanischen Eherechte 相关研究（待核）
+      url_status: unchecked
+  verified: partial
+- id: law.medieval.partidas
+  title: 七章律（Siete Partidas）
+  domain: law
+  source: Siete Partidas（卡斯蒂利亚国王阿方索十世主持，约 1256–1265 年）
+  article: 七部（partes），每部按"ley/título"分层（ley 总数通说 2,802 条，待核）
+  era: 约 1265 年
+  jurisdiction: 卡斯蒂利亚（在拉美殖民地长期作为补充法源，美国路易斯安那亦曾援用）
+  force_status: 被修订（1889 年西班牙民法典取代其主体）
+  gist: 把罗马法—教会法—地方习惯熔为体系化法典，涉及王权、审判、契约、婚姻与奴隶制；
+    是"共同法"（ius commune）向域外输出的范例。
+  refs:
+    - tier: T3
+      citation: Samuel Parsons Scott 英译（1922，10 卷）
+      url_status: unchecked
+  verified: partial
+- id: law.medieval.commonlawtexts
+  title: 普通法早期论著（格兰维尔与布雷克顿）
+  domain: law
+  source: Tractatus de legibus et consuetudinibus regni Anglie（Ranulf de Glanvill 名义，
+    约 1189）；De legibus…（Henry de Bracton，约 1250）
+  article: 以令状（brevia）为线索编排：权利令状、近亲继承、侵害之诉、债务之诉等
+  era: 12 世纪末／13 世纪中叶
+  jurisdiction: 英格兰
+  force_status: 历史法源（作为权威论述被引用）
+  gist: "\"无令状即无权利\"（ubi remedium ibi ius 的反面）说明普通法由救济程序倒推权利结构；
+    布雷克顿\"王在法下\"（rex non est sub rege sed sub lege）名句开启英国宪政法理学。"
+  refs:
+    - tier: T3
+      citation: F. W. Maitland《Bracton and Azo》（1883/1887）；
+        S. E. Thorne 编布雷克顿本（Selden Society）
+      url_status: unchecked
+  verified: partial
+- id: law.medieval.lexmercatoria
+  title: 商人法与城市法
+  domain: law
+  source: Lex mercatoria 习惯集；马格德堡法、吕贝克法（13 世纪）等城市建基特许
+  article: 集市法院（court of piepowder）、海商共同担保（bottomry）、汇票习惯等
+  era: 12–15 世纪
+  jurisdiction: 北欧与地中海贸易圈（跨法域商人共同体）
+  force_status: 历史法源（部分经曼斯菲尔德判决并入普通法）
+  gist: 商人法是中世纪"跨国私法"：以行会裁判与快速执行满足交易需求，
+    后被并入国家法（19 世纪法典化中被吸收进商法典），构成国际商法史的前史。
+  refs:
+    - tier: T3
+      citation: Harold Berman《Law and Revolution》（1983）；
+        Leon E. Trakman《The Law Merchant》
+      url_status: unchecked
+  verified: partial

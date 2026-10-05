@@ -1,0 +1,161 @@
+# 古希腊与希腊化
+- id: phil.ancient.presocratics
+  title: 前苏格拉底哲学
+  domain: philosophy
+  text: 残篇集：赫拉克利特（DK 22）、巴门尼德（DK 28）、德谟克利特（DK 68）等，
+    校勘依 Diels-Kranz《Die Fragmente der Vorsokratiker》
+  thesis: 从"本原"（arche）之问转向"存在与生成"之问；巴门尼德以"是者存在、不是者不成立"
+    确立逻辑—本体论分界，赫拉克利特以逻各斯说明变化之序
+  school: 米利都学派、爱利亚学派、多元论者、原子论者
+  criticism:
+    - by: 柏拉图（《泰阿泰德》152d–183e）与亚里士多德（《形而上学》A 卷）
+      claim: 感觉流变说不能提供知识；本原论缺少形式因与目的因
+    - by: 尼采（《希腊悲剧时代的哲学》）
+      claim: 把前苏格拉底还原为概念史是后世叙述的暴力
+  refs:
+    - tier: T3
+      citation: G. S. Kirk, J. E. Raven, M. Schofield, The Presocratic Philosophers（2 版 1983）
+      url_status: unchecked
+  verified: partial
+- id: phil.ancient.sophists
+  title: 智者学派（普罗泰戈拉、安提丰、卡里克勒斯）
+  domain: philosophy
+  text: 普罗泰戈拉残篇（DK 80 B1"人是万物的尺度"）；安提丰《论真理》残篇；
+    卡里克勒斯见柏拉图《高尔吉亚篇》482c–484c
+  thesis: 自然（physis）与约定／法律（nomos／syntheke）的对立：法律是人为约定，
+    强者依自然而统治
+  school: 智者（sophistiké）
+  criticism:
+    - by: 柏拉图（《高尔吉亚篇》《法律篇》）
+      claim: 把正义化约为利益将摧毁城邦教育；修辞术是奉承而非技艺
+    - by: 亚里士多德（《辩谬篇》）
+      claim: 智者的论证是貌似智慧而非智慧
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+  verified: partial
+- id: phil.ancient.socrates
+  title: 苏格拉底
+  domain: philosophy
+  text: 本人无著作；材料为柏拉图早期对话（《申辩篇》《克力同篇》《欧绪弗洛篇》）、
+    色诺芬《回忆苏格拉底》、阿里斯托芬《云》
+  thesis: "\"未经审视的生活不值得过\"（《申辩篇》38a）；无人自愿作恶；
+    《克力同篇》50a–54c\"法律之言\"提出默示同意的守法义务"
+  school: 古希腊伦理转向；诘问法（elenchos）
+  criticism:
+    - by: 色拉叙马霍斯（《理想国》338c）
+      claim: 正义不过是强者之利，苏格拉底的"德性即知识"回避了权力问题
+    - by: 尼采（《偶像的黄昏》"苏格拉底"章）
+      claim: 苏格拉底式理性是本能衰落的征候，是道德谱系学的靶子
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+    - tier: T3
+      citation: "Gregory Vlastos, Socrates: Ironist and Moral Philosopher（1991）"
+      url_status: unchecked
+  verified: partial
+- id: phil.ancient.plato
+  title: 柏拉图
+  domain: philosophy
+  text: 《理想国》（约前 370 年代）、《政治家篇》、《法律篇》、《斐多篇》、《普罗泰戈拉篇》
+  thesis: 正义是灵魂与城邦的各司其职（《理想国》IV 441e–444a）；
+    哲人王与"善的理念"；《政治家篇》294a–299c 主张有知识者统治优于僵化法律，
+    《法律篇》715e 退而承认"次好方案"是法治与混合政制
+  school: 柏拉图学园（理念论）
+  criticism:
+    - by: 亚里士多德（《政治学》II 1261a–1264b）
+      claim: 财产与子女共有摧毁城邦的多样性与自爱之利
+    - by: 卡尔·波普尔（《开放社会及其敌人》I 7–10，1945）
+      claim: 柏拉图是极权主义的设计者
+    - by: 对波普尔的批评（Gregory Vlastos 等，1959 评论；页码待核）
+      claim: 以当代政治范畴裁剪古代文本，忽视《法律篇》的法治转向
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+    - tier: T3
+      citation: "John Cooper 编《Plato: Complete Works》（1997）"
+      url_status: unchecked
+  verified: partial
+- id: phil.ancient.aristotle
+  title: 亚里士多德
+  domain: philosophy
+  text: 《尼各马可伦理学》V 卷（约前 340 年代）、《政治学》I/III 卷、《修辞学》I 卷 13 章
+  thesis: 正义分为分配正义与矫正正义（NE 1130b–1134a），比例平等而非数量平等；
+    政治正义存在于"自由人对自由人"的法治之下（1334a 附近，页码待核）；
+     equitable（epieikeia）是对法律普遍性之必要的纠正（NE V.10；《修辞学》I.13）；
+    "人依自然是政治动物"（《政治学》1253a）；法治优于一人之治（1287a–b）
+  school: 吕克昂（目的论、经验科学）
+  criticism:
+    - by: 近代自然法论者（格劳秀斯以降）与休谟
+      claim: 目的论自然无法支撑规范；"是"推不出"应当"
+    - by: 麦金太尔（《追寻美德》1981）
+      claim: 现代道德哲学丢失了亚氏德性—传统结构，需以目的论重建
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+    - tier: T3
+      citation: "Roger Crisp 英译《Aristotle: Nicomachean Ethics》（2000）"
+      url_status: unchecked
+  verified: partial
+- id: phil.ancient.stoics
+  title: 斯多亚学派与西塞罗的自然法
+  domain: philosophy
+  text: 芝诺《国家篇》（残篇）、克吕西波逻辑著作（残篇）、塞涅卡《论仁慈》《道德书简》、
+    爱比克泰德《手册》、马可·奥勒留《沉思录》；西塞罗《论法律》I.18、
+    《论共和国》III.33（"真正的法是符合自然的正确理性"）
+  thesis: 宇宙由逻各斯与法（lex naturae）贯通，人是世界公民；
+    塞涅卡《论仁慈》把惩罚重构为"医生的矫正"而非报复，直接影响罗马刑法实践
+  school: 早期／晚期斯多亚
+  criticism:
+    - by: 伊壁鸠鲁派与怀疑派
+      claim: "\"依自然生活\"是空洞循环；神意与命运无法证成"
+    - by: 尼采与福柯
+      claim: 斯多亚的自我技术是权力内化的雏形／道德心理学的禁欲理想
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+    - tier: T3
+      citation: Brad Inwood & L. P. Gerson, Hellenistic Philosophy（2 版 1997）
+      url_status: unchecked
+  verified: partial
+- id: phil.ancient.epicurus
+  title: 伊壁鸠鲁学派与怀疑论
+  domain: philosophy
+  text: 伊壁鸠鲁《致美诺寇的信》《主要学说》（31–38 条论正义）；
+    卢克莱修《物性论》；塞克斯都·恩披里柯《皮浪学说纲要》III 卷论习俗与法律
+  thesis: 正义是"相互有利的契约"，无自然之正义（《主要学说》31–33）；
+    法律因约定而有效，非因本性；怀疑派以"悬置判断"达到宁静，
+    同时主张遵从城邦法律与习俗（PH III.197 附近，页码待核）
+  school: 伊壁鸠鲁学园、皮浪怀疑论
+  criticism:
+    - by: 西塞罗（《论法律》I.18–20、《论义务》III）
+      claim: 把正义化约为互利无法解释对不正义行为的谴责
+    - by: 罗尔斯（《正义论》§49 论功利主义与契约）
+      claim: 伊壁鸠鲁式"受限的相互利益"无法容纳对弱势者的义务
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+  verified: partial
+- id: phil.ancient.romanjurists
+  title: 罗马法学家的哲学（盖尤斯、乌尔比安、保罗）
+  domain: philosophy
+  text: 《学说汇纂》D.1.1（雅沃伦、乌尔比安论正义与法）；盖尤斯《法学阶梯》1.1–1.8；
+    《优士丁尼法学阶梯》1.1–1.2
+  thesis: "\"法是善良与公正的艺术\"（D.1.1.1pr.）；自然法／万民法／市民法三分
+    （D.1.1.3–4；Gaius Inst.1.1）；乌尔比安：依自然法一切人生而自由（D.1.1.4），
+    而奴隶制属万民法——法与道德的紧张在实证法内部即已出现"
+  school: 罗马法学派（斯多亚背景）
+  criticism:
+    - by: 中世纪注释法学派与近代历史法学派（萨维尼）
+      claim: 三分体系是后世体系化的投射，原始文本语境被抹平
+  refs:
+    - tier: T2
+      url: https://avalon.law.yale.edu/
+      url_status: checked
+  verified: partial

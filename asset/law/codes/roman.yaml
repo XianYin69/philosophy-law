@@ -1,0 +1,106 @@
+# 罗马法、国法大全与教会法
+- id: law.roman.twelvetables
+  title: 十二表法
+  domain: law
+  source: 《十二表法》(Lex Duodecim Tabularum)——原表亡佚，依后世引用重构
+  article: 表 I–XII（重构编号，如表 VIII 关于侵害、表 X 关于丧葬）
+  era: 约公元前 450 年（十人委员会立法；传统纪年待核）
+  jurisdiction: 罗马共和国
+  force_status: 已废（被后世裁判官法与学说继受）
+  gist: 罗马第一部成文法，程序性规范（传唤、审判）与私法（家父权、继承、所有权、
+    债务执行）混合；李维与西塞罗视其为"公法与私法的源泉"。
+  original_quote: 无原文抄本，引文均系二手转述（西塞罗《论法律》《论共和国》、盖尤斯《法学阶梯》），
+    不得当作原文
+  refs:
+    - tier: T3
+      citation: O. F. Robinson, "The Twelve Tables"（1990）；David Johnston 编《The Roman
+        Law of Obligations》
+      url_status: unchecked
+    - tier: T2
+      url: https://avalon.law.yale.edu/
+      url_status: checked
+  verified: partial
+  last_checked: "2026-10-05"
+- id: law.roman.legislation
+  title: 共和时期立法（坎努利亚法、霍尔腾西亚法等）
+  domain: law
+  source: 平民决议（plebiscita）与执政官立法
+  article: Lex Canuleia 前 445；Lex Poetelia 前 326；Lex Hortensia 前 287
+  era: 公元前 5–3 世纪
+  jurisdiction: 罗马共和国
+  force_status: 已废
+  gist: 平民决议获得对全体公民的拘束力（Lex Hortensia），是罗马"立法权"观念演进的关键节点。
+  refs:
+    - tier: T3
+      citation: T. J. Cornell, "The Beginnings of Rome"（1995）
+      url_status: unchecked
+  verified: partial
+- id: law.roman.gaius
+  title: 盖尤斯《法学阶梯》
+  domain: law
+  source: Gaius, Institutiones（约 161 年）
+  article: 四编结构：人法 / 物法 / 继承法 / 诉讼法
+  era: 约公元 161 年
+  jurisdiction: 罗马帝国（古典法学）
+  force_status: 历史法源（被优士丁尼《法学阶梯》吸收）
+  gist: "\"人—物—诉讼\"三分体系的原型，为后世民法典编排（含法国民法典、巴西民法）提供范式。"
+  refs:
+    - tier: T3
+      citation: W. M. Gordon & O. F. Robinson 英译（1988）
+      url_status: unchecked
+  verified: "yes"
+- id: law.roman.corpus
+  title: 查士丁尼《国法大全》
+  domain: law
+  source: Corpus Iuris Civilis：Codex、Digesta(Pandectae)、Institutiones、Novellae
+  article: Codex 12 卷（529 年初版、534 年再版）；Digesta 50 卷（533 年）；
+    Institutiones 4 卷（533 年）；Novellae 新律（534 年后，非官方汇编）
+  era: 公元 529–534 年（东罗马皇帝查士丁尼一世，特里波尼乌斯主持编纂）
+  jurisdiction: 东罗马帝国；中世纪起为欧洲共同法（ius commune）核心
+  force_status: 历史法源（现代法域已废，但为大陆法系概念底座）
+  gist: 通过"汇编—节选—教科书—新律"四部完成法典化工程；确立法源等级、
+    所有权、债、家父权与继承的教义框架；11 世纪波伦亚注释法学派重启其效力。
+  refs:
+    - tier: T1
+      citation: Theodor Mommsen & Paul Krüger 校勘本《Corpus Iuris Civilis》（Berlin, 1895–1915）
+      url_status: unchecked
+    - tier: T2
+      url: https://avalon.law.yale.edu/
+      url_status: checked
+    - tier: T3
+      citation: Alan Watson 英译《The Digest of Justinian》（Pennsylvania, 1985）
+      url_status: unchecked
+  verified: "yes"
+  last_checked: "2026-10-05"
+- id: law.roman.byzantine
+  title: 拜占庭《选编》与《巴西尔法典》
+  domain: law
+  source: Ecloga（741 年，君士坦丁五世）；Basilika（9 世纪末，利奥六世时期）
+  article: Ecloga 按题（tituli）分章；Basilika 60 卷，依优士丁尼体系希腊语重编
+  era: 741 年 / 约 900 年（具体成书年代待核）
+  jurisdiction: 拜占庭帝国（并影响斯拉夫法）
+  force_status: 已废
+  gist: Ecloga 减轻刑罚并引入基督教伦理；Basilika 使罗马法以希腊语继续生效，
+    成为东正教世界与早期俄罗斯法的中介。
+  refs:
+    - tier: T3
+      citation: Ernst van der Vliet, "Le Rôle des Basiliques"；D. Satin 相关研究
+      url_status: unchecked
+  verified: partial
+- id: law.roman.canon
+  title: 教会法（Decretum Gratiani 与 Corpus Iuris Canonici）
+  domain: law
+  source: 《格拉提安教令歧异汇编》(Decretum, 约 1140)；Liber Extra (1234)；
+    Liber Sextus (1298)；Clementinae (1317)
+  article: Decretum 分 36 causa（论因）＋distinctiones；Liber Extra 5 卷
+  era: 12–14 世纪
+  jurisdiction: 西方教会（跨王国法域）
+  force_status: 历史法源（1917/1983 天主教法典取代旧教会法体系）
+  gist: 确立"法律与良心"的区分、同意原则（婚姻合意）、程序法（inquisitio）与
+    法源解释方法；与罗马法共同构成 ius commune，直接影响近代国际法与自然法理论。
+  refs:
+    - tier: T3
+      citation: Kenneth Pennington, "The History of Canon Law"；
+        James Brundage, "Medieval Canon Law"（1995）
+      url_status: unchecked
+  verified: partial

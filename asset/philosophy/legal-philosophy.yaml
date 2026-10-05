@@ -1,0 +1,308 @@
+# 法哲学（一）：自然法与法律实证主义
+- id: phil.legal.naturallaw
+  title: 菲尼斯与新自然法
+  domain: philosophy
+  text: 《自然法与自然权利》（1980，2011 年第 2 版；第 I 章论"基本善"、
+    第 VI 章论法律权威）、《阿奎那》（1998/2013）；格里塞兹《基督教道德原则》（1983）
+  thesis: 七项基本善（生命、知识、游戏、审美体验、社交／友谊、实践合理性与宗教）
+    不可通约且自明；"法律的内在观点"要求把法秩序理解为"权威性的共同行动方案"；
+    不正义的法律仍是法律（有法律效力）但不具道德拘束力（对阿奎那命题的重新解释）
+  school: 新自然法学（亚里士多德—阿奎那传统）
+  criticism:
+    - by: 拉兹（"How to Confuse Issues about the Nature of Law?" 1996？待核；
+        《法律的权威》1979 第 1 章）
+      claim: 基本善清单缺乏论证，且把道德要求混入法律概念
+    - by: 休谟式实证主义者（Marmor、Shapiro）
+      claim: 从"善"推"义务"仍需中介前提，自然推理不能替代制度事实
+  refs:
+    - tier: T3
+      citation: Natural Law and Natural Rights（Oxford, 2 版 2011）
+      url_status: unchecked
+  verified: partial
+- id: phil.legal.austin
+  title: 奥斯丁：命令论
+  domain: philosophy
+  text: 《法理学的范围》（1832，第 1 讲论法之类型、第 6 讲论主权者）
+  thesis: 法是主权者对臣民的普遍命令，以制裁为后盾；
+    上帝法与实在道德不是严格意义的法；法理学的任务是分析而非评价
+  school: 分析法学／早期法律实证主义
+  criticism:
+    - by: 哈特（《法律的概念》第 4–6 章）
+      claim: 命令论无法说明法律的持续性、权力授予型规则与法律的内在观点；
+        "被习惯服从的主权者"在宪政体制中不成立
+    - by: 凯尔森（《纯粹法学》第 2 版）
+      claim: 把"应当"还原为"被强制的事实"混淆了规范与事实
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+  verified: partial
+- id: phil.legal.kelsen
+  title: 凯尔森：纯粹法学
+  domain: philosophy
+  text: 《纯粹法学》（1934 年初版、1960 年第 2 版）、《法与国家的一般理论》（1945）、
+    《民主的本质与价值》（1920）、《法律规范的一般理论》（1934/1935 论文）
+  thesis: 法学须排除道德、社会学与政治学；规范效力来自更高规范，
+    最终预设"基础规范"（Grundnorm）；法律是层级秩序（Stufenbau），
+    个别行为（判决、合同）是法的低级创造；合法性与正当性分离，
+    任何内容都可能在形式上有效——"道德多元主义"的法学版本
+  school: 规范实证主义／维也纳法学派
+  criticism:
+    - by: 哈特（《法律的概念》第 10 章）
+      claim: 基础规范是多余假设，承认规则是社会实践而非预设
+    - by: 施米特与政治法学
+      claim: "\"纯粹\"方法回避了主权与例外，把国家法秩序化约为规范链"
+    - by: 阿列克西（《法律论证理论》1978 与《法概念与法效力》1997）
+      claim: 规范体系必然主张正确性，纯粹分离不可维持
+  refs:
+    - tier: T3
+      citation: Knight 英译《General Theory of Law and State》（1949）
+      url_status: unchecked
+  verified: partial
+- id: phil.legal.hart
+  title: 哈特：规则与法律体系
+  domain: philosophy
+  text: 《法律的概念》（1961，2 版 1994 附"后记"；第 5 章内在观点、第 6 章承认规则、
+    第 7 章开放结构、第 9 章最低限度的自然法）、
+    "Positivism and the Separation of Law and Morals"（71 Harv. L. Rev. 593 (1958)）、
+    "Prolegomenon to the Principles of Punishment"（1959）、
+    "Are There Any Natural Rights?"（64 Philosophical Review 175 (1955)）
+  thesis: 初级规则与次级规则（变更、裁判、承认）的结合构成法律体系；
+    承认规则是社会实践（官员的共同接受）；"开放结构"使疑难案件中法官行使有限裁量；
+    分离命题：法律的存在与道德价值之间无必然联系；
+    最低限度自然法基于人的脆弱性、大致平等、有限利他、有限资源与有限理解力
+  school: 排他／软性实证主义之间的经典立场
+  criticism:
+    - by: 德沃金（《认真对待权利》1977 第 2–3 章"模型 of rules"）
+      claim: 原则不是系谱性识别的对象，承认规则无法容纳法律论证的实践
+    - by: 富勒（《法律的道德性》1964 第 1 章与附录回应）
+      claim: 分离命题忽视法律作为"使人类行为服从规则治理的事业"的内在道德
+    - by: 拉兹（1979 第 1 章）
+      claim: 哈特的社会事实论与"权威的服务性概念"不兼容，须回到来源命题
+  refs:
+    - tier: T3
+      citation: The Concept of Law（Oxford, 2 版 1994）
+      url_status: unchecked
+  verified: partial
+- id: phil.legal.fuller
+  title: 富勒：法律的道德性
+  domain: philosophy
+  text: 《法律的道德性》（1964，第 2 章"义务的道德性"、第 3 章八项内在要求、
+    第 4 章"国王与臣民"寓言）、"Positivism and Fidelity to Law — A Reply to
+    Professor Hart"（71 Harv. L. Rev. 630 (1958)）、《法理学问题》（1969）
+  thesis: 法律有"内在道德"：普遍性、公布、不溯及既往、明确、不矛盾、
+    不强求不可能、稳定、官方行为与公布规则一致；
+    程序自然法把合法性理解为互惠的"使行为服从规则治理的事业"
+  school: 程序自然法／哈佛学派
+  criticism:
+    - by: 哈特（《法律的概念》第 8 章与 1964 附录回应）
+      claim: 八项是"有效立法的技术要求"而非道德，恶法可完全满足它们
+    - by: 凯尔森与纯粹法学派
+      claim: 把法的概念与法的优点合并，混淆描述与评价
+  refs:
+    - tier: T3
+      citation: The Morality of Law（Yale UP, rev. ed. 1969）
+      url_status: unchecked
+  verified: partial
+- id: phil.legal.radbruch
+  title: 拉德布鲁赫公式与战后法哲学
+  domain: philosophy
+  text: 《法律的不法与超法律的法》（"Gesetzliches Unrecht und übergesetzliches Recht"，
+    Süddeutsche Juristen-Zeitung 1946，第 107–108 页，页码待核）；
+    《法哲学导论》（1932 年初版，多次再版）
+  thesis: 公式三表述：不正义之法仍具法的确定性优先，除非（1）不正义达到"不可容忍"
+    的程度，或（2）立法有意否认平等；极端不正义的法律不是法律；
+    战后德国法院援用其处理告密案（"告密者案件"，BGHSt 3, 231？案号待核）
+    与柏林墙射击案（联邦宪法法院 1996 年判决，案号待核）
+  school: 相对主义法哲学转向战后自然法
+  criticism:
+    - by: 哈特（"Positivism and the Separation of Law and Morals" 与《法律的概念》后记）
+      claim: 溯及既往惩罚"依恶法行事者"更诚实，公式以道德名义破坏法的安定性
+    - by: 阿列克西（《法概念与法效力》1997）
+      claim: 公式是"非实证主义"的定义性联结，可被论证为正确性主张的必然要素
+  refs:
+    - tier: T3
+      citation: Paulson 与 Batstone 英译（Oxford Journal of Legal Studies 1990）
+      url_status: unchecked
+  verified: partial
+# 法哲学（二）：当代论战
+- id: phil.legal.dworkin
+  title: 德沃金：作为整全的法
+  domain: philosophy
+  text: 《认真对待权利》（1977，第 1–3 章"模型 of rules"、第 7–8 章原则与政策、
+    第 12 章"作为论辩的法庭"）、《法律帝国》（1986，第 2 章批判语义学、
+    第 6–7 章"作为整全的法"与赫拉克勒斯法官）、《自由的法》（1996，"主动自由"）、
+    《刺猬的正义》（2011）、《生命的主权》（1993）
+  thesis: 法律不仅由规则构成，还包括原则；疑难案件有"唯一正解"（right answer）
+    作为解释性主张而非认识论狂妄；法律解释是"建构性解释"：
+    在符合（fit）与正当化（justification）之间求最佳；
+    权利是"作为 trump 的要求"，不得以集体目标压倒；
+    对哈特的"判例语义学"提出批评（1986 第 2 章）
+  school: 解释主义／自由主义权利论
+  criticism:
+    - by: 哈特（1994 年"后记"）
+      claim: 原则可由系谱识别，价值冲突不必由法官立法解决
+    - by: 拉兹（"How to Interpret Conceptual Disagreements" 1996？待核）
+      claim: 整全理论把法律与"应当如何裁判"混为一谈
+    - by: 批判法学与女性主义
+      claim: "\"唯一正解\"掩盖了政治选择与支配结构"
+  refs:
+    - tier: T3
+      citation: Law's Empire（Harvard UP, 1986）
+      url_status: unchecked
+  verified: partial
+- id: phil.legal.raz
+  title: 拉兹：权威与来源命题
+  domain: philosophy
+  text: 《法律的权威》（1979，第 1 章"法的性质"、第 10 章"权威的服务性概念"、
+    第 12 章"来源命题"）、《自由的道德》（1986，第 5 章至善论）、
+    《公共领域中的伦理》（1994/2001）、《实践理性与测量》（1999？）
+  thesis: 排他实证主义：法律的存在与内容完全由社会来源决定，无需诉诸道德论证；
+    权威主张"服务性"（normal justification thesis）：服从权威通常能更好地符合理由；
+    法律必主张合法权威，故法的概念内含"成功主张"的条件；
+    法治是法律的美德而非政治的全部理想（"法治不等于民主或正义"）
+  school: 排他（硬性）法律实证主义
+  criticism:
+    - by: 德沃金（1986 第 2 章与后续回应）
+      claim: 来源命题无法解释法律论证中的评价性分歧
+    - by: 沃尔德伦（"The Rule of Law and the Measure of Property"? 待核；
+        "Legislation and Authority" 1990 Oxford Journal）
+      claim: 权威理论低估立法作为协调与民主决定的功能
+    - by: 瓦鲁乔与科尔曼（包容实证主义）
+      claim: 承认规则可以把道德条件纳入效力判准而不失社会事实性
+  refs:
+    - tier: T3
+      citation: The Authority of Law（Oxford, 2 版 2009）
+      url_status: unchecked
+  verified: partial
+- id: phil.legal.schmitt
+  title: 施米特：例外与政治性
+  domain: philosophy
+  text: 《政治的神学》（1922，第 1 章"主权者就是决定例外状态者"）、
+    《议会制民主的危机》（1923）、《政治的概念》（1932，第 1–3 节敌友区分）、
+    《合法性与正当性》（1932）
+  thesis: 例外状态不能被规范预先涵盖，故法的秩序以决断为极限；
+    政治的区分标准是敌友而非善恶或利害；自由主义法治国把政治化约为
+    讨论与规范，是"去政治化"的自我误解
+  school: 决断论／政治法学
+  criticism:
+    - by: 凯尔森（《谁才是法律的保护者？》1931/1933 回应）
+      claim: 决断论取消规范约束，把国家法秩序交给事实权力
+    - by: 哈贝马斯（《事实与规范之间》与 2011 年论"国家例外"文章）
+      claim: 以例外为范式是"法理学的自我瓦解"（具体篇目待核）
+    - by: 阿甘本《例外状态》（2003）与穆夫的挪用
+      claim: 对施米特的接受或批判性重构，学界持续争议
+  refs:
+    - tier: T3
+      citation: Political Theology（Mann 译，Chicago, 2005）
+      url_status: unchecked
+  verified: partial
+- id: phil.legal.realism
+  title: 法律现实主义
+  domain: philosophy
+  text: 霍姆斯《普通法》（1881 序言"法律的生命不是逻辑而是经验"）、
+    "The Path of the Law"（10 Harv. L. Rev. 457 (1897)，"坏人"视角）；
+    卢埃林《荆棘丛》（1930）、"A Realistic Jurisprudence"（1931 Columbia L. Rev.）；
+    弗兰克《法律与现代心智》（1930）；奥利芬特与科恩的纲领性论文
+  thesis: 规则不是判决的原因，"对法院将做什么的预测即我所称的法律"（霍姆斯）；
+    事实的不确定性与法官心理（"基本法律神话"）；
+    法律教育应研究"案件中的事实"而非概念演绎
+  school: 美国现实主义
+  criticism:
+    - by: 富勒（"American Legal Realism" 1934？待核）与哈特（《法律的概念》第 7 章）
+      claim: 把"预测"当法律概念，混淆了规则的内在观点与外部观察
+    - by: 施莱尔与批判法学的再评价
+      claim: 现实主义低估了规则的约束力与制度设计的可能
+  refs:
+    - tier: T3
+      citation: Harvard Law Review 10 (1897) 457–477（页码待核）
+      url_status: unchecked
+  verified: partial
+- id: phil.legal.cls
+  title: 批判法学研究（CLS）
+  domain: philosophy
+  text: 昂格尔《知识与政治》（1975）、《批判法学运动》（96 Harv. L. Rev. 561 (1983)）；
+    肯尼迪"Form and Substance in Private Law Adjudication"
+    （89 Harv. L. Rev. 1685 (1976)）；霍维茨《美国法的变迁 1780–1860》（1977）；
+    《特权与异议》（1978 年会议文集）
+  thesis: 法律推理的"去政治化"是幻觉：规则与标准、形式与实质的对立可被双向论证
+    （trashing 与 indeterminate thesis）；私法范畴（合同、侵权、财产）
+    反映并再生产市场社会的等级；"权利话语"既解放又限制
+  school: 批判法学
+  criticism:
+    - by: 波斯纳（《法理学问题》1990）与法律经济学
+      claim: 不确定性论题把"困难案件"夸大为"一切案件"，忽视协调功能
+    - by: 女性主义与种族研究（对 CLS 忽视身份支配的内部批评）
+      claim: "\"政治化\"分析若不处理性别与种族即不完整"
+  refs:
+    - tier: T3
+      citation: Harvard Law Review 96 (1983) 561–607（页码待核）
+      url_status: unchecked
+  verified: partial
+- id: phil.legal.lawecon
+  title: 法律经济学
+  domain: philosophy
+  text: 科斯"The Problem of Social Cost"（3 Journal of Law and Economics 1 (1960)）；
+    卡拉布雷西与梅拉梅德"Property Rules, Liability Rules, and Inalienability"
+    （85 Harv. L. Rev. 1089 (1972)）；波斯纳《法律的经济分析》（1973 年初版）；
+    贝克《犯罪与惩罚：经济学进路》（1968 JPE）
+  thesis: 交易成本为正时法律规则决定效率；责任规则、财产规则与不可让与规则的
+    选择取决于估值成本与转让意愿；侵权法的功能是内部化外部性（汉德公式 B<P·L）；
+    普通法趋向效率（波斯纳假说，争议中）
+  school: 法律经济学／芝加哥与耶鲁传统
+  criticism:
+    - by: 德沃金"Is Wealth a Value?"（9 Journal of Legal Studies 191 (1980)）
+      claim: 以支付意愿衡量价值把偏好与权利混同，"财富"不是可加总价值
+    - by: 科尔曼（《理性的边界》1996）与温里布（《私法的性观念》？）
+      claim: 效率分析预设了它应当解释的私法结构（具体文献待核）
+    - by: 行为法律经济学（桑斯坦等）
+      claim: 理性人假设与完全信息前提被经验研究削弱
+  refs:
+    - tier: T3
+      citation: Journal of Law and Economics 3 (1960) 1–44（页码待核）
+      url_status: unchecked
+  verified: partial
+- id: phil.legal.alexy
+  title: 阿列克西：论证理论与正确性主张
+  domain: philosophy
+  text: 《法律论证理论》（1978，1995 年英译；普遍实践论证与特殊法律论证、
+    内部证成与外部证成）、《法概念与法效力》（1997，2002 年英译）、
+    《权利的理念》（1995？待核）、比例原则三阶（适当性、必要性、狭义均衡）
+  thesis: 法律必然主张正确性（Richtigkeit），故非实证主义：极端不正义的规范
+    可丧失法律效力；法律论证是特殊化的普遍实践商谈，须遵守理性论证规则；
+    原则作为"最优化命令"以权重关系与碰撞法则处理
+  school: 商谈理论／非实证主义
+  criticism:
+    - by: 拉兹与沃尔德伦
+      claim: 正确性主张是概念上的过度要求，可能把法的效力系于道德成功
+    - by: 哈贝马斯（与阿列克西关于法律与道德关系的分歧，1986/1990 年代）
+      claim: 法律论证不能还原为普遍实践论证，法的"事实性"须被承认
+  refs:
+    - tier: T3
+      citation: A Theory of Legal Argumentation（Oxford, 1995）
+      url_status: unchecked
+  verified: partial
+- id: phil.legal.humanrights
+  title: 人权哲学与惩罚理论
+  domain: philosophy
+  text: 格里芬《论人权》（2008，第 1–3 章"人之为人的地位"）；
+    尼克·沃尔德伦《人权理论》（1984 Philosophy & Public Affairs？待核）；
+    莫恩《最后的乌托邦》（2010）；穆塔瓦《没有权威的人权》（2002？）；
+    哈特"Prolegomenon to the Principles of Punishment"（1959）；
+    达夫《惩罚与沟通》（1986）、《惩罚、宽恕与和解》（2003？）；
+    布雷斯韦特《犯罪、羞耻与重整》（1989）；德沃金《法律的生命》？（不作引证）
+  thesis: 人权的正当性基础之争：地位论（格里芬）、政治功能论（沃尔德伦、
+    Rawls《万民法》）、意识形态史论（莫恩：人权是 1970 年代后的道德遗产而非连续传统）；
+    惩罚理论：报应（康德—黑格尔式尊重犯罪人）、威慑与矫正、
+    沟通性惩罚（达夫：以刑罚表达谴责并邀请悔悟）、修复式正义（以受害人与社区为中心）
+  school: 人权理论与刑罚哲学
+  criticism:
+    - by: 后殖民与全球南方学者（对"人权帝国主义"的批评）
+      claim: 人权的普遍性话语掩盖了不平等的国际秩序（具体文献待核）
+    - by: 废除主义与女性主义（对修复式正义的"社区"预设）
+      claim: 修复式程序可能复制家庭与社区内部的支配（具体文献待核）
+  refs:
+    - tier: T3
+      citation: On Human Rights（Oxford, 2008）；The Last Utopia（Harvard, 2010）
+      url_status: unchecked
+  verified: partial

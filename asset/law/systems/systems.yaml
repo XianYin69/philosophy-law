@@ -1,0 +1,146 @@
+# 法系与判例传统
+- id: law.system.commonlaw.staredecisis
+  title: 普通法与遵循先例
+  domain: law
+  source: 判例法传统（stare decisis）；Practice Statement 1966（上议院自我解除约束）
+  article: 区分 ratio decidendi 与 obiter dictum；上级法院对下级法院有拘束力
+  era: 19 世纪系统化（与法律报告制度同步），20 世纪定型
+  jurisdiction: 英国、美国、加拿大、澳大利亚、印度等普通法域
+  force_status: 现行
+  gist: 法官在个案中"发现并宣告"法（declaratory theory）与"法官造法"的张力；
+    德沃金以"链小说"（chain novel）说明法律的累积解释，哈特则以开放结构承认裁量。
+  refs:
+    - tier: T3
+      citation: Rupert Cross & J. W. Harris, Precedent in English Law；
+        Edward Rubin, "On Precedent"
+      url_status: unchecked
+  verified: partial
+- id: law.system.equity
+  title: 衡平法与信托
+  domain: law
+  source: 大法官法院（Court of Chancery）实践；Judicature Acts 1873–1875 合并法院体系
+  article: 衡平救济：特定履行（specific performance）、禁令（injunction）、
+    撤销（rescission）；信托（use → trust）双重所有权结构；衡平法格言（clean hands 等）
+  era: 14–19 世纪（1875 年后衡平法与普通法并行适用，衡平法优先）
+  jurisdiction: 英国及普通法域
+  force_status: 现行
+  gist: 以"良心"补足普通法刚性，创造信托这一跨法域最难移植的制度；
+    大陆法系国家以"委托—所有权分割"技术模仿时须注意其受益权性质差异。
+  refs:
+    - tier: T3
+      citation: F. W. Maitland, Equity（1916 讲稿）；Sarah Worthington, Equity
+      url_status: unchecked
+  verified: partial
+- id: law.system.usfederal
+  title: 美国联邦与州法
+  domain: law
+  source: 联邦宪法第 6 条（最高条款）、第 3 条（司法权）；Erie Railroad Co. v. Tompkins,
+    304 U.S. 64 (1938)
+  article: 联邦制双轨立法；联邦普通法限于宪法或联邦法规授权范围；
+    州法保留警察权（police power）
+  era: 1789 年至今（Erie 判决 1938 年）
+  jurisdiction: 美国
+  force_status: 现行
+  gist: 51 个法域并存使"法律选择"与"联邦—州权力边界"成为持续争议；
+    Chevron 尊重行政解释（467 U.S. 837 (1984)）于 Loper Bright（603 U.S. 369 (2024)）被推翻，
+    是行政国家与分权理论的实时案例。
+  refs:
+    - tier: T1
+      url: https://www.govinfo.gov/
+      url_status: unchecked
+    - tier: T3
+      citation: Henry Hart & Herbert Wechsler《The Federal Courts》
+      url_status: unchecked
+  verified: partial
+- id: law.system.eulaw
+  title: 欧盟法秩序
+  domain: law
+  source: TEU（马斯特里赫特 1992，里斯本 2007/2009 生效）与 TFEU；
+    欧盟基本权利宪章（2000，2009 年具拘束力）
+  article: TFEU 第 288 条（条例、指令、决定、建议、意见）；
+    Van Gend en Loos, 案 26/62（直接效力）；Costa v. ENEL, 案 6/64（优先性）；
+    Factortame, 案 C-213/89（暂缓适用国内法）
+  era: 1952/1957 年至今
+  jurisdiction: 欧盟 27 成员国
+  force_status: 现行
+  gist: 超国家法秩序既非纯粹国际法亦非联邦国家法；"宪法多元主义"（Matej Avbelj、
+    Nico Krisch）与成员国宪法法院的对抗（德国联邦宪法法院 PSPP 判决 2 Bvr 2/18 (2020)）
+    构成当代法哲学争点。
+  refs:
+    - tier: T1
+      url: https://eur-lex.europa.eu/
+      url_status: unchecked
+  verified: partial
+- id: law.system.islamic
+  title: 伊斯兰法（沙里亚与菲格赫）
+  domain: law
+  source: 古兰经、圣行（Sunnah）为一级法源；公议（ijmāʿ）、类比（qiyās）、
+    优选（istiḥsān）、公益（maṣlaḥa）为二级方法
+  article: 五大行为规则（farḍ/wājib/sunna/mubāḥ/ḥarām 之分类体系）；
+    四大逊尼法学派（Ḥanafī、Mālikī、Shāfiʿī、Ḥanbalī）与什叶派 Jaʿfarī
+  era: 7–10 世纪形成法理学（uṣūl al-fiqh），古典文本如 al-Shāfiʿī《al-Umm》、
+    al-Marghīnānī《al-Hidāya》
+  jurisdiction: 伊斯兰法域（沙特、伊朗、巴基斯坦、马来西亚、埃及等混合体制）
+  force_status: 现行（多数法域为混合：宪法＋民法＋属人法）
+  gist: 法源方法论（uṣūl）而非单一法典，故"伊斯兰法"内部差异极大；
+    现代论争集中于固定刑（ḥudūd）的可执行性、利息（ribā）与银行法、属人法与平等原则。
+  refs:
+    - tier: T3
+      citation: Wael Hallaq, "An Introduction to Islamic Law"（2009）；
+        Joseph Schacht《An Introduction to Islamic Law》（1964）
+      url_status: unchecked
+  verified: partial
+- id: law.system.indian
+  title: 印度法（属人法与法典化）
+  domain: law
+  source: 古代达摩论（Dharmasūtra、Manusmṛti）；殖民期法典（IPC 1860、
+    证据法 1872、合同法 1872）；宪法 1950
+  article: 属人法分社区适用（印度教、伊斯兰教、基督教、帕西人）；
+    2024 年刑事三法替代：Bharatiya Nyaya Sanhita 等（2024 年 7 月 1 日生效）
+  era: 前殖民—殖民—当代
+  jurisdiction: 印度
+  force_status: 现行（属人法与统一民法典之争持续）
+  gist: 宗教规范与世俗宪法的长期并存；"基本结构学说"与公益诉讼使宪法成为社会改革工具，
+    而"统一民法典"（Art. 44 政策原则）之争触及多元主义与平等的核心价值冲突。
+  refs:
+    - tier: T1
+      url: https://www.indiacode.nic.in/
+      url_status: unchecked
+    - tier: T3
+      citation: Donald Davis, "The Spirit of Hindu Law"；
+        Marc Galanter, "Law and Society in Modern India"
+      url_status: unchecked
+  verified: partial
+- id: law.system.customary
+  title: 习惯法与原住民法秩序
+  domain: law
+  source: ILO 第 169 号公约（1989）、联合国《原住民族权利宣言》（2007）；
+    南非 Recognition of Customary Marriages Act 120 of 1998
+  article: 习惯法的司法认定标准（长期实践、法律确信、不违反宪法基本条款）
+  era: 20 世纪末至今（国际承认阶段）
+  jurisdiction: 南非、玻利维亚、新西兰（怀唐伊条约体系）、加拿大、印度部分山区
+  force_status: 现行（受宪法合宪性控制）
+  gist: 习惯法不是"前法律"，而是与国家法并存的规范秩序；
+    其内部性别平等争议（如南非 Bhe v. Magistrate, Khayelitsha 案，2005 年宪法法院判决）
+    显示"承认差异"与"普遍权利"的紧张。
+  refs:
+    - tier: T1
+      url: https://www.ilo.org/
+      url_status: unchecked
+  verified: partial
+- id: law.system.mixed
+  title: 混合法域
+  domain: law
+  source: 路易斯安那民法典、魁北克民法典、南非私法、苏格兰私法、以色列、菲律宾、斯里兰卡
+  article: 私法大陆法传统＋公法与程序普通法框架（或反之）
+  era: 19–21 世纪
+  jurisdiction: 混合法域
+  force_status: 现行
+  gist: 混合法域揭示"法系"是解释性建构而非事实边界；
+    南非以罗马—荷兰法为私法基础、以英国法为公法与程序基础，是比较法教学的标准样本。
+  refs:
+    - tier: T3
+      citation: Reinhard Zimmermann, "Roman Canon Law in the Northern Provinces"；
+        Jaap de Visser《Mixed Legal Systems》
+      url_status: unchecked
+  verified: partial

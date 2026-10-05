@@ -1,0 +1,139 @@
+# 刑事法典与刑法传统
+- id: law.criminal.carolina1532
+  title: 加洛林纳刑法典
+  domain: law
+  source: Constitutio Criminalis Carolina（神圣罗马帝国，1532 年）
+  article: 219 条（通说，待核）：实体罪名单与刑诉程序混编，第 44 条以下规定刑讯要件（条号待核）
+  era: 1532 年
+  jurisdiction: 神圣罗马帝国（补充适用地方刑法）
+  force_status: 已废（1871 年帝国刑法典取代其遗产）
+  gist: 欧洲第一部跨地域的刑法法典化尝试：把罗马法—教会法程序（inquisitio）与日耳曼习惯
+    结合，确立"证据法定"体系，是近代纠问程序与罪刑法定观念的共同起点。
+  refs:
+    - tier: T3
+      citation: 法制史专题（具体校勘本待核）
+      url_status: unchecked
+  verified: partial
+- id: law.criminal.ukjudge
+  title: 英国普通法犯罪与制定法犯罪
+  domain: law
+  source: 普通法罪（common law offences）＋成文罪：Theft Act 1968、Homicide Act 1957、
+    Criminal Justice Act 2003 等
+  article: Theft Act 1968 第 1 条（盗窃定义）、第 15 条（骗取）；Homicide Act 1957 第 2 条
+    （责任减弱部分辩护）、第 3 条（provocation，2015 年 LR(CP)A 第 54 条替换为 loss of control）
+  era: 中世纪形成，19–21 世纪成文化
+  jurisdiction: 英格兰与威尔士（苏格兰另为混合法域）
+  force_status: 现行（部分普通法罪被成文法取代）
+  gist: 重罪／轻罪分类（1967 年废除）与"无成文刑法总则"的传统：犯意、共犯、未遂等
+    一般规则长期由判例供给，法典化努力（Law Commission 草案）屡遭搁置。
+  refs:
+    - tier: T1
+      url: https://www.legislation.gov.uk/
+      url_status: unchecked
+  verified: partial
+- id: law.criminal.fr1994
+  title: 法国新刑法典
+  domain: law
+  source: Nouveau Code pénal（1994 年 3 月 1 日生效；旧 Code pénal 1810 年）
+  article: 第 111-2 条（罪刑法定与严格解释）、第 111-3 条（解释不得类推）、
+    第 121-1 条（个人责任）、第 121-3 条（过错要件与过失犯）、第 131-1 条以下（刑罚种类）
+  era: 1994 年（1810 年法典为拿破仑时期产物，1791 年刑法典为首部）
+  jurisdiction: 法国
+  force_status: 现行
+  gist: 三分结构（crimes / délits / contraventions）与"三要素"（légale, matérielle, morale）；
+    1832 年引入减轻情节（circonstances atténuantes）以缓和法定刑刚性，是其改革史关键。
+  refs:
+    - tier: T1
+      url: https://www.legifrance.gouv.fr/
+      url_status: blocked
+  verified: partial
+- id: law.criminal.de_stgb
+  title: 德国刑法典
+  domain: law
+  source: Strafgesetzbuch（1871 年帝国刑法典为本文，1969/1975 年两次总则改革）
+  article: 第 1 条（罪刑法定）、第 16 条（构成要件错误）、第 20 条（无责任能力）、
+    第 32 条（正当防卫）、第 46 条（量刑原则与责任原则）、第 211/212 条（谋杀与杀人）、
+    第 242 条（盗窃）、第 263 条（诈骗）
+  era: 1871 年／现行文本
+  jurisdiction: 德国
+  force_status: 现行（持续修订）
+  gist: 三阶层犯罪论（构成要件该当性—违法性—有责性）的实定法依托；
+    1969/1975 改革确立"责任原则"限制量刑，并废除"恶劣品行"等主观入罪条款。
+  refs:
+    - tier: T1
+      url: https://www.gesetze-im-internet.de/
+      url_status: checked
+  verified: "yes"
+  last_checked: "2026-10-05"
+- id: law.criminal.jp1907
+  title: 日本刑法典
+  domain: law
+  source: 刑法（明治 40 年法律第 45 号，1908 年施行；1947 年大幅修正）
+  article: 第 31 条以下（累犯）、第 35 条（法令／业务／正当行为正当化）、第 36 条（正当防卫）、
+    第 39 条（心神丧失，2022 年改为"心神丧失等"并导入申请主义）、第 199 条（杀人，
+    尊属殺重罰規定 1995 年删除）
+  era: 1907 年公布／1908 年施行
+  jurisdiction: 日本
+  force_status: 现行（2022 年性犯罪规定改称"不同意わいせつ／不同意性交"等，2023 年施行）
+  gist: 继受法国—德国两条脉络的混合体；死刑存续与"永山基准"（最高裁 1983 年判决）
+    是量刑教义学的焦点（案号与要旨待核）。
+  refs:
+    - tier: T1
+      url: https://www.japaneselawtranslation.go.jp/
+      url_status: unchecked
+  verified: partial
+- id: law.criminal.cn1997
+  title: 中华人民共和国刑法
+  domain: law
+  source: 1979 年刑法（1980 年施行）→ 1997 年修订刑法（1997 年 10 月 1 日施行）
+  article: 第 3 条（罪刑法定）、第 12 条（从旧兼从轻）、第 13 条（犯罪概念与但书）、
+    第 20 条（正当防卫）、第 21 条（紧急避险）、第 67 条（自首）、第 382 条（贪污罪）；
+    条文总数通说 452 条（待核），另有修正案（十二）等 12 部修正案
+  era: 1997 年
+  jurisdiction: 中国
+  force_status: 现行（以修正案方式持续扩充）
+  gist: 由"类推制度"（1979 年第 79 条）转向罪刑法定的立法史；修正案高频化引发
+    "法典稳定性 vs 回应性"之争，行政犯（法定犯）扩张是当代主要特征。
+  refs:
+    - tier: T1
+      url: https://flk.npc.gov.cn/
+      url_status: unchecked
+  verified: partial
+- id: law.criminal.mpc1962
+  title: 美国模范刑法典
+  domain: law
+  source: Model Penal Code（American Law Institute，1962 年正式文本）
+  article: 第 2.01 条（行为要件）、第 2.02 条（四种罪过：purposely/knowingly/recklessly/negligently）、
+    第 2.06 条（共犯）、第 5.01 条（未遂）、第 3.04 条（正当防卫）、第 210 条（ homicide 分级）
+  era: 1962 年
+  jurisdiction: 美国（非法律，为州立法蓝本；新泽西、纽约、得克萨斯等州刑法典深受影响）
+  force_status: 历史法源（作为示范法）
+  gist: 以"犯意层级＋主观主义未遂论"重构普通法刑法，推动各州废除普通法罪、
+    制定成文总则；其精神障碍条款（第 4.01 条）在 Hinckley 案后引发广泛回缩。
+  refs:
+    - tier: T3
+      citation: "ALI, Model Penal Code: Official Text and Commentaries（2017 更新卷）"
+      url_status: unchecked
+  verified: "yes"
+- id: law.criminal.rome1998
+  title: 国际刑事法院罗马规约
+  domain: law
+  source: Rome Statute of the International Criminal Court（1998 年 7 月 17 日通过，
+    2002 年 7 月 1 日生效）
+  article: 第 5 条（种族灭绝、危害人类、战争罪、侵略罪）、第 7 条（危害人类罪定义）、
+    第 8 条（战争罪）、第 20 条（一事不再理）、第 22–24 条（罪刑法定、不溯及、个人责任）、
+    第 27 条（官方身份不免责）、第 98 条（协定义务）
+  era: 1998 年（2010 年坎帕拉修正案界定侵略罪，2018 年 7 月 17 日启动管辖）
+  jurisdiction: 国际（缔约国；非缔约国内管辖争议持续）
+  force_status: 现行
+  gist: 把"国家主权豁免—个人刑责"的张力制度化；补充性原则（第 17 条）
+    与国内司法能力的关系，是国际刑法与政治哲学交叉的核心争点。
+  refs:
+    - tier: T1
+      url: https://www.icc-cpi.int/
+      url_status: unchecked
+    - tier: T2
+      url: https://avalon.law.yale.edu/
+      url_status: checked
+  verified: partial
+  last_checked: "2026-10-05"

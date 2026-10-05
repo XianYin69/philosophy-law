@@ -1,0 +1,163 @@
+# 部门法与程序法（法源地图）
+- id: law.branch.constitutional
+  title: 宪法与违宪审查
+  domain: law
+  source: 各国宪法＋审查制度立法（德国 BVerfGG、韩国宪法法院法、中国立法法与备案审查制度）
+  article: 审查模式三分：分散式（美）、集中式（凯尔森模式：德、意、韩、南非）、
+    政治事前审查（法 1958 年初制，2008 年后经 QPC 部分司法化）
+  era: 1803/1919/1958 至今
+  jurisdiction: 比较（跨法域）
+  force_status: 现行
+  gist: 核心争点是"反多数难题"（Bickel）与宪法守护者问题（施米特—凯尔森论战）；
+    修宪界限（基本法 79 条 3 款、印度基本结构、挪威 77 条）构成"宪法之上的宪法"之问。
+  refs:
+    - tier: T3
+      citation: Hans Kelsen, "Wer ist der Hüter der Verfassung?"（1931/1933）；
+        Alexander Bickel, The Least Dangerous Branch（1962）
+      url_status: unchecked
+  verified: partial
+- id: law.branch.administrative
+  title: 行政法与行政程序
+  domain: law
+  source: 美国 Administrative Procedure Act（1946，5 U.S.C. §551 起）、德国 VwVfG（1976）、
+    西班牙 Ley 39/2015、中国行政许可法（2003）／行政处罚法（2021 年修订）／
+    行政强制法（2011）／行政复议法（2023 年修订，2024 年 1 月 1 日施行）
+  article: 规则制定与裁决（APA §553 通告评论、§706 司法审查）、说明理由义务、
+    信赖保护（德国 Vertrauensschutz）、比例原则（欧盟法与德国法）
+  era: 1946–2024 年
+  jurisdiction: 比较（跨法域）
+  force_status: 现行
+  gist: 行政国家的合法性来自程序与审查；美国 Loper Bright（603 U.S. 369 (2024)）推翻
+    Chevron 尊重，标志司法审查密度重新收紧（德国与法国不采同等 deference 结构）。
+  refs:
+    - tier: T1
+      url: https://www.govinfo.gov/
+      url_status: unchecked
+  verified: partial
+- id: law.branch.civilcommercial
+  title: 民法与商法（体系争点）
+  domain: law
+  source: 各国民法典（见 codes/modern-civil.yaml）与商事单行法
+  article: 债法总则之存废（德国保留、中国民法典无债总、荷兰 NBW 无）、
+    物权法定（numerus clausus）、担保功能主义（UCC 第 9 编、中国民法典担保制度解释）
+  era: 1804 年至今
+  jurisdiction: 比较（跨法域）
+  force_status: 现行
+  gist: 民商合一／分立之争决定法律适用顺序；20 世纪末"债的扩张"（缔约过失、
+    不当得利一般条款、第三人保护）使合同不再是债的唯一来源。
+  refs:
+    - tier: T3
+      citation: Reinhard Zimmermann, The Law of Obligations（1992）
+      url_status: unchecked
+  verified: partial
+- id: law.branch.criminal
+  title: 刑法总则与罪刑法定
+  domain: law
+  source: 各国刑法典总则（德国 StGB §1 起、法国新刑法典第 111-2 条、中国刑法第 3 条、
+    日本刑法第 31 条以下）
+  article: 罪刑法定的四派生（禁止溯及、禁止类推、明确性、禁止绝对不定期刑）、
+    违法性认识错误（德国 StGB §17）、期待可能性、责任主义（德国 StGB §46）
+  era: 18–21 世纪
+  jurisdiction: 比较（跨法域）
+  force_status: 现行
+  gist: 三阶层（德日）与四要件（中国通说）是同一问题的两种分析技术；
+    行政犯扩张使"违法性认识"从例外变为常态难题。
+  refs:
+    - tier: T3
+      citation: Claus Roxin, Strafrecht AT I；张明楷《刑法学》
+      url_status: unchecked
+  verified: partial
+- id: law.branch.procedure
+  title: 诉讼法与证据法
+  domain: law
+  source: 美国 FRCP（1938 年起）、Federal Rules of Evidence（1975，规则 401–403）、
+    英国 PACE 1984（第 76、78 条）、德国 ZPO/StPO（1877 年文本）、
+    意大利刑诉法典（1988 年当事人主义改革）、中国三大诉讼法（民诉 1991 及历次修正、
+    刑诉 1979/1996/2012/2018、行诉 1989/2014）
+  article: 对抗制与纠问制、非法证据排除（中国刑诉法第 56 条）、
+    证明标准（beyond reasonable doubt / 内心确信 / 高度盖然性）、既判力
+  era: 19–21 世纪
+  jurisdiction: 比较（跨法域）
+  force_status: 现行
+  gist: 程序不是形式：证明标准与证据可采性直接决定实体权利的可实现性；
+    ECHR 第 6 条把"武器平等"与"公开审判"上升为宪法性要求。
+  refs:
+    - tier: T1
+      url: https://www.uscourts.gov/rules-policies/current-rules-practice-procedure
+      url_status: unchecked
+  verified: partial
+- id: law.branch.labor
+  title: 劳动法与社会保障法
+  domain: law
+  source: ILO 公约（第 87 号结社自由 1948、第 98 号组织权 1949、第 158 号解雇 1982、
+    第 190 号暴力与骚扰 2019）、欧盟工时指令 2003/88/EC、德国解雇保护法 KSchG（1951）
+    与企业组织法 BetrVG（1952）／1976 年共同决定法、中国劳动法（1994）与
+    劳动合同法（2007 年制定、2012 年修正）、美国 NLRA（1935）与 FLSA（1938）
+  article: 从属性认定、解雇保护、集体协商层级、工时与最低工资、平台用工归类争议
+  era: 19 世纪末至今
+  jurisdiction: 比较（跨法域）
+  force_status: 现行
+  gist: 劳动法是"契约自由"的例外法域；at-will 默认（美国）与解雇社会正当性要求
+    （欧洲）构成同一问题的两种制度答案，平台经济正在重写"雇员"定义。
+  refs:
+    - tier: T1
+      url: https://www.ilo.org/
+      url_status: unchecked
+  verified: partial
+- id: law.branch.ip
+  title: 知识产权法
+  domain: law
+  source: 见 codes/commercial.yaml（巴黎公约、伯尔尼公约、TRIPS、PCT、WIPO 条约）
+    与各国内国法
+  article: 权利客体与例外（合理使用／文本与数据挖掘例外：欧盟 DSM 指令 2019/790 第 3、4 条）、
+    平台责任（同指令第 17 条）、强制许可（TRIPS 第 31 条）、惩罚性赔偿
+  era: 1883 年至今
+  jurisdiction: 国际＋国内双层
+  force_status: 现行
+  gist: 知产权是"合法垄断"，其正当性论证在劳动论（洛克）、功利论（激励）、
+    人格论（黑格尔／康德）之间摇摆，故边界争议本质上是哲学争议。
+  refs:
+    - tier: T1
+      url: https://eur-lex.europa.eu/
+      url_status: unchecked
+  verified: partial
+- id: law.branch.publicintl
+  title: 国际公法
+  domain: law
+  source: 联合国宪章（1945）、国际法院规约（1945）、维也纳条约法公约（1969）、
+    国家责任条款（ILC 2001）、日内瓦四公约（1949）及附加议定书（1977）、
+    海洋法公约（1982）、巴黎协定（2015）
+  article: 法院规约第 38 条第 1 项（法源：条约、习惯、一般法律原则、辅助资料）；
+    宪章第 2 条第 4 款（禁止使用武力）与第 51 条（自卫）；VCLT 第 31 条（解释通则）、
+    第 53 条（强行法）；国家责任条款第 16、41 条
+  era: 1945 年至今
+  jurisdiction: 国际
+  force_status: 现行
+  gist: "\"国际法是不是法\"的哈特式追问与奥斯丁命令说的遗产仍在；
+    单边自卫、人道干预、安理会否决权是规范与权力冲突的持续焦点。"
+  refs:
+    - tier: T1
+      url: https://treaties.un.org/
+      url_status: unchecked
+    - tier: T1
+      url: https://www.icj-cij.org/
+      url_status: unchecked
+  verified: partial
+- id: law.branch.privateintl
+  title: 国际私法
+  domain: law
+  source: 欧盟 Brussels Ia 条例（1215/2012）、Rome I（593/2008）、Rome II（864/2007）、
+    海牙公约体系（2005 年法院选择协议公约等）、中国涉外民事关系法律适用法（2010 年制定、
+    2011 年 4 月 1 日施行，2023 年司法解释（二））、日本法律适用通则法（2006 年，2007 年施行）
+  article: 管辖权、法律选择（最密切联系／特征性履行）、判决承认与执行、
+    公共秩序保留、法律规避
+  era: 19 世纪萨维尼方法至今
+  jurisdiction: 国际＋区域＋国内
+  force_status: 现行
+  gist: 萨维尼"法律关系本座说"把冲突法从属地主义Statuta 理论中解放；
+    当代争点是统一化（海牙／欧盟）与本国公共政策保留之间的拉锯。
+  refs:
+    - tier: T1
+      url: https://www.hcch.net/
+      url_status: unchecked
+  verified: partial

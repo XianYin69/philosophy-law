@@ -1,3 +1,60 @@
 {
-  "dependencies": []
+  "dependencies": [
+    {
+      "name": "Python 标准库（argparse/re/json/os/glob/posixpath/walk）",
+      "source_url": "https://www.python.org/",
+      "license": "PSF-2.0",
+      "version": ">=3.10",
+      "install": "系统已装：python -V 自检；脚本无第三方依赖",
+      "checked_at": "2026-10-05"
+    },
+    {
+      "name": "PyYAML（asset/ 数据卡解析与校验）",
+      "source_url": "https://github.com/yaml/pyyaml",
+      "license": "MIT",
+      "version": ">=6.0（实测 6.0.3）",
+      "install": "pip install pyyaml；缺失时 validate/check_sources 以退出码 2 报缺依赖",
+      "checked_at": "2026-10-05"
+    },
+    {
+      "name": "Skill_Generator（本技能的生成器与修改流程宿主）",
+      "source_url": "local://Skill_Generator",
+      "license": "MIT",
+      "version": "0.1.0",
+      "install": "本地技能，无需下载",
+      "checked_at": "2026-10-05"
+    },
+    {
+      "name": "skill_manage_system（SMS 主流程与 planned_tasks 到期调度执行端）",
+      "source_url": "local://skill_manage_system",
+      "license": "MIT",
+      "version": "installed",
+      "install": "本地技能；计划任务由其调度器读取执行，技能自身不得自行执行",
+      "checked_at": "2026-10-05"
+    },
+    {
+      "name": "中国法律法规数据库 flk.npc.gov.cn（现行法条 T1 核对通道）",
+      "source_url": "https://flk.npc.gov.cn/",
+      "license": "政府公开数据（引用须注明官方来源）",
+      "version": "在线库，无版本固定",
+      "install": "无需安装；经 SMS 网络授权后由 webfetch 核对，须标 url_status",
+      "checked_at": "2026-10-05"
+    },
+    {
+      "name": "Yale Avalon Project（历史法典与宪法原文 T1/T2 通道）",
+      "source_url": "https://avalon.law.yale.edu/",
+      "license": "公版文本数字化，站点条款约束",
+      "version": "在线库，无版本固定",
+      "install": "无需安装；经 SMS 网络授权后由 webfetch 核对",
+      "checked_at": "2026-10-05"
+    },
+    {
+      "name": "Internet Archive texts（古代法典译本与绝版文献检索通道）",
+      "source_url": "https://archive.org/",
+      "license": "各条目版权不一；仅用于定位公版/馆内可阅文本",
+      "version": "在线库，无版本固定",
+      "install": "无需安装；经 SMS 网络授权后由 webfetch 核对",
+      "checked_at": "2026-10-05"
+    }
+  ]
 }

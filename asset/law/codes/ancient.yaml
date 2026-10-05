@@ -1,0 +1,100 @@
+# 古代成文法（近东、希腊）
+# url_status: checked=本次已实测可达 / unchecked=未实测 / blocked=反爬拦截
+- id: law.ancient.urnammu
+  title: 乌尔纳姆法典
+  domain: law
+  source: 《乌尔纳姆法典》(Code of Ur-Nammu) 泥板残片（UI 30 等）
+  article: 现存约 30 余条案文（序言＋casuistic 条款；编号依译本）
+  era: 约公元前 2100–2050 年（乌尔第三王朝；年代学有争议，待核）
+  jurisdiction: 苏美尔（乌尔）
+  force_status: 已废
+  gist: 已知最早的成文法典之一；以银两赔偿为主的罚金制，区别于后来的同态复仇条款。
+  refs:
+    - tier: T2
+      citation: Samuel Noah Kramer, "Survival of Sumerian Literature and Institutions"（1963）；
+        Jean-Jacques Glassner 等《法典》校勘本
+      url_status: unchecked
+  verified: partial
+  last_checked: "2026-10-05"
+- id: law.ancient.esnunna
+  title: 埃什嫩那法典
+  domain: law
+  source: 《埃什嫩那法典》(Laws of Eshnunna)，泥板残片
+  article: 约 60 条（编号依译本，待核）
+  era: 约公元前 1930 年（国王 Bilalama 时期，待核）
+  jurisdiction: 埃什嫩那（美索不达米亚）
+  force_status: 已废
+  gist: 以价格、工资、租赁与人身伤害赔偿为核心，是研究早期经济法的重要文本。
+  refs:
+    - tier: T2
+      citation: Albrecht Goetze, "The Laws of Eshnunna"（1956）
+      url_status: unchecked
+  verified: partial
+- id: law.ancient.hammurabi
+  title: 汉谟拉比法典
+  domain: law
+  source: 《汉谟拉比法典》石碑（卢浮宫 Sb 8）＋泥板抄本
+  article: 序言＋法条＋结语；条数通行计为 282 条（分条编号各家不一，待核）
+  era: 约公元前 1755 年（古巴比伦，中年代学；汉谟拉比在位约前 1792–1750）
+  jurisdiction: 巴比伦第一王朝
+  force_status: 已废
+  gist: 以 casuistic（若…则…）句式规范财产、家庭、人身伤害与职业责任；
+    按身份等级（awīlum/muškenum/wardum）差异化量刑；宣称王权受神委托以"使强不凌弱"。
+  original_quote: 序言要旨"使强不凌弱"为译述，非原文；原文须回查译本
+  refs:
+    - tier: T2
+      url: https://avalon.law.yale.edu/
+      citation: L. W. King 英译（1910，公版）
+      url_status: checked
+    - tier: T3
+      citation: Raymond Westbrook, "Studies in Biblical and Ancient Eastern Law"（1985）
+      url_status: unchecked
+  verified: partial
+  last_checked: "2026-10-05"
+- id: law.ancient.hittite
+  title: 赫梯法典
+  domain: law
+  source: 赫梯法典泥板（Boğazköy/哈图沙出土，Hittite Laws 1–200）
+  article: 条文编号 1–200（分若干"表"，含后续修订版）
+  era: 约公元前 1650–1500 年（赫梯古王国至新王国前期）
+  jurisdiction: 赫梯王国（安纳托利亚）
+  force_status: 已废
+  gist: 相较同时代美索不达米亚法，死刑适用较少、以赔偿与恢复原状为主；
+    区分自由人与依附人，并保留村落与宗教法的内容。
+  refs:
+    - tier: T2
+      url: https://avalon.law.yale.edu/
+      citation: Harry A. Hoffner, "Hittite Laws"（1997 译本）
+      url_status: checked
+  verified: partial
+- id: law.ancient.assyrian
+  title: 中亚述法典
+  domain: law
+  source: 中亚述法典泥板（阿舒尔出土，A 表为主）
+  article: A 表约 60 余条（编号 A 1–A 60+，待核）
+  era: 约公元前 14–11 世纪（中亚述时期，常定约前 1075 年，待核）
+  jurisdiction: 亚述（阿舒尔）
+  force_status: 已废
+  gist: 刑罚严厉（肉刑、死刑、赔偿并用），对婚姻、性伦理与人身侵害有细致规定，
+    是研究亚述社会结构的核心法源。
+  refs:
+    - tier: T2
+      url: https://avalon.law.yale.edu/
+      citation: E. Ebeling, "Assyrische Gesetzestexte"（1952）
+      url_status: checked
+  verified: partial
+- id: law.ancient.gortyn
+  title: 戈尔廷法典
+  domain: law
+  source: 克里特戈尔廷剧场遗址石墙铭文（Great Code of Gortyn）
+  article: 按石板/栏（columns I–XII）编号
+  era: 约公元前 450 年（待核，学界有前 5 世纪中叶之说）
+  jurisdiction: 古希腊城邦克里特戈尔廷
+  force_status: 已废
+  gist: 现存最早的希腊语成文法之一，核心为家产、继承、妇女财产与奴隶身份，
+    体现"公私法未分化"的早期立法形态。
+  refs:
+    - tier: T3
+      citation: Ronald F. Willetts, "The Law Code of Gortyn"（1967, KD 系列）
+      url_status: unchecked
+  verified: partial

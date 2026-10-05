@@ -1,0 +1,100 @@
+# 结构主义与后结构主义
+- id: phil.post.saussure
+  title: 索绪尔与结构语言学
+  domain: philosophy
+  text: 《普通语言学教程》（1916 遗著，据 1906–1911 讲演整理）
+  thesis: 符号＝能指／所指，任意性原则；语言（langue）与言语（parole）之分；
+    价值来自差异而非正面内容（"语言中只有差异"）；共时优先于历时——
+    为法律概念的"体系意义"与解释的结构性论证提供模型
+  school: 结构主义源头
+  criticism:
+    - by: 德里达（《论文字学》1967 对"在场"与符号／意义关系的解构）
+      claim: 差异先于符号的二元稳定，意义被无限延异
+    - by: 后期维特根斯坦传统与语用学
+      claim: 把语言化约为系统遗漏使用与行动
+  refs:
+    - tier: T3
+      citation: Bostock 英译（1966/1998）；Harris 译注本（1995）
+      url_status: unchecked
+  verified: partial
+- id: phil.post.levistrauss
+  title: 列维-斯特劳斯
+  domain: philosophy
+  text: 《亲属的基本结构》（1949）、《结构人类学》（1958）、
+    《野性的思维》（1962，第 1 章"具体性的科学"与第 8 章论神话）、《忧郁的热带》（1955）
+  thesis: 乱伦禁忌与交换作为"文化的普遍语法"；神话结构的二元对立与转换；
+    与萨特的存在主义马克思主义之争（"结构"能否容纳历史与主体）
+  school: 结构人类学
+  criticism:
+    - by: 萨特（《辩证理性批判》1960 论"渐进—过程"）
+      claim: 结构分析取消人的实践与历史性
+    - by: 后殖民与女性主义人类学
+      claim: 普遍心理结构掩盖权力关系与地方知识
+  refs:
+    - tier: T3
+      citation: Jacobson & Jacobson 英译《The Savage Mind》（1966）
+      url_status: unchecked
+  verified: partial
+- id: phil.post.althusser
+  title: 阿尔都塞
+  domain: philosophy
+  text: 《保卫马克思》（1965，"论实践理论"与"关于历史唯物主义"）、
+    《读〈资本论〉》（1965，与巴利巴尔等）、《意识形态和意识形态国家机器》
+    （1970 手稿，1984 年刊行）
+  thesis: 认识论断裂；理论实践与"问题式"（problématique）；
+    意识形态国家机器（学校、教会、家庭、法律）以"询唤"（interpellation）
+    把个体构成为主体——法律通过"承认—臣服—保证"三重机制运作
+  school: 结构主义马克思主义
+  criticism:
+    - by: 汤普森（《理论的贫困》1978）
+      claim: 把历史化约为无主体的过程，取消阶级经验的能动性
+    - by: 女性主义（对"家庭作为 ISA"的处理）
+      claim: 性别支配被功能主义地纳入再生产，缺少独立分析
+  refs:
+    - tier: T3
+      citation: Ben Brewster 英译《Ideology and ISA》（1971）；
+        Balibar《On the Dictatorship of Proletariat?》相关讨论
+      url_status: unchecked
+  verified: partial
+- id: phil.post.foucault
+  title: 福柯
+  domain: philosophy
+  text: 《规训与惩罚》（1975，第一部分"达米安之刑"、第三部分"全景敞视"）、
+    《知识考古学》（1969）、《性史》第一卷（1976）、
+    《必须保卫社会》（1975–76 年讲座，2023 年修订版）、《生命政治的诞生》（1978–79 讲座）
+  thesis: 惩罚从肉体展示转向灵魂规训，是权力经济学而非人道进步；
+    权力—知识生产主体；治理术（governmentality）与生命权力（biopower）；
+    法律不是权力的来源而是其战术之一，"法律社会"被"正常化社会"取代——
+    对法治理想构成谱系学挑战
+  school: 谱系学／考古学
+  criticism:
+    - by: 哈贝马斯（《现代性的话语》论福柯）
+      claim: 批判缺乏规范立足点，陷入"隐秘的规范主义"
+    - by: 女性主义与后殖民（对"性态"与种族国家论的处理）
+      claim: 主体抵抗的可能性与性别／种族差异被低估
+  refs:
+    - tier: T3
+      citation: Sheridan 英译《Discipline and Punish》（1977）；
+        Senellart 编《Il faut défendre la société》（1997）
+      url_status: unchecked
+  verified: partial
+- id: phil.post.derrida
+  title: 德里达与法律解构
+  domain: philosophy
+  text: 《论文字学》（1967）、《书写与差异》（1967）、
+    《法律的力量："权威的神秘基础"》（1990 卡多佐讲演，收《Acts of Religion》2002）、
+    《法理学的权威》（与马里翁等论战）
+  thesis: 延异（différance）与替补逻辑；文本之外无一物（"il n'y a pas de hors-texte"
+    的准确含义与误读，待核）；法律是可解构的（权威的神秘基础：
+    创始时刻既非合法亦非非法），而正义是不可解构的"无限要求"
+  school: 解构
+  criticism:
+    - by: 哈贝马斯（《现代性的话语》）与塞尔（"Signature Event Context" 论战，1977）
+      claim: 含混写作逃避论证责任，制造不可反驳性
+    - by: 索卡尔事件（1996）后的广泛质疑
+      claim: 后现代文本滥用科学概念，认识论上不可靠
+  refs:
+    - tier: T3
+      citation: Bennington 等英译"Force of Law"（Cardozo Law Review 1990）
+      url_status: unchecked
+  verified: partial

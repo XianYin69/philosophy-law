@@ -1,0 +1,193 @@
+# 女性主义与后殖民思想
+- id: phil.fem.wollstonecraft
+  title: 沃斯通克拉夫特
+  domain: philosophy
+  text: 《为女性权利辩护》（1792，第 2 章论女性教育、第 13 章论政治）
+  thesis: 理性是性别中立的能力，故女性若被剥夺教育即被剥夺人格；
+    把婚姻描述为"合法的卖淫"，批判伯克式等级秩序与"优雅弱点"的修辞
+  school: 早期自由女性主义
+  criticism:
+    - by: 后殖民与交叉性研究（Mohanty《Under Western Eyes》1984；
+        Scott《Only Paradoxes to Offer》1996）
+      claim: 普遍理性主体暗含欧洲白人女性标准，"拯救叙事"再生产支配
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+  verified: partial
+- id: phil.fem.liberal
+  title: 自由主义女性主义（弗里丹、奥金）
+  domain: philosophy
+  text: 弗里丹《女性的奥秘》（1963，"没有名字的问题"）；
+    奥金《正义、性别与家庭》（1989，第 1–2 章论罗尔斯的"家庭作为首要善"缺位）
+  thesis: 制度性别中立化：机会平等、反歧视法、生育与照护的公共化；
+    奥金指出罗尔斯"原初状态"若不让参与者不知自己性别，正义原则将保留家庭不平等
+  school: 自由主义女性主义
+  criticism:
+    - by: 激进女性主义（MacKinnon《迈向女性主义的国家理论》1989）
+      claim: 形式平等以男性标准为尺度，"相同对待"固化差异
+    - by: 交叉性（Crenshaw 1989/1991）
+      claim: 单轴（性别或种族）分析遗漏复合从属
+  refs:
+    - tier: T3
+      citation: Okin, Justice, Gender, and the Family（Basic Books, 1989）
+      url_status: unchecked
+  verified: partial
+- id: phil.fem.mackinnon
+  title: 麦金农
+  domain: philosophy
+  text: 《迈向女性主义的国家理论》（1989，第 1、5、7 章）、
+    《言论自由》（1993 讲演）、与德沃金关于色情物（pornography）的论战（1993）
+  thesis: 国家与法律本身是性别化的：平等原则在"相同对待/差异对待"之间两难；
+    色情物被主张为一种歧视行为（言说即行动）而非观点表达
+  school: 激进女性主义／支配论
+  criticism:
+    - by: 自由主义言论理论（德沃金《言论自由必须保持内容中立》1993；
+        与 MacKinnon 的"内容中立"之争）
+      claim: 以公民权诉色情物违反观点中立与宪法第一修正案原则
+    - by: 后结构女性主义（巴特勒 1990/1993）
+      claim: "\"女性\"作为范畴本身是述行效果，支配论预设了被批评的本质主义"
+  refs:
+    - tier: T3
+      citation: Toward a Feminist Theory of the State（Harvard, 1989）
+      url_status: unchecked
+  verified: partial
+- id: phil.fem.butler
+  title: 巴特勒
+  domain: philosophy
+  text: 《性别麻烦》（1990，第 1 章"亚里士多德之后"、第 3 章述行性与自我建构）、
+    《身体要什么》（1993）、《战争的框架》（2006，论"可哀悼性"）、
+    《 Notes Toward a Performative Theory of Assembly》（2015，"公共空间中的身体"）
+  thesis: 性别是述行的（借奥斯汀言语行为理论并批判其排除"非严肃"用法）：
+    重复引用规范构成"自然性别"的幻觉；"可哀悼性"（grievability）决定谁的生命被法律与
+    战争计入
+  school: 述行理论／ queer 理论
+  criticism:
+    - by: 女性主义实质论者（如 Sally Haslanger 的社会种类分析，1995/2000）
+      claim: 述行性无法说明结构性压迫的物质再生产
+    - by: 分析哲学（对"引用即建构"的因果说明提出质疑）
+      claim: 把语言哲学概念外推过界（具体文献待核）
+  refs:
+    - tier: T3
+      citation: Gender Trouble（Routledge, 1990/1999 新序）
+      url_status: unchecked
+  verified: partial
+- id: phil.fem.crenshaw
+  title: 克伦肖与交叉性
+  domain: philosophy
+  text: "\"Demarginalizing the Intersection of Race and Sex: A Black Feminist Critique of
+    Antidiscrimination Doctrine, Feminist Theory and Antiracist Politics\",
+    University of Chicago Legal Forum 1989, 139 页起；\"Mapping the Margins\"（1991 Stan. L. Rev.）"
+  thesis: 反歧视法的"单轴"结构使黑人女性的复合伤害无法被救济（DeGraffenreid v.
+    General Motors 案，1976，案号与法院层级待核）；
+    交叉性既是分析工具也是政策议程（对家暴庇护所中移民妇女处境的实证研究）
+  school: 交叉性理论／批判种族理论
+  criticism:
+    - by: 自由主义与保守派法学者（对"身份政治"与群体归责的批评）
+      claim: 交叉性把法律判断引向身份分类，损害个体责任（具体文献待核）
+    - by: 内部争论（McCall《The Complexity of Intersectionality》2005 Signs）
+      claim: 类别间关系需以"域内/域外"方法重构，而非无限叠加
+  refs:
+    - tier: T3
+      citation: "1989 U. Chi. Legal F. 139；2005 Signs 30: 771–805（McCall 文，卷页待核）"
+      url_status: unchecked
+  verified: partial
+- id: phil.post.ambedkar
+  title: 安贝德卡
+  domain: philosophy
+  text: 《种族的毁灭》（"Annihilation of Caste", 1936 讲演）、
+    《印度教教义》（"Who are the Hindus?" 1946？待核）、
+    《印度宪政之父：宪法与民主》相关论述与印度制宪会议发言（1946–1949）
+  thesis: 种姓是宗教—社会秩序而非经济分工，故须以宪法平等、
+    教育与政治代表权瓦解其规范基础；警惕"道德共同体"对少数者的多数暴政；
+    宪法是"社会变革的工具"（其 1928 年孟买立法会发言主张"宪法即社会革命"，出处待核）
+  school: 达利特思想／宪政民主
+  criticism:
+    - by: 甘地主义与印度教民族主义史学
+      claim: 把印度教社会整体定性为压迫结构，忽视内部改革传统
+    - by: 后殖民研究（对"现代宪法普世性"的接受）
+      claim: 安贝德卡的普世主义与本土种姓政治间存在未解张力
+  refs:
+    - tier: T1
+      url: https://www.indiacode.nic.in/
+      url_status: unchecked
+    - tier: T3
+      citation: Anmol Publications 版《Writings and Speeches》（多卷）
+      url_status: unchecked
+  verified: partial
+- id: phil.post.fanon
+  title: 法农
+  domain: philosophy
+  text: 《黑皮肤，白面具》（1952）、《全世界受苦的人》（1961，
+    第 1 章"暴力"、萨特的序言）、《非洲革命》（1961）
+  thesis: 殖民秩序以暴力构成法律，故被殖民者的反抗暴露"人道"话语的边界；
+    民族资产阶级的"后殖民国家"是形式独立而结构依附的再生产
+  school: 存在主义—马克思主义反殖民理论
+  criticism:
+    - by: 阿伦特（《论暴力》1970，批评"暴力的崇拜化"）
+      claim: 把暴力视为再生力量混淆了权力与暴力
+    - by: 后殖民内部（查特吉、斯皮瓦克）
+      claim: 民族主义叙事仍复制欧洲主权主体模型
+  refs:
+    - tier: T3
+      citation: Philcox 英译《Black Skin, White Masks》（2008）
+      url_status: unchecked
+  verified: partial
+- id: phil.post.said
+  title: 萨义德与东方学
+  domain: philosophy
+  text: 《东方学》（1978，导论与第 1 章"想象的地理"）、
+    《文化与帝国主义》（1993）、《报道伊斯兰》（1981）
+  thesis: "\"东方\"是欧洲以知识—权力生产的他者形象，学术、文学与行政话语共构支配；
+    流亡知识分子的任务是\"向权力说真话\"（1993 年 Reith 讲演）"
+  school: 后殖民研究
+  criticism:
+    - by: 阿西德（Ahsan Ullah? 待核）与印度庶民学派（对"精英文本主义"的批评）
+      claim: 以文学经典为对象，忽视庶民自身的历史能动性
+    - by: 自由主义史学（如 Bernard Lewis 的回应）
+      claim: 把区域研究整体政治化，混淆学术与意识形态
+  refs:
+    - tier: T3
+      citation: Orientalism（Pantheon, 1978/2003 新序）
+      url_status: unchecked
+  verified: partial
+- id: phil.post.spivak
+  title: 斯皮瓦克
+  domain: philosophy
+  text: "\"Can the Subaltern Speak?\"（1988，收《Marxism and the Interpretation of Culture》）、
+    《三个女性文本与帝国主义批判》（1985 Critical Inquiry）、
+    《底层人能发声吗？》后续修订（1996《The Spivak Reader》）"
+  thesis: 福柯式"知识分子退场"与印度庶民研究共同抹除女性庶民的主体；
+    认识性暴力（epistemic violence）使"为底层代言"成为再殖民行为；
+    策略性本质主义作为政治手段
+  school: 后殖民解构／庶民研究
+  criticism:
+    - by: 庶民学派（Ranajit Guha、Partha Chatterjee 的"属民政治"）
+      claim: 其文本过于依赖德里达，脱离档案实证
+    - by: 自由主义女性主义
+      claim: 否定代言使国际人权与法律救济失去主体（具体文献待核）
+  refs:
+    - tier: T3
+      citation: Nelson & Grossberg 编（1988）；The Spivak Reader（1996）
+      url_status: unchecked
+  verified: partial
+- id: phil.post.twail
+  title: 第三世界国际法进路（TWAIL）
+  domain: philosophy
+  text: Antony Anghie, 《帝国主义、主权与国际法的形成》（Cambridge, 2005）；
+    B. S. Chimni, "International Law and the Two Worlds"（2006？待核）；
+    Richard Falk 的"全球治理"系列；Santos《Between Prospero and Caliban》（2002）
+  thesis: 主权、自决与"文明标准"概念在殖民语境中形成，国际法的普遍性
+    内含差异化的适用；"发展"与"法治援助"是新的文明使命；
+    南方的"认知正义"要求多元法源（公民社会、习惯、原住民法）
+  school: TWAIL／南方认识论
+  criticism:
+    - by: 自由国际主义者（如 John McGinnis 与 Movsesian 等的"法律与全球化"实证研究）
+      claim: 把规范问题化约为权力史，无法提出可操作的改革方案（具体文献待核）
+    - by: 现实主义国际关系
+      claim: 国际法的道德承诺与国家利益不符，TWAIL 的批判同样适用于其自身主张
+  refs:
+    - tier: T3
+      citation: Imperialism, Sovereignty and the Making of International Law（2005）
+      url_status: unchecked
+  verified: partial

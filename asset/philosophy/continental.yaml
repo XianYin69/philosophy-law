@@ -1,0 +1,136 @@
+# 现象学、存在主义与解释学
+- id: phil.cont.husserl
+  title: 胡塞尔
+  domain: philosophy
+  text: 《逻辑研究》（1900/01）、《纯粹现象学与现象学哲学的观念》第一卷（1913）、
+    《欧洲科学的危机与超越论的现象学》（1936，布拉格讲演与手稿）
+  thesis: 意向性：意识总是关于某物的意识；本质直观与悬搁（epoché）；
+    生活世界（Lebenswelt）是先于科学客观性的意义基础；
+    对"自然化态度"的批判适用于把法律当作纯事实的社会科学
+  school: 超越论现象学
+  criticism:
+    - by: 海德格尔与梅洛-庞蒂
+      claim: 超越论还原遗漏了在世存在与前反思身体
+    - by: 德里达（《声音与现象》1967）
+      claim: 在场形而上学与符号理论不可兼容
+  refs:
+    - tier: T3
+      citation: Donohue 英译《Ideas I》；Crisis（Harvard, 1970）
+      url_status: unchecked
+  verified: partial
+- id: phil.cont.heidegger
+  title: 海德格尔
+  domain: philosophy
+  text: 《存在与时间》（1927）、《艺术作品的本源》（1935/36）、
+    《关于人道主义的书信》（1947）、《技术的追问》（1953/54）
+  thesis: 此在（Dasein）以操心为存在方式，常人（das Man）支配日常性；
+    上手状态先于现成状态；"向死而在"与本真性；后期转向技术作为"座架"（Gestell），
+    语言是"存在之家"
+  school: 基础存在论／后期思的路径
+  criticism:
+    - by: 阿多诺（《本真的行话》1964）
+      claim: 以权威式语言制造本真性幻觉，是意识形态的语言结构
+    - by: 哈贝马斯（《现代性的话语》）
+      claim: 主体间性被消解，无法承担规范基础
+    - by: 政治责任争论（其 1933 年校长任职与《黑色笔记本》1990 年代后刊行）
+      claim: 思想与纳粹参与的关系是否可分离，学界持续争议
+  refs:
+    - tier: T3
+      citation: Macquarrie & Robinson 英译《Being and Time》（1962）
+      url_status: unchecked
+  verified: partial
+- id: phil.cont.sartre
+  title: 萨特
+  domain: philosophy
+  text: 《存在与虚无》（1943）、《存在主义是一种人道主义》（1946 讲演）、
+    《辩证理性批判》（1960）、《反犹主义与犹太人》（1946）
+  thesis: 存在先于本质；人被判定为自由，故须承担全部责任（"为所有人选择"）；
+    自欺（mauvaise foi）是逃避自由；他者的注视把我物化，"他人即地狱"（《禁闭》1944）；
+    实践—惰性、系列性与融合群体用于分析制度与压迫
+  school: 无神论存在主义／马克思主义调和
+  criticism:
+    - by: 梅洛-庞蒂（《人道主义与恐怖》1947；《知觉现象学》）
+      claim: 绝对自由忽视处境、身体与制度的制约
+    - by: 阿伦特（《人的境况》1958）
+      claim: 以意识哲学理解行动，丢失公共性与复多性
+  refs:
+    - tier: T3
+      citation: Barnes 英译《Being and Nothingness》（1956）
+      url_status: unchecked
+  verified: partial
+- id: phil.cont.beauvoir
+  title: 波伏瓦
+  domain: philosophy
+  text: 《第二性》（1949，导言与结论"女人不是天生的，而是被塑造的"）、
+    《模糊性的伦理学》（1947）、《皮吕斯和西尔维娅》（1945）
+  thesis: 他者性（otherness）是性别建构的产物而非自然事实；
+    处境（situation）与身体作为自由的限制；伦理学须以"意愿自由即意愿他人自由"为原则，
+    压迫是剥夺超越性、把人固着于内在性
+  school: 存在主义女性主义
+  criticism:
+    - by: 巴特勒（《性别麻烦》1990）
+      claim: "\"被塑造的女人\"仍预设前话语的身体，需以述行性重构"
+    - by: 弗里丹与自由主义女性主义
+      claim: 存在主义框架对制度改良（法律与政策）指导不足
+  refs:
+    - tier: T3
+      citation: Constance Borde & Sheila Malovany-Chevallier 全译本（2009/2010）
+      url_status: unchecked
+  verified: partial
+- id: phil.cont.gadamer
+  title: 伽达默尔与解释学
+  domain: philosophy
+  text: 《真理与方法》（1960，第二部分论"权威与传统"、效果历史、视域融合）、
+    《法律文本与解释文本》（1969 讲演，收《小册子》）、与哈贝马斯的解释学论战（1965 起）
+  thesis: 理解是应用：文本解释与法律解释同构（法官是"特殊诠释学家"）；
+    前见是理解的条件而非障碍；效果历史意识；"应用"（Anwendung）内在于解释，
+    反对把方法客观化
+  school: 哲学解释学
+  criticism:
+    - by: 哈贝马斯（《解释学普遍主张》1970）
+      claim: 传统权威须经意识形态批判与反思检验，解释学不能免于支配关系
+    - by: 德里达（与伽达默尔巴黎对话 1981）
+      claim: "\"善意理解\"预设了形而上学的在场与共识"
+  refs:
+    - tier: T3
+      citation: Weinsheimer & Marshall 英译《Truth and Method》（1989 修订译本）
+      url_status: unchecked
+  verified: partial
+- id: phil.cont.merleau
+  title: 梅洛-庞蒂
+  domain: philosophy
+  text: 《知觉现象学》（1945，序言与"身体在世"章节）、《人道主义与恐怖》（1947）、
+    《可见的与不可见的》（遗著 1964）
+  thesis: 身体主体（corps propre）先于客观身体；知觉场与格式塔结构；
+    制度（institution）是意义的历史沉淀——为法律制度的"沉淀—可改"提供现象学说明
+  school: 知觉现象学／存在主义马克思主义
+  criticism:
+    - by: 分析哲学（Dreyfus 之后被重新评价；早期被指含混）
+      claim: 概念不清，混淆描述与论证
+    - by: 女性主义（Iris Marion Young《扔球及其他》1990 借用其身体图式）
+      claim: 其"一般存在"未处理性别化的身体经验差异
+  refs:
+    - tier: T3
+      citation: Smith 英译《Phenomenology of Perception》（1962/2012 修订）
+      url_status: unchecked
+  verified: partial
+- id: phil.cont.camus
+  title: 加缪
+  domain: philosophy
+  text: 《西西弗神话》（1942，开篇"真正严肃的哲学问题只有一个，那就是自杀"）、
+    《局外人》（1942）、《反抗者》（1951，第四部分"反抗与革命"、末章"地中海思想"）、
+    《鼠疫》（1947）
+  thesis: 荒诞是人对意义的呼唤与世界沉默的并置；反抗（révolte）设定人的团结与限度，
+    "我反抗，故我（们）存在"；拒绝以历史目的论为谋杀辩护（对革命暴力的批判）
+  school: 荒诞哲学／反抗伦理
+  criticism:
+    - by: 萨特（《现代时报》1952 年论战，与《反抗者》末章的回应）
+      claim: 加缪的"限度"伦理放弃历史责任，沦为道德姿态（具体篇目与日期待核）
+    - by: 阿伦特（《人的境况》论"反抗"与行动）
+      claim: 荒诞哲学仍停留在意识层面，未说明公共行动的条件
+  refs:
+    - tier: T3
+      citation: O'Brien 英译《The Myth of Sisyphus》（1955）；
+        Herbert 等英译《The Rebel》（1954）
+      url_status: unchecked
+  verified: partial

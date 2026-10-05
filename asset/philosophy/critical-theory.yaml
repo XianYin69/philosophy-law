@@ -1,0 +1,102 @@
+# 批判理论（法兰克福学派及其后继）
+- id: phil.critical.horkheimer
+  title: 霍克海默：传统理论与批判理论
+  domain: philosophy
+  text: 《传统理论与批判理论》（1937 论文）、《启蒙辩证法》（与阿多诺合著，
+    1944 年定稿、1947 年刊行，含"文化工业"章）、《工具理性批判》（1947）
+  thesis: 理论不是中立的：传统理论模仿自然科学形式，掩盖其社会前提；
+    批判理论以"社会整体"为对象并内含解放旨趣；启蒙自我毁灭——
+    理性退化为支配自然与人的工具理性
+  school: 第一代法兰克福学派
+  criticism:
+    - by: 阿佩尔与哈贝马斯
+      claim: 启蒙辩证法以总体化叙事否定一切理性，须以交往理性重建规范基础
+    - by: 分析哲学（如 Adami 等对"内在批判"可能性的质疑）
+      claim: 缺少可验证的批判标准（具体文献待核）
+  refs:
+    - tier: T3
+      citation: Continuous Discontinuity in Social Research（1972 英译）
+      url_status: unchecked
+  verified: partial
+- id: phil.critical.adorno
+  title: 阿多诺
+  domain: philosophy
+  text: 《否定的辩证法》（1966）、《本真的行话》（1964）、
+    《道德哲学的问题》（讲稿，1963/1965，1990 年刊行）、
+    《论舒伯特》《文化批评与社会》（含"文化批评与社会"1949 讲演）
+  thesis: 非同一性：概念无法穷尽对象，"整体即虚假"；奥斯维辛后写诗之野蛮的命题
+    （出处为《文化批评与社会》1949 讲演，常被误引，原文表述待核）；
+    对海德格尔本真性话语的语言批判；法律形式平等与实质不正义的辩证
+  school: 否定的辩证法／文化工业批判
+  criticism:
+    - by: 哈贝马斯（《现代性的话语》1985 论阿多诺）
+      claim: 审美抵抗取代了规范重建，批判失去正当性根据
+    - by: 霍耐特（《批判理论》1985/2011）
+      claim: 需要以承认理论替代意识哲学式的总体批判
+  refs:
+    - tier: T3
+      citation: Ashton 英译《Negative Dialectics》（1973）
+      url_status: unchecked
+  verified: partial
+- id: phil.critical.benjamin
+  title: 本雅明
+  domain: philosophy
+  text: 《暴力批判》（"Zur Kritik der Gewalt", 1921）、
+    《历史哲学论纲》（1940，第 6–9 论纲"进步风暴"）、
+    《机械复制时代的艺术作品》（1935/36）、《拱廊街计划》（遗稿）
+  thesis: 立法暴力与护法暴力的循环被"纯粹手段"/"神圣暴力"打断；
+    法律与暴力的内在关联是法哲学未解之结；历史唯物主义须以弥赛亚式"当下"
+    （Jetztzeit）打断同质空洞的时间——对"进步"叙事的法哲学批判
+  school: 犹太—马克思主义神学政治
+  criticism:
+    - by: 阿甘本（《暴力批判》1978 讲演与《无目的的手段》）
+      claim: 本雅明的神圣暴力被误读，须重释为"不施行的潜能"
+    - by: 哈贝马斯与施奈德（关于本雅明与施米特关系的论战，1990 年代）
+      claim: 其政治神学成分削弱了批判的规范可公度性（具体文献待核）
+  refs:
+    - tier: T3
+      citation: Selected Writings（Harvard/Belknap，1996 起，4 卷）
+      url_status: unchecked
+  verified: partial
+- id: phil.critical.habermas
+  title: 哈贝马斯
+  domain: philosophy
+  text: 《公共领域的结构转型》（1962/1990 英译）、《认识与人类旨趣》（1968）、
+    《交往行为理论》（1981）、《事实与规范之间》（1992，含法律与民主的商谈理论）、
+    《在自然主义与宗教之间》（2008）
+  thesis: 商谈原则（D）与道德原则（M）；法律作为"事实性与有效性之间的中介"：
+    法的效力依赖民主立法程序（合法性）与道德内容（正当性）的双重前提；
+    公共领域、审议民主、宪法爱国主义（对德国战后宪制的规范认同）；
+    与罗尔斯的"公共理性"论战（2001 年纽约讲演等）
+  school: 第二/三代批判理论／商谈伦理学
+  criticism:
+    - by: 福柯与后结构主义（"现代性与公正的博弈"1983 论战）
+      claim: 普遍语用学预设了被权力构成的主体
+    - by: 社群主义（麦金太尔、泰勒、桑德尔）
+      claim: 程序主义无法提供善的实质内容，"无根"的主体难以承担团结
+    - by: 弗雷泽（"Habenhas on Society and Nature" 1986 等）
+      claim: 公共领域概念忽视从属反公众（subaltern counterpublics）
+  refs:
+    - tier: T3
+      citation: Rehg 英译《Between Facts and Norms》（MIT, 1996）
+      url_status: unchecked
+  verified: partial
+- id: phil.critical.honneth
+  title: 霍耐特与承认理论
+  domain: philosophy
+  text: 《为承认而斗争》（1992，2001 年英译）、《道德化生活世界的分裂》（1991）、
+    《自由的权利》（2011，2014 年英译）
+  thesis: 社会冲突的道德动因是承认的蔑视（爱、法律平等、团结三重承认形式）；
+    法权承认（moral self-esteem）以普遍权利为条件；
+    以黑格尔早期耶拿文本重构规范基础，替代功利与再分配单一维度
+  school: 第三代法兰克福学派
+  criticism:
+    - by: 弗雷泽（《从再分配到承认？》1995 New Left Review；《正义的尺度》2009）
+      claim: 承认—再分配是假二元，文化错误与经济错误须同时分析（"perspectival dualism"）
+    - by: 麦克尼（McNay）与后结构主义
+      claim: 承认框架内含规范性共识预设，忽视权力与欲望
+  refs:
+    - tier: T3
+      citation: Anderson 英译《The Struggle for Recognition》（1995）
+      url_status: unchecked
+  verified: partial

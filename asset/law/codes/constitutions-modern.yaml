@@ -1,0 +1,107 @@
+# 宪法（三）：当代其他重要宪法
+- id: law.const.za1996
+  title: 南非共和国宪法
+  domain: law
+  source: Constitution of the Republic of South Africa, 1996（Act 108 of 1996，
+    经宪法法院认证 CCT 23/96 [1996] ZACC 26）
+  article: 第 1 条（ founding 价值）、第 7–39 条权利章（第 25 条财产、第 26 条住房、
+    第 27 条医疗保健、第 28 条儿童）、第 36 条限制条款、第 172 条司法救济、第 167 条宪法法院
+  era: 1996 年（1997 年 2 月 4 日全面生效）
+  jurisdiction: 南非
+  force_status: 现行
+  gist: 转型宪法的范本：社会权利可司法化（Government of the Republic of South Africa v
+    Grootboom, CCT 44/00 [2000] ZACC 19 确立"合理性审查"），
+    并以"宪法价值秩序"约束私法与立法。
+  refs:
+    - tier: T1
+      url: https://www.gov.za/
+      url_status: unchecked
+    - tier: T3
+      citation: Hein Klug, "Constituting Civil Society"；Pierre de Vos 宪法研究
+      url_status: unchecked
+  verified: partial
+  last_checked: "2026-10-05"
+- id: law.const.ca1982
+  title: 加拿大权利与自由宪章
+  domain: law
+  source: Canadian Charter of Rights and Freedoms（Constitution Act, 1982, Schedule B）
+  article: 第 1 条（合理限制）、第 2 条（基本自由）、第 7 条（生命自由与安全、基本正义原则）、
+    第 15 条（平等）、第 25 与 35 条（原住民既有权利与条约权利）、第 33 条（但书条款）、
+    第 52 条（宪法最高性）
+  era: 1982 年 4 月 17 日生效
+  jurisdiction: 加拿大
+  force_status: 现行
+  gist: 第 1 条"可证明为正当之限制"与 Oakes 测试（R v Oakes, [1986] 1 SCR 103）
+    构成比例审查的模板；第 33 条但书使议会可暂时排除部分权利适用，是"权利与议会主权"的妥协设计。
+  refs:
+    - tier: T1
+      url: https://laws-lois.justice.gc.ca/
+      url_status: unchecked
+  verified: partial
+- id: law.const.kr1987
+  title: 大韩民国宪法（第六共和国宪法）
+  domain: law
+  source: 1987 年 10 月 29 日公布、1988 年 2 月 25 日施行
+  article: 第 10 条（人格尊严与幸福追求权）、第 37 条第 2 款（权利限制法律保留）、
+    第 111 条（宪法裁判所，1988 年设立并同年导入宪法诉愿）
+  era: 1987 年
+  jurisdiction: 韩国
+  force_status: 现行
+  gist: 民主化运动直接产物；宪法裁判所的集中审查模式（源自德国）与"宪法诉愿"
+    使其成为东亚最活跃的宪法法院之一。
+  refs:
+    - tier: T1
+      url: https://www.law.go.kr/
+      url_status: unchecked
+  verified: partial
+- id: law.const.br1988
+  title: 巴西联邦宪法
+  domain: law
+  source: Constituição da República Federativa do Brasil（1988 年 10 月 5 日公布，
+    俗称"公民宪法"）
+  article: 第 5 条（公民权利与义务，含大量款项，具体数目待核）、第 6 条（社会权利）、
+    第 170 条（经济秩序）、第 102 条（联邦最高法院与集中审查）
+  era: 1988 年
+  jurisdiction: 巴西
+  force_status: 现行（修正案数量众多，具体数目待核）
+  gist: 威权转型后的"程序密集型"宪法：ADIn、ADPF、repercussão geral 等宪法诉讼工具
+    使最高法院深度参与政策形成，引发"司法能动主义"之争。
+  refs:
+    - tier: T1
+      url: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm
+      url_status: unchecked
+  verified: partial
+- id: law.const.tr1982
+  title: 土耳其共和国宪法
+  domain: law
+  source: 1982 年宪法（军事接管后制定，2010 与 2017 年重大修正，2018 年总统制施行）
+  article: 第 2 条（民主、世俗、社会法治国）、第 11 条（基本权利限制）、
+    第 148 条（宪法法院与个人申请 bireysel başvuru，2012 年启动）
+  era: 1982 年
+  jurisdiction: 土耳其
+  force_status: 现行
+  gist: 世俗主义条款（第 4 条不可变更原则）与宗教—国家关系的持续张力；
+    个人申请制度使宪法法院成为权利救济主渠道，也带来案件量危机。
+  refs:
+    - tier: T1
+      url: https://www.anayasa.gov.tr/
+      url_status: unchecked
+  verified: partial
+- id: law.const.il_basiclaws
+  title: 以色列基本法（无单一成文宪法）
+  domain: law
+  source: Basic Laws（1958 年起陆续制定；1992 年《人的尊严与自由基本法》、
+    1994 年《职业自由基本法》）
+  article: 各基本法名称与数目随立法变动（现行为 13/14 部之说不一，待核）；
+    2018 年《以色列——犹太民族国家基本法》
+  era: 1958 年至今
+  jurisdiction: 以色列
+  force_status: 现行
+  gist: "\"宪法革命\"（Aharon Barak）把基本法升格为准宪法并导入司法审查；
+    2023 年限制\"合理性\"审查的修法与 2024 年最高法院部分撤销判决，
+    成为\"无成文宪法之宪政\"与司法—政治冲突的最新案例（案号待核）。"
+  refs:
+    - tier: T1
+      url: https://www.knesset.gov.il/
+      url_status: unchecked
+  verified: partial

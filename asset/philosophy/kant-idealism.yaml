@@ -1,0 +1,93 @@
+# 康德与德国古典哲学
+- id: phil.kant.critique
+  title: 康德：理论理性与实践理性
+  domain: philosophy
+  text: 《纯粹理性批判》（1781 年 A 版、1787 年 B 版）、《道德形而上学奠基》（1785）、
+    《实践理性批判》（1788）、《回答这个问题：什么是启蒙？》（1784）
+  thesis: 哥白尼式转向：认识对象符合主体的先天形式；物自体不可知，
+    理念（自由、灵魂、上帝）作为调节性使用；定言命令三公式（普遍法则、人是目的、
+    目的王国，《奠基》4:421、4:429、4:433 学院版页码，通行编号待核）；
+    启蒙是"敢于运用自己的理智"，公共运用自由须受保护
+  school: 先验观念论／义务论伦理学
+  criticism:
+    - by: 黑格尔（《法哲学原理》§135 附释）
+      claim: 定言命令是"空洞的同一性"，无法从形式推出内容
+    - by: 女性主义关怀伦理（Gilligan《不同的声音》1982；Kittay）
+      claim: 以"抽象个体"为前提的道德理论遮蔽依赖关系
+    - by: 伯林与价值多元论
+      claim: 单一理性法则无法容纳不可通约的价值
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+    - tier: T3
+      citation: Mary Gregor 英译《Metaphysics of Morals》（Cambridge, 1996）
+      url_status: unchecked
+  verified: partial
+- id: phil.kant.recht
+  title: 康德法哲学（权利的形而上学原理）
+  domain: philosophy
+  text: 《道德形而上学》第一部分"法权论"（Rechtslehre, 1797）；
+    《永久和平论》（1795）；《论俗语：这在理论上正确，但在实践中不适用》（1793）
+  thesis: 普遍原理："任何行为，其准则能使你的任意（Willkür）的自由与一切人依普遍法则的
+    自由共存，即为正当"（6:230 学院版页码，待核）；天赋的自由权是唯一与生俱来的权利；
+    强制是对自由障碍的对抗，故与法权相容；国家是"依法律而联合的人群"；
+    永久和平以共和制＋自由国家联盟＋世界公民法（普遍好客权）为条件
+  school: 先验法权论／共和宪政主义
+  criticism:
+    - by: 黑格尔（《法哲学原理》§41 以下）
+      claim: 康德把道德与法律混同于"主观意图"，缺少伦理实体的层次
+    - by: 马克思与批判理论
+      claim: 形式平等掩盖实质的支配与不平等
+    - by: 哈贝马斯（《事实与规范之间》1992）
+      claim: 应以商谈原则与法律的双重性质重构，而非独白式先验演绎
+  refs:
+    - tier: T3
+      citation: Ernst Tugendhat 与 Dieter Henrich 相关研究；
+        Arthur Ripstein, Force and Freedom（2009）
+      url_status: unchecked
+  verified: partial
+- id: phil.idealism.fichte
+  title: 费希特：承认与法权基础
+  domain: philosophy
+  text: 《自然法权基础》（1796/97）、《知识学导论》（1797）、《对德意志民族的演讲》（1808）
+  thesis: 自我设定自我，但个体性只有在与另一理性存在者的相互限制中才可能——
+    法权关系以"相互承认"（Anerkennung）为条件；国家是契约性的法权秩序，
+    检查权（Aufsichtsrecht）保障其实现
+  school: 主观观念论／承认理论源头
+  criticism:
+    - by: 黑格尔（《精神现象学》对"自我意识"的处理与《法哲学原理》§34 以下）
+      claim: 承认若停留在相互限制的形式，无法说明伦理生活的实体性
+    - by: 阿佩尔与哈贝马斯
+      claim: 先验论证须转为语用学的普遍商谈前提
+  refs:
+    - tier: T3
+      citation: Adrian del Sordo & Gunther Zöller 英译（Cambridge, 2005）
+      url_status: unchecked
+  verified: partial
+- id: phil.idealism.hegel
+  title: 黑格尔
+  domain: philosophy
+  text: 《精神现象学》（1807，第 IV 章"自我意识"主奴辩证法）、
+    《法哲学原理》（1820/21 序言与正文 §1–335）、《哲学科学全书纲要》（1817/1830）
+  thesis: 抽象法（§37–104：所有权、契约、不法与犯罪）→ 道德（§105–137：意图、福利、
+    良心）→ 伦理生活（§142–335：家庭、市民社会、国家）；
+    刑罚是对"法的法"的否定之否定，尊重犯罪人作为理性存在者（§100 以下）；
+    市民社会是需要的体系与司法、警察、同业公会的层次，国家是"具体自由的现实"；
+    "凡是理性的都是现实的"（序言，德文原文表述待核）
+  school: 绝对观念论／历史主义
+  criticism:
+    - by: 马克思（《黑格尔法哲学批判》1843 手稿、《论犹太人问题》1843）
+      claim: 把国家说成普遍性是颠倒，市民社会的私有财产才是基础
+    - by: 波普尔（《开放社会及其敌人》II 12–15）
+      claim: 历史主义为权威主义辩护
+    - by: 对波普尔的批评（Charles Taylor、Stephen Clarke 等）
+      claim: 误读"现实"命题，忽视其对市民社会与国家分离的分析
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+    - tier: T3
+      citation: Allen W. Wood, Hegel's Ethical Thought（1990）
+      url_status: unchecked
+  verified: partial

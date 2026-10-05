@@ -1,0 +1,130 @@
+# 应用伦理与心灵哲学
+- id: phil.applied.anscombe
+  title: 安斯康姆与现代道德哲学
+  domain: philosophy
+  text: "\"Modern Moral Philosophy\"（Philosophy 33, 1958）；《意图》（Intention, 1957）"
+  thesis: "\"道德义务\"概念是基督教法学的遗存，在无神论框架下无意义；
+    应以心理概念与\"德性\"取代\"应当／禁止\"式立法化伦理学——
+    对以规范语句为核心的法伦理学提出内部质疑"
+  school: 德性伦理学复兴
+  criticism:
+    - by: 义务论者（如 Foot 后期、Korsgaard）
+      claim: 实践必然性与规范性无法被弃用（Foot《道德信念》1978 与《自然善好》2001 的转向）
+  refs:
+    - tier: T3
+      citation: Philosophy 33 (1958) 333–355（页码待核）
+      url_status: unchecked
+  verified: partial
+- id: phil.applied.trolley
+  title: 电车难题与双重效果
+  domain: philosophy
+  text: 富特"The Problem of Abortion and the Doctrine of the Double Effect"
+    （Oxford Review 5, 1967）；汤姆森"A Defense of Abortion"（Philosophy & Public
+    Affairs 1, 1971，小提琴家论证）；朱莉·桑德斯与麦克尔·德富尔的"天桥案例"（1985/1989 待核）
+  thesis: 作为／不作为、意图／预见之效果差异是否构成道德相关；
+    汤姆森以"小提琴家"论证堕胎权源于身体使用权而非胎儿人格地位
+  school: 规范伦理学思想实验传统
+  criticism:
+    - by: 法经济学家与后果主义者（对"距离效应"的心理偏差解释）
+      claim: 直觉差异可由认知偏误说明，不足以支撑规则（具体文献待核）
+    - by: 德沃金《生命的主权》（1993）
+      claim: 堕胎与安乐死之争是"神圣性"两种解释之争，非权利冲突
+  refs:
+    - tier: T3
+      citation: Philosophy & Public Affairs 1 (1971) 47–66（页码待核）
+      url_status: unchecked
+  verified: partial
+- id: phil.applied.singer
+  title: 辛格与有效利他主义
+  domain: philosophy
+  text: "\"Famine, Affluence, and Morality\"（Philosophy & Public Affairs 1, 1972，
+    浅池论证）、《动物解放》（1975）、《实践伦理学》（1979/2011 第 3 版）"
+  thesis: 若能防止坏结果而不牺牲可比重要性道德物，即有义务行动；
+    距离不改变义务；物种归属本身不是道德相关特征（感受能力标准）；
+    人格（person）定义为理性与自我意识，故新生儿与严重认知障碍者的地位引发争议
+  school: 偏好功利主义
+  criticism:
+    - by: 桑德尔与社群主义者（"超负荷的道德要求"批评）
+      claim: 无余地的义务观摧毁完整性与特殊关系
+    - by: 残障权利研究者（对人格标准的批评）
+      claim: 以认知能力定人格地位复制了歧视结构（具体文献待核）
+  refs:
+    - tier: T3
+      citation: Philosophy & Public Affairs 1 (1972) 229–243（页码待核）
+      url_status: unchecked
+  verified: partial
+- id: phil.applied.bioethics
+  title: 原则主义生命伦理
+  domain: philosophy
+  text: 比彻姆与邱卓思《生物医学伦理学原则》（1979 年初版，第 4 版 2019 年？待核）
+  thesis: 四原则：尊重自主、行善、不伤害、公正；原则是"显见义务"，
+    需具体情境权衡；成为临床伦理委员会与医疗法的通用语
+  school: 原则主义（principlism）
+  criticism:
+    - by: 德性伦理与关怀伦理（如 Arras？具体文献待核）
+      claim: 原则清单缺乏统一根据，权衡无程序约束
+    - by: 后殖民与全球健康伦理
+      claim: 自主中心主义预设西方个体主义，忽视家庭与共同体决策
+  refs:
+    - tier: T3
+      citation: Principles of Biomedical Ethics（Oxford UP）
+      url_status: unchecked
+  verified: partial
+- id: phil.mind.ryle
+  title: 赖尔与心身二元论批判
+  domain: philosophy
+  text: 《心的概念》（1949，第 1 章"论范畴错误"、第 6 章论意志）
+  thesis: 笛卡尔式"机器中的幽灵"是范畴错误；心智是倾向与能力的描述层次；
+    知道如何（knowing-how）不可还原为知道那（knowing-that）——
+    对法律中"故意／能力／责任"的语言分析有直接影响
+  school: 逻辑行为主义／日常语言哲学
+  criticism:
+    - by: 同一理论与功能主义（Smart、Place、刘易斯）
+      claim: 倾向分析无法处理现象性质与第一人称权威
+  refs:
+    - tier: T3
+      citation: The Concept of Mind（Hutchinson, 1949/2000 重印）
+      url_status: unchecked
+  verified: partial
+- id: phil.mind.functionalism
+  title: 功能主义、中文房间与难问题
+  domain: philosophy
+  text: 普特南"Psychological Predicates"（1967，"大脑是数字计算机吗"）；
+    福多《心智的架构》（1975，思想语言）；塞尔"Minds, Brains, and Programs"
+    （1980，中文房间）；内格尔"What Is It Like to Be a Bat?"（1974 Philosophical Review）；
+    杰克逊"What Mary Knows"（1982）；查尔莫斯《有意识的心灵》（1996，难问题）；
+    丘奇兰德夫妇的消除唯物主义（《科学实在论与构造实在论》1986？）
+  thesis: 心理状态由功能角色定义，允许多重可实现；塞尔：句法不足以产生语义，
+    故计算主义不能说明理解；内格尔：主观特征不可被客观描述穷尽；
+    查尔莫斯：解释功能不解释体验，故物理主义需修正
+  school: 心灵哲学当代论战
+  criticism:
+    - by: 丹尼特（《意识的解释》1991、"Intentional Systems" 1971）
+      claim: 难问题源于把解释层级误当现象残余；异现象学方法可消解
+    - by: 4E 认知（瓦雷拉等《具身的心灵》1991；克拉克《延展心智》1998/2008）
+      claim: 功能主义仍预设颅内计算，忽视身体、环境与生成
+  refs:
+    - tier: T3
+      citation: The Philosophical Review 83 (1974) 435–450（页码待核）
+      url_status: unchecked
+  verified: partial
+- id: phil.mind.4e
+  title: 4E 认知与预测处理
+  domain: philosophy
+  text: 瓦雷拉、汤普森、罗什《具身的心灵》（1991）；克拉克与查尔莫斯"The Extended Mind"
+    （1998 Analysis）；克拉克《预测心智》（Surfing Uncertainty, 2016）；
+    加拉格尔《身体现象学》（2005？）
+  thesis: 认知是具身的、嵌入的、延展的、生成的；
+    预测处理把认知理解为误差最小化的层级模型——
+    对法律责任中"行为控制""可预见性"的心理学前提提出修正
+  school: 具身—延展认知
+  criticism:
+    - by: 亚当·鲁德尼茨基等（对"延展心智"的"耦合≠构成"反驳，2010？待核）
+      claim: 外部工具不进入认知系统，否则概念过度膨胀
+    - by: 规范理论者
+      claim: 预测处理难以说明规范性与理由空间（具体文献待核）
+  refs:
+    - tier: T3
+      citation: Analysis 58 (1998) 7–19（页码待核）
+      url_status: unchecked
+  verified: partial

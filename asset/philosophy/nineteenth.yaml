@@ -1,0 +1,133 @@
+# 19 世纪：功利主义、马克思、意志哲学
+- id: phil.c19.bentham
+  title: 边沁
+  domain: philosophy
+  text: 《道德与立法原理导论》（1789 年成书、1791 年刊行，第 2 章苦乐主宰、第 4 章幸福计算）、
+    《政府论片断》（1776，针对布莱克斯通）、《法律概要》（Of Laws in General，
+    1782 年手稿，1970 年刊行）、《宪法论》与"自然权利是踩高跷的胡说"
+    （"nonsense upon stilts"，出处为《无政府主义的谬误》手稿，具体篇目待核）
+  thesis: 最大多数人的最大幸福为立法标准；法律是主权者的意志表达（命令说的雏形）；
+    普通法是"狗的法"（dog law），须以成文法典与Panopticon式监督取代；
+    自然权利无实定法保障即无内容
+  school: 功利主义／法典化运动
+  criticism:
+    - by: 布莱克斯通与历史法学派（萨维尼《论立法与法学的当代使命》1814）
+      claim: 理性建构立法忽视民族精神与法律的历史生长
+    - by: 罗尔斯（《正义论》§25–30 论功利主义不严肃对待人的分离性）
+      claim: 总量最大化可为多数牺牲少数基本自由
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+    - tier: T3
+      citation: Jeremy Bentham, Bowring 版全集（1843）；
+        Frederick Rosen, Bentham, Byron, and History（1992）
+      url_status: unchecked
+  verified: partial
+- id: phil.c19.mill
+  title: 约翰·斯图亚特·密尔
+  domain: philosophy
+  text: 《论自由》（1959，第 1 章伤害原则、第 2 章思想与讨论自由）、
+    《功利主义》（1861，第 2 章高级快乐、第 5 章正义论）、
+    《代议制政府》（1861）、《妇女的屈从地位》（1869）、《逻辑体系》（1843）
+  thesis: 社会强制的唯一正当目的是防止对他人的伤害，对己身主权属于个人；
+    快乐有质的差异；正义是"以惩罚权利为特征的道德要求之总称"，
+    可诉诸功利但具有情感强度；言论自由的价值在于错误中也含部分真理
+  school: 自由功利主义／自由主义经典
+  criticism:
+    - by: 哈特（《法律、自由与道德》1965 讲稿；《惩罚与责任》）
+      claim: 伤害原则的边界（冒犯、淫秽、家长主义）须以"公共道德最小限度"重述
+    - by: 德沃金（《认真对待权利》1977 第 10–12 章）
+      claim: 功利主义无法容纳作为权利的个人自主，偏好须区分"个人偏好"与"外在偏好"
+    - by: 女性主义（Pateman《性社会契约》1988）
+      claim: 密尔的"同意"预设了家庭内部的平等，而该平等并不存在
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+  verified: partial
+- id: phil.c19.marx
+  title: 马克思
+  domain: philosophy
+  text: 《1844 年经济学哲学手稿》、《关于费尔巴哈的提纲》（1845）、
+    《德意志意识形态》（1845–46）、《共产党宣言》（1848）、
+    《〈政治经济学批判〉序言》（1859）、《资本论》第 1 卷（1867）、
+    《论犹太人问题》（1843）、《哥达纲领批判》（1875）
+  thesis: 经济基础与上层建筑：法的关系与国家形式根源于物质生活关系（1859 序言）；
+    权利是"市民社会成员即利己个体的产物"，《论犹太人问题》区分"人权"与"公民权"；
+    商品拜物教、剩余价值、异化劳动；"哲学家们只是解释世界，问题在于改变世界"（提纲第十一条）
+  school: 历史唯物主义／政治经济学批判
+  criticism:
+    - by: 庞巴维克与"转化问题"论战（1896 起）
+      claim: 劳动价值论与生产价格不能自洽
+    - by: 波普尔（《历史决定论的贫困》1957、《开放社会及其敌人》）
+      claim: 历史规律说在方法论上不可证成
+    - by: 罗尔斯（《正义论》§42 论马克思对权利与自由的批判）
+      claim: 马克思把法与权利仅视为阶级意识形态，缺少正义分配原则
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+    - tier: T3
+      citation: G. A. Cohen, Karl Marx's Theory of History（1978）
+      url_status: unchecked
+  verified: partial
+- id: phil.c19.nietzsche
+  title: 尼采
+  domain: philosophy
+  text: 《悲剧的诞生》（1872）、《道德的谱系》（1887，第一论文论"怨恨"、
+    第二论文论"负罪感"）、《善恶的彼岸》（1886）、《偶像的黄昏》（1888/1889 遗作）
+  thesis: 道德有历史与谱系：主人道德／奴隶道德的对立，禁欲理想以否定生命为价值；
+    "没有事实，只有解释"；法律与惩罚是权力关系的结晶，
+    债权—债务结构（Schuld/Schuld 双关）生成"罪责"概念
+  school: 谱系学／视角主义
+  criticism:
+    - by: 哈贝马斯（《现代性的话语》1985 论尼采）
+      claim: 主体批判走向非理性主义，放弃论证规范
+    - by: 福柯与德勒兹的再解释
+      claim: 谱系学方法被尼采自身政治文本（妹妹编辑问题）污染，须区分使用
+  refs:
+    - tier: T3
+      citation: Colli & Montinari 校勘本（KSA/KGW）；
+        Maudemarie Clark, Nietzsche on Truth and Morality（1990）
+      url_status: unchecked
+  verified: partial
+- id: phil.c19.kierkegaard
+  title: 克尔凯郭尔
+  domain: philosophy
+  text: 《非此即彼》（1843）、《恐惧与战栗》（1843，论亚伯拉罕与信仰的悖论）、
+    《致死的疾病》（1838 年？通行说 1880 年，待核）、《概念恐惧》（1844）
+  thesis: 审美—伦理—宗教三阶段；主体性即真理；信仰是"个体高于普遍"的悖论，
+    伦理普遍性（黑格尔式）在亚伯拉罕案例中被悬置——对义务论与法秩序的直接挑战
+  school: 存在主义先驱
+  criticism:
+    - by: 阿多诺（《克尔凯郭尔：审美人物的建构》1939）
+      claim: 把社会矛盾内在化为"心境"，是意识形态的逃避
+    - by: 黑格尔主义者与社群主义者
+      claim: 个体高于普遍无法提供公共正当性标准
+  refs:
+    - tier: T3
+      citation: Hong & Hong 英译（Princeton, 1987 起）
+      url_status: unchecked
+  verified: partial
+- id: phil.c19.schopenhauer
+  title: 叔本华
+  domain: philosophy
+  text: 《作为意志和表象的世界》（1818/19 年刊行，1844 年第二版增补）、
+    《论意志的自由》与《论道德的基础》（1841 年获奖论文，合刊于《伦理学的两个基本问题》）、
+    《附录与补遗》（Parerga und Paralipomena, 1851）
+  thesis: 世界作为表象（受根据律支配）与作为意志（盲目的生命冲动）；
+    痛苦是存在的常态，解脱经由审美静观与意志的否定；
+    道德基础是同情（Mitleid），个体化原理（principium individuationis）
+    使利己主义成为现象层面的幻觉；对康德"义务"伦理的批评：道德不能以命令为根据
+  school: 意志哲学／悲观主义
+  criticism:
+    - by: 尼采（《悲剧的诞生》承其美学，后在《道德的谱系》第三论文与《瞧，这个人》中反转）
+      claim: 否定意志是禁欲理想的变体，应肯定生命包括其痛苦
+    - by: 女性主义研究（其《论女人》一文，收《附录与补遗》，篇目位置待核）
+      claim: 以形而上学包装的经验偏见，是"天才—女性"论争的经典反面材料
+  refs:
+    - tier: T3
+      citation: Payne 英译《The World as Will and Representation》（1969，2 卷）
+      url_status: unchecked
+  verified: partial

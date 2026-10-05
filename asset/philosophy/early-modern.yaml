@@ -1,0 +1,128 @@
+# 近代哲学（17–18 世纪：理性论、经验论、社会契约论）
+- id: phil.earlymodern.descartes
+  title: 笛卡尔
+  domain: philosophy
+  text: 《谈谈方法》（1637）、《第一哲学沉思集》（1641，含六组反驳与答辩）、
+    《哲学原理》（1644）、《论灵魂的激情》（1649）
+  thesis: 普遍怀疑后"我思故我在"为第一原理；心身二元与松果腺说；
+    《谈谈方法》第三"临时道德规范"主张在重建知识期间遵从本国法律习俗与中庸
+  school: 理性论／主体性哲学起点
+  criticism:
+    - by: 同时代反驳者（伽桑狄、阿尔诺）与斯宾诺莎
+      claim: 我思预设了实体观；心身交互不可说明
+    - by: 休谟与尼采、梅洛-庞蒂
+      claim: "\"我\"只是知觉束／语法虚构；身体主体先于反思意识"
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+  verified: partial
+- id: phil.earlymodern.spinoza
+  title: 斯宾诺莎
+  domain: philosophy
+  text: 《神学政治论》（1670）、《伦理学》（遗著，1675 年成书、1677 年刊行）、
+    《政治论》（遗著）
+  thesis: 神即自然（deus sive natura），自由是对必然的认识；
+    《神学政治论》第 7 章以历史方法解经，主张"哲学不应做神学的婢女"，
+    第 20 章主张思想与言论自由不可被国家剥夺（"国家的目的是使人从理性动物变为兽"）
+  school: 理性论一元论（泛神论指控）
+  criticism:
+    - by: 正统神学与同时代当局（犹太会堂除教、《神学政治论》被查禁）
+      claim: 自然主义解经摧毁启示权威
+    - by: 黑格尔与近代诠释学
+      claim: 几何式论证（more geometrico）遗漏了精神的历史性
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+    - tier: T3
+      citation: Jonathan Israel, Radical Enlightenment（2001）
+      url_status: unchecked
+  verified: partial
+- id: phil.earlymodern.hobbes
+  title: 霍布斯
+  domain: philosophy
+  text: 《法律、自然与国家原理》（Elements, 1640 手稿流传）、《利维坦》（1651，
+    第 13–18 章论自然状态与契约，第 26 章论民政法，第 29 章论国家解体）
+  thesis: 自然状态是"一切人对一切人的战争"（第 13 章）；自然权利是自我保存的自由，
+    自然法第一诫"为和平而放弃部分权利"（第 14 章）；法是主权者的命令，
+    "权威而非真理制定法律"（auctoritas non veritas facit legem，第 26 章）；
+    契约以相互让渡构成统一人格
+  school: 近代自然法与法律实证主义先驱
+  criticism:
+    - by: 洛克（《政府论》下篇第 4、87 节等）
+      claim: 自然状态非战争状态，绝对主权无合法性
+    - by: 菲格（John Finnis）与波比（Bobbio）
+      claim: 把义务完全化约为恐惧的理性化，无法解释法律的内在观点
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+    - tier: T3
+      citation: Richard Tuck, "Hobbes and the Law of Nature"（2022 等）
+      url_status: unchecked
+  verified: partial
+- id: phil.earlymodern.locke
+  title: 洛克
+  domain: philosophy
+  text: 《政府论》两篇（1689 年出版；下篇第 4、6、12–14、87、90–93、123–131 节）、
+    《人类理解论》（1689）、《论宗教宽容》（1689）
+  thesis: 自然状态是"完备无缺的自由与平等"，受自然法约束，人人有执行权（下篇 §4、§7）；
+    财产权以劳动为据、以"足够多且好"与不浪费为限（§27、§31）；
+    政治权力源于同意，立法权最高但受自然法限制，暴政可抵抗（§199、§222）；
+    宽容以公民利益为界，无神论者不在此列（《论宗教宽容》）
+  school: 经验论＋自由主义政治哲学
+  criticism:
+    - by: 休谟（《论原始契约》《论财产权的起源》）
+      claim: 同意史实不存在，财产权基于习惯与功利而非劳动
+    - by: 麦克弗森（The Political Theory of Possessive Individualism, 1962）
+      claim: 洛克的"自然权利"预设市场社会，是有限选举权资产者的意识形态
+    - by: 塔利（James Tully, 1980）与后殖民研究
+      claim: 劳动财产权被用于正当化对美洲原住民土地的取得
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+  verified: partial
+- id: phil.earlymodern.empiricism
+  title: 贝克莱与休谟
+  domain: philosophy
+  text: 贝克莱《人类知识原理》（1710）、《希勒斯与菲洛诺斯》（1713）；
+    休谟《人性论》（1739–40，第三卷论道德、附录论正义）、
+    《道德原则研究》（1751）、《论原始契约》（1751）
+  thesis: 存在即被知觉（esse est percipi）；休谟：理性是激情的奴隶（T 2.3.3.4），
+    正义是人为德性（artificial virtue），依约定与公共利益而成立（T 3.2）；
+    "是"与"应当"的区分（T 3.1.1.1，休谟铡刀）；习惯而非理性构成事实推断
+  school: 苏格兰经验论／情感主义伦理学
+  criticism:
+    - by: 康德（《未来形而上学导论》序言自陈"被休谟唤醒"）
+      claim: 因果与规范不能由习惯说明，须先验条件
+    - by: 罗尔斯（《正义论》§30、§44 论功利主义之统一性）
+      claim: 情感主义与功利主义无法解释正义对总量的优先性
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+  verified: partial
+- id: phil.earlymodern.rousseau
+  title: 卢梭
+  domain: philosophy
+  text: 《论人类不平等的起源》（1755）、《社会契约论》（1762，I 卷 6–8 章、
+    II 卷论法律与立法者、III 卷论政府）、《爱弥儿》（1762）
+  thesis: 公意（volonté générale）与众意（volonté de tous）之分（II.3）；
+    结合条款使每个成员把自身权利全部让渡给共同体，故"服从公意即自由"，
+    拒不服从者"将被强迫自由"（I.7，通行译法）；法律只能是普遍对象的规定（II.4）；
+    主权不可代表（III.15）
+  school: 共和主义自由观／直接民主论
+  criticism:
+    - by: 贡斯当（《古代人的自由与现代人的自由》1819）
+      claim: 把政治参与当自由本身，为多数暴政开路
+    - by: 伯林（《自由四论》导言与"两种自由概念"1958）
+      claim: 积极自由的扭曲使用可证成强制
+    - by: 罗尔斯（《正义论》§17、§49）
+      claim: 公意说缺少程序性正义标准，需以原初状态重构
+  refs:
+    - tier: T2
+      url: https://www.gutenberg.org/
+      url_status: unchecked
+  verified: partial

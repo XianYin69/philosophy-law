@@ -1,0 +1,25 @@
+# 临时产物与运行态（红线：不得入库）
+tmp/
+*.tmp
+*.bak
+*.orig
+*.log
+
+# 缓存文件不得写入 skill 目录（logic_note 一律落用户缓存目录）
+__pycache__/
+*.pyc
+.cache/
+
+# IDE
+.idea/
+.vscode/
+.kilo/
+.kilocode/
+
+# 附属私有子技能（双仓模型：本体 PUBLIC，private/ 独立私有伴生仓）
+private/*
+!private/.gitkeep
+
+# OS
+Thumbs.db
+.DS_Store

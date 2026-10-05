@@ -1,0 +1,137 @@
+# 中华帝制法典（传世与出土）
+- id: law.china.fajing
+  title: 法经
+  domain: law
+  source: 李悝《法经》（战国魏）——原书亡佚，篇目依《晋书·刑法志》转述
+  article: 六篇：盗、贼、网（囚）、捕、杂、具
+  era: 约公元前 5 世纪末（魏文侯时，待核）
+  jurisdiction: 战国魏
+  force_status: 已废
+  gist: 传统史学视为中国首部系统成文法典；"王者之政莫急于盗贼"的篇目逻辑为后世律典所承。
+    全书已佚，凡引其内容均属二手转述，不得作原文。
+  refs:
+    - tier: T4
+      citation: 《晋书·刑法志》
+      url_status: unchecked
+  verified: "no"
+  last_checked: "2026-10-05"
+- id: law.china.qinshuihudi
+  title: 秦律十八种等（睡虎地秦简）
+  domain: law
+  source: 睡虎地秦墓竹简《秦律十八种》《效律》《法律答问》《封诊式》（1975 出土）
+  article: 田律、厩苑律、仓律、金布律、工律、司空律、军爵律、置吏律、效律、尉杂等律名
+  era: 战国秦至秦始皇时期（约公元前 3 世纪）
+  jurisdiction: 秦
+  force_status: 已废
+  gist: 出土法源而非传世法典；以仓储、度量衡、官吏责任、刑名程式为核心，
+    《法律答问》提供一手解释与类推材料。
+  refs:
+    - tier: T1
+      citation: 睡虎地秦墓竹简整理小组《睡虎地秦墓竹简》（文物出版社，1990）
+      url_status: unchecked
+  verified: "yes"
+- id: law.china.zhangjiashan
+  title: 二年律令（张家山汉简）
+  domain: law
+  source: 张家山 247 号汉墓简牍《二年律令》（1983–1984 出土）
+  article: 贼律、盗律、具律、告律、捕律、亡律、收律、复律、系律、宅园券、金布律、
+    秩律、史律、田律、市律、行书律、传食律、钱律、赐律、户律、效律、兴律、厩律等
+  era: 约吕后二年（公元前 186 年，学界主说，待核）
+  jurisdiction: 西汉
+  force_status: 已废
+  gist: 现存最早的汉代律文一手材料，可见汉初"约法省禁"背后的细密管制与爵位—田宅授受体系。
+  refs:
+    - tier: T1
+      citation: 张家山汉简竹简整理小组《张家山汉墓竹简〔二四七号墓〕》（文物出版社，2001/2006）
+      url_status: unchecked
+  verified: "yes"
+- id: law.china.tanglv
+  title: 唐律疏议
+  domain: law
+  source: 《永徽律疏》（长孙无忌等奉敕撰，今称《唐律疏议》）
+  article: 12 篇 500 条，30 卷；篇次：名例、卫禁、职制、户婚、厩库、擅兴、贼盗、
+    斗讼、诈伪、杂律、捕亡、断狱
+  era: 永徽四年（公元 653 年）上奏；律文本于武德至贞观立法积累
+  jurisdiction: 唐
+  force_status: 已废
+  gist: 现存最完整的中华法系律典，"律—疏"一体（疏议具同等效力）；确立十恶、八议、
+    官当、五刑、类推（"举轻以明重、举重以明轻"）等制度；为日本《大宝律令》、
+    朝鲜、越南立法之母本。
+  refs:
+    - tier: T2
+      url: https://ctext.org/
+      citation: 刘俊文《唐律疏议点校》（中华书局，1983）；
+        Wallace Johnson 英译《The Tang Code》（Princeton, 1979）
+      url_status: blocked
+    - tier: T3
+      citation: 仁井田陞《唐令の研究》
+      url_status: unchecked
+  verified: "yes"
+  last_checked: "2026-10-05"
+- id: law.china.songxingtong
+  title: 宋刑统
+  domain: law
+  source: 《宋建隆重详定刑统》（窦仪等上进，建隆四年刊行）
+  article: 律文一仍唐律 12 篇 500 条，门下分门（通行说 213 门，待核），附令格与起请
+  era: 建隆四年（公元 963 年）
+  jurisdiction: 北宋
+  force_status: 已废
+  gist: 首部雕版印行的国家法典；"刑统"体例把律、疏、令、格按门归类，
+    并承认编敕的优先适用——反映宋代"敕律并行、以敕破律"的法源变动。
+  refs:
+    - tier: T1
+      citation: 《宋刑统》（中华书局点校本，1985）
+      url_status: unchecked
+  verified: partial
+- id: law.china.daminglv
+  title: 大明律
+  domain: law
+  source: 《大明律》（洪武三十年定本）
+  article: 名例律加吏、户、礼、兵、刑、工六律，共 7 篇 30 卷 459 条（条数通说，待核）
+  era: 洪武三十年（公元 1397 年）
+  jurisdiction: 明
+  force_status: 已废
+  gist: 由唐律篇目体改为"以六部分律"的行政—刑事一体化结构；重典治吏、
+    明令禁止臣下"揽权"，并确立律、例并用的修法技术。
+  refs:
+    - tier: T1
+      citation: 《大明律》（法律出版社影印本，1999）；《皇明制书》
+      url_status: unchecked
+  verified: partial
+- id: law.china.daqinglvli
+  title: 大清律例
+  domain: law
+  source: 《大清律例》（乾隆五年定本）
+  article: 承明律七篇体例，律文 436 条，附例逐年增修（卷数诸说 30/36/47 不一，待核）
+  era: 乾隆五年（公元 1740 年）
+  jurisdiction: 清
+  force_status: 已废（1910《大清现行刑律》过渡，1912 民国援用为《暂行新刑律》）
+  gist: "\"律为正文、例为附注\"，例可因时增删而律相对稳定，形成\"以例率律\"的运作实态；
+    是中华法系最后一部完整帝制法典。"
+  refs:
+    - tier: T1
+      citation: 《大清律例》（法律出版社点校，1999）；田涛藏律影印系列
+      url_status: unchecked
+    - tier: T3
+      citation: 张晋藩《中国法制通史》；K. E. Restall 相关研究（待核）
+      url_status: unchecked
+  verified: partial
+  last_checked: "2026-10-05"
+- id: law.china.xinlv
+  title: 大清新刑律
+  domain: law
+  source: 《大清新刑律》（沈家本主持、冈田朝太郎参与起草，宣统二年公布）
+  article: 总则、分则 2 编 411 条（条数待核）；附《暂行章程》5 条
+  era: 1910 年公布（未及全面施行清室退位）
+  jurisdiction: 清（末次修律）
+  force_status: 已废
+  gist: 中国首部近代意义刑法典：采罪刑法定、删除比附援引、区分主从刑，
+    引发"礼教派—法理派"论战（礼法之争），是传统法秩序近代化的关键节点。
+  refs:
+    - tier: T1
+      citation: 《大清新刑律》（光绪三十三年/宣统二年刊本）
+      url_status: unchecked
+    - tier: T3
+      citation: 瞿同祖《中国法律与中国社会》；黄宗智相关论述
+      url_status: unchecked
+  verified: partial

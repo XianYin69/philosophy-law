@@ -1,0 +1,21 @@
+# 哲学卡模板（复制后填写；不能确证处写「待核」）
+- id: phil.<时代>.<人物>.<文本>
+  title: 人物：命题简称
+  domain: philosophy
+  text: 代表文本（含成书/初版年代；年代有争议写「待核」）
+  thesis: 核心命题（一到三句，可判定）
+  school: 流派/传统
+  date: 生卒与文本年代
+  terms: [关键术语（含原文语种）]
+  criticism:
+    - by: 批评者（学派/个人）
+      claim: 其论点（须可回溯到具体文本）
+  influence: 后世影响（可选）
+  refs:
+    - tier: T2
+      url: 公版文本/校勘本链接
+    - tier: T3
+      citation: 研究文献
+  verified: yes | partial | no
+  last_checked: "YYYY-MM-DD"
+  related: [law.branch.xxx]
