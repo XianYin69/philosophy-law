@@ -15,6 +15,7 @@ CHECKS = ["validate_entries.py", "check_sources.py", "lint_refs.py",
 
 
 def run(script, extra):
+    # 子进程不继承父 CWD 语义：脚本自身以 __file__ 锚定技能根
     cmd = [sys.executable, "-B", os.path.join(HERE, script)] + extra
     proc = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
     payload = {}
@@ -31,6 +32,8 @@ def run(script, extra):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--strict-degraded", action="store_true")
+    ap.add_argument("--root", default=None,
+                    help="语料根覆盖（默认＝脚本所在技能根，与 CWD 无关）")
     args = ap.parse_args()
     results = []
     for script in CHECKS:
@@ -39,6 +42,8 @@ def main():
             extra = ["--strict-degraded"]
         if script == "build_index.py":
             extra = ["--yes"]
+        if args.root and script != "build_index.py":
+            extra = extra + ["--root", args.root]
         results.append(run(script, extra))
     failed = [r["script"] for r in results if r["exit"] != 0]
     print(json.dumps({"check": "run_checks", "results": results,

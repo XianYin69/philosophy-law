@@ -7,9 +7,13 @@ import argparse
 import collections
 import os
 
-from _corpus import (ASSET, ROOT, defect, emit, load_entries, rel)
+from _corpus import (add_root_arg, apply_root, asset_dir, defect, emit,
+                     load_entries, rel)
 
-OUT = os.path.join(ASSET, "index", "coverage.md")
+
+def out_path():
+    """asset/index/coverage.md — 由当前 ROOT 推导（勿在 import 期固化）。"""
+    return os.path.join(asset_dir(), "index", "coverage.md")
 HEAD = "# coverage（覆盖度与拓扑前沿）\n\n"
 
 
@@ -60,8 +64,11 @@ def render(stats, old):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--yes", action="store_true")
+    add_root_arg(ap)
     args = ap.parse_args()
+    apply_root(args)
     stats = tally()
+    OUT = out_path()  # 由当前 ROOT 推导，先于任何使用
     old = open(OUT, encoding="utf-8").read() if os.path.exists(OUT) else ""
     text = render(stats, old)
     if not args.yes:

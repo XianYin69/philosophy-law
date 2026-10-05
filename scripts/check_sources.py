@@ -15,12 +15,13 @@ Exit: 0 clean, 1 defects (JSON on stdout).
 """
 import argparse
 
-from _corpus import (URL_STATUS_ENUM, defect, emit, is_empty, load_entries, rel)
+from _corpus import (SKIP_PREFIXES, URL_STATUS_ENUM, add_root_arg,
+                     apply_root, defect, emit, is_empty, is_skipped,
+                     load_entries)
 
 UNCERTAIN = ["待查", "存疑", "一说", "大约", "未定", "或有异文", "不可确",
              "未经核", "尚无定说"]
 SELF_FLAG = ["译述", "非原文", "二手", "不得当作原文", "重构", "转述"]
-SKIP_PREFIX = ("asset/templates/",)
 
 
 def refs_of(ent):
@@ -124,19 +125,21 @@ def main():
     ap.add_argument("--strict", action="store_true",
                     help="把 S5/S6（知识判断类）也计入缺陷")
     ap.add_argument("--domain", choices=["law", "philosophy", "reasoning"])
+    add_root_arg(ap)
     args = ap.parse_args()
+    apply_root(args)
     rows = load_entries()
     found = []
     for path, idx, ent in rows:
-        where = "%s[%d]:%s" % (rel(path), idx, ent.get("id", "?"))
-        if where.startswith(SKIP_PREFIX):
+        if is_skipped(path):  # 模板/schema 不参与条目校验（posix 相对根前缀）
             continue
+        where = "%s[%d]:%s" % (path, idx, ent.get("id", "?"))
         if args.domain and ent.get("domain") != args.domain:
             continue
         found += check_entry(where, ent, args.strict)
     return emit({"check": "check_sources", "entries": len(rows),
                  "strict": args.strict,
-                 "skipped_prefixes": list(SKIP_PREFIX)}, found)
+                 "skipped_prefixes": list(SKIP_PREFIXES)}, found)
 
 
 if __name__ == "__main__":

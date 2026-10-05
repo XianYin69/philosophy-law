@@ -13,7 +13,9 @@ import json
 import os
 import re
 
-from _corpus import (LINK_RE, ROOT, defect, emit, md_files, rel)
+import _corpus
+from _corpus import (LINK_RE, add_root_arg, apply_root, defect,
+                     emit, md_files, rel)
 
 SCRIPT_RE = re.compile(r"scripts/([A-Za-z0-9_-]+\.py)")
 DIR_OK = ("README.md", "index.md", "index.json")
@@ -52,7 +54,7 @@ def check_md(path):
                               "悬空链接 -> %s" % target,
                               "修正相对路径或补建目标"))
     for name in set(SCRIPT_RE.findall(text)):
-        if not os.path.exists(os.path.join(ROOT, "scripts", name)):
+        if not os.path.exists(os.path.join(_corpus.ROOT, "scripts", name)):
             out.append(defect("refs", rel(path), "script",
                               "引用不存在的脚本 scripts/%s" % name,
                               "补脚本或改引用"))
@@ -61,7 +63,7 @@ def check_md(path):
 
 def check_deps():
     out = []
-    path = os.path.join(ROOT, "dependence", "deps.json")
+    path = os.path.join(_corpus.ROOT, "dependence", "deps.json")
     if not os.path.exists(path):
         return [defect("refs", "dependence/deps.json", "file",
                        "deps.json 缺失", "按 dependence.md 建清单")]
@@ -95,7 +97,9 @@ def check_deps():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--quiet", action="store_true")
+    add_root_arg(ap)
     args = ap.parse_args()
+    apply_root(args)
     found = []
     for path in md_files():
         found += check_md(path)

@@ -7,7 +7,7 @@ Exit: 0 命中, 1 无命中。
 import argparse
 import json
 
-from _corpus import defect, emit, load_entries
+from _corpus import add_root_arg, apply_root, defect, emit, load_entries
 
 
 def score(entry, needle):
@@ -31,7 +31,9 @@ def main():
     ap.add_argument("--domain", choices=["law", "philosophy", "reasoning"])
     ap.add_argument("--brief", action="store_true")
     ap.add_argument("--limit", type=int, default=10)
+    add_root_arg(ap)
     args = ap.parse_args()
+    apply_root(args)
     hits = []
     for path, _idx, ent in load_entries():
         if args.domain and ent.get("domain") != args.domain:
