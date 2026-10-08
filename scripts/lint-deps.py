@@ -54,8 +54,7 @@ def check(path):
                               "用 http(s):// 或 local://"))
         elif url.startswith("local://"):
             ref = url[len("local://"):]
-            home = os.environ.get("KILO_SKILLS_DIR") or os.path.join(
-                os.path.expanduser("~"), ".kilocode", "skills")
+            home = os.environ.get("KILO_SKILLS_DIR") or (os.environ.get("SMS_SKILLS") or os.path.join(os.environ.get("LOCALAPPDATA") or os.path.expanduser("~"), "SMS", "skills"))
             if not os.path.isdir(os.path.join(home, ref)):
                 out.append(defect("deps", tag, "source_url",
                                   "local://%s 在技能目录内不存在" % ref,
