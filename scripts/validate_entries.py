@@ -13,10 +13,11 @@ Exit: 0 clean, 1 defects (JSON list on stdout).
 import argparse
 import os
 
-from _corpus import (ID_RE, REQUIRED, TIER_ENUM, VERIFIED_ENUM, defect,
-                     emit, force_ok, is_empty, load_entries, rel)
+from _corpus import (ID_RE, REQUIRED, SKIP_PREFIXES, TIER_ENUM,
+                     VERIFIED_ENUM, add_root_arg, apply_root, defect,
+                     emit, force_ok, is_empty, is_skipped, load_entries)
 
-TEMPLATE_PREFIX = ("asset/templates/",)
+# skip 判定统一走 _corpus.is_skipped（相对技能根的 posix 前缀，与 CWD 无关）
 
 
 def check_entry(where, ent):
@@ -109,11 +110,13 @@ def check_criticism(where, ent):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--domain", choices=["law", "philosophy", "reasoning"])
+    add_root_arg(ap)
     args = ap.parse_args()
+    apply_root(args)
     rows = load_entries()
     defects_ = []
     for path, idx, ent in rows:
-        if any(rel(path).startswith(p) for p in TEMPLATE_PREFIX):
+        if is_skipped(path):
             continue
         if args.domain and ent.get("domain") != args.domain:
             continue
@@ -121,7 +124,7 @@ def main():
         defects_ += check_entry(where, ent)
     return emit({"check": "validate_entries",
                  "entries": len(rows),
-                 "skipped_prefixes": list(TEMPLATE_PREFIX),
+                 "skipped_prefixes": list(SKIP_PREFIXES),
                  "by_domain_filter": args.domain or "all",
                  "defects": defects_}, defects_)
 

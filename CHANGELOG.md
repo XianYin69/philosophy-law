@@ -2,6 +2,16 @@
 
 本技能（哲学法律）的版本与变更履历。格式参照 Keep a Changelog；日期为本地日期。
 
+## [0.1.2] - 2026-10-05
+
+### 修复（Skill_Generator 修改路径 · 根因修复，非重构）
+
+- 根因一 CWD 依赖：`_corpus.py` 语料根改以 `Path(__file__).resolve().parent.parent` 锚定技能根（禁 `os.getcwd()`），新增 `--root` 覆盖与 `asset_dir()`。
+- 根因二 skip 失配：`rel()` 改幂等（旧版对相对路径二次 `relpath` 以 CWD 为基准拼出 `../../../…`）；跳过判定统一走 `is_skipped()`＋`SKIP_PREFIXES`（templates/schema 按相对根 posix 前缀跳过）。
+- `run_checks.py` 转发 `--root`；`build_index`/`new_entry`/`lint_refs`/`gc_tmp`/`lint-deps`/`search_entries`/`grade_output` 改用动态根。
+- 验收：`C:\`、工作区 tmp、技能根三 CWD 下 `run_checks` 均 PASS／defect_count=0 且报告逐字节一致；诱饵 CWD（自带假 `asset/`）仍 PASS，`--root` 指该树如实 FAIL。
+- `resistance/红线约束` 新增「工程红线（脚本路径）」；`asset/` 知识条目未改动。
+
 ## [0.1.1] - 2026-10-05
 
 ### 修改（Skill_Generator 修改路径）

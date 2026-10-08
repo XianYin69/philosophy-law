@@ -10,17 +10,26 @@ import re
 
 import yaml
 
-from _corpus import ASSET, REQUIRED, defect, emit, rel
+from _corpus import (REQUIRED, add_root_arg, apply_root, asset_dir,
+                     defect, emit, rel)
 
 TEMPLATES = {
-    "law": os.path.join(ASSET, "templates", "entry-law.yaml"),
-    "philosophy": os.path.join(ASSET, "templates", "entry-phil.yaml"),
+    "law": "entry-law.yaml",
+    "philosophy": "entry-phil.yaml",
 }
 ID_RE = re.compile(r"^(law|phil|reason)\.[a-z0-9_.-]+$")
 
 
+def template_path(domain):
+    """模板绝对路径由当前 ROOT 推导（不在 import 期固化）。"""
+    name = TEMPLATES.get(domain)
+    if not name:
+        return None
+    return os.path.join(asset_dir(), "templates", name)
+
+
 def load_template(domain):
-    path = TEMPLATES.get(domain)
+    path = template_path(domain)
     if not path or not os.path.exists(path):
         return None
     doc = yaml.safe_load(open(path, encoding="utf-8"))
@@ -47,7 +56,9 @@ def main():
     ap.add_argument("--id", required=True)
     ap.add_argument("--out")
     ap.add_argument("--yes", action="store_true")
+    add_root_arg(ap)
     args = ap.parse_args()
+    apply_root(args)
     found = []
     if not ID_RE.match(args.id):
         found.append(defect("new_entry", args.id, "id",
@@ -59,9 +70,9 @@ def main():
     if tpl is None:
         return emit({"check": "new_entry"},
                     [defect("new_entry", args.domain, "template",
-                            "缺模板 %s" % TEMPLATES.get(args.domain),
+                            "缺模板 %s" % template_path(args.domain),
                             "补 asset/templates/ 模板")])
-    out = args.out or os.path.join(ASSET, args.domain, "codes",
+    out = args.out or os.path.join(asset_dir(), args.domain, "codes",
                                    args.id.split(".")[-1] + ".yaml")
     if os.path.exists(out):
         return emit({"check": "new_entry", "target": rel(out)},
